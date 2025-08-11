@@ -1,0 +1,33 @@
+@use '_breakpoints.scss' as *;
+
+@mixin line-after($color) {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 15px;
+        height: 2px;
+        width: calc(100% - 15px);
+        background-color: $color;
+
+        @include breakpoint('tablet-hd') {
+            left: 0;
+        }
+    }
+}
+
+
+@mixin gradient-text($gradient) {
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@mixin ease-color-change {
+    transition: 0.4s ease;
+}

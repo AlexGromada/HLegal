@@ -1,0 +1,45 @@
+@use "sass:map";
+
+$breakpoints_list: (
+    desktop-hd: 1920px,
+    desktop-sd: 1440px,
+    tablet-hd: 1024px,
+    tablet-sd: 768px,
+    mobile: 375px
+);
+
+@mixin breakpoint($breakpoint) {
+    $value: map.get($breakpoints_list, $breakpoint);
+
+    @if $value !=null {
+        @media (max-width: $value) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "Breakpoint `#{$breakpoint}` not found in \$breakpoints_list map.";
+    }
+}
+
+.container {
+    width: 100%;
+
+    .content {
+        width: 1920px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+        @include breakpoint('desktop-hd') {
+            width: 1440px;
+        }
+
+        @include breakpoint('desktop-sd') {
+            width: 1024px;
+        }
+
+        @include breakpoint('tablet-hd') {
+            width: 100%;
+        }
+    }
+}

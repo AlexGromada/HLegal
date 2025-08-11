@@ -1,0 +1,373 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+
+@use '../components/header';
+@use '../components/intro_block.scss';
+@use '../components/services';
+@use '../components/partners';
+@use '../components/publications';
+@use '../components/footer';
+
+body {
+    background-color: $grey-bg;
+
+    .intro_block {
+        &__splash {
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 873px;
+                height: 1000px;
+                background-image: url("../../images/homepage/logo_homepage.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                z-index: -1;
+            }
+
+            .slogan {
+                @include hero(regular);
+                font-weight: $bold;
+                color: white;
+                text-align: center;
+                padding-top: 361px;
+                padding-bottom: 405px;
+            }
+
+            .scroll_button {
+                margin: 0 auto 30px auto;
+                width: 42px;
+                height: 42px;
+                position: relative;
+                
+                img{
+                    cursor: pointer;
+                }
+
+                @extend %image-change-on-hover;
+            }
+        }
+
+
+        &__experience {
+            margin: 0 auto;
+            padding: 60px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .experience_list {
+                @include hero(regular);
+                text-align: right;
+                color: $grey-text;
+                padding-right: 60px;
+
+                li {
+                    margin-bottom: 30px;
+                    @include ease-color-change;
+                    cursor: pointer;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    &:hover {
+                        color: $accent;
+                    }
+                }
+
+                .active {
+                    @include gradient-text($gradient-red-text-reversed);
+                }
+            }
+
+            .info {
+                width: 921px;
+                padding: 73px 0 73px 60px;
+                height: 303px;
+                box-sizing: border-box;
+                border-left: 4px solid #FFFFFF4D;
+                color: white;
+
+                .title {
+                    @include h2(regular);
+                    margin-bottom: 30px;
+                }
+
+                .text {
+                    font-size: 19px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .slider {
+        padding: 80px 160px 0 160px;
+        background-color: white;
+
+        .slider_content {
+            background-color: $grey-bg;
+            display: flex;
+            align-items: stretch;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            height: 298px;
+
+            img {
+                object-fit: cover;
+            }
+
+            .text_box {
+                padding: 30px;
+
+                &__link {
+                    @extend %h3-caps;
+                    color: $active-regular;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+
+                    a {
+                        @include ease-color-change;
+
+                        &:hover {
+                            color: $accent;
+                        }
+                    }
+                }
+
+                &__title {
+                    @include hero(regular);
+                    margin-bottom: 30px;
+                    @include gradient-text($gradient-red-text);
+                }
+
+                &__name {
+                    @extend %h4-regular;
+                    color: $grey-text;
+                    margin-bottom: 6px;
+                }
+
+                &__role {
+                    @extend %paragraph-small;
+                    color: $grey-text;
+                }
+            }
+        }
+
+
+        .slider-dots {
+            width: 78px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .dot {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: $active-regular;
+                opacity: 20%;
+
+            }
+
+            .active {
+                opacity: 100%;
+            }
+        }
+    }
+
+
+    @include breakpoint('desktop-hd') {
+
+        .intro_block {
+            &__splash {
+                &::after {
+                    width: 697px;
+                    height: 800px;
+                }
+
+                .slogan {
+                    padding-top: 261px;
+                    padding-bottom: 305px;
+                }
+            }
+
+            &__experience {
+                .info {
+                    padding: 43px 0 43px 60px;
+                    width: 641px;
+                }
+            }
+        }
+
+        .slider {
+            padding: 80px 60px 0 60px;
+            background-color: white;
+
+            .slider_content {
+                height: auto;
+            }
+        }
+    }
+
+
+    @include breakpoint('desktop-sd') {
+        .intro_block {
+            &__splash {
+                &::after {
+                    width: 700px;
+                    height: 768px;
+                }
+
+                .slogan {
+                    padding-top: 245px;
+                    padding-bottom: 289px;
+                }
+            }
+
+            &__experience {
+                .info {
+                    width: 465px;
+                    align-content: center;
+                    padding: 0;
+                    padding-left: 60px;
+                }
+            }
+        }
+    }
+
+
+    @include breakpoint('tablet-hd') {
+
+        .intro_block {
+            &__splash {
+                &::after {
+                    width: 893px;
+                    height: 1024px;
+                }
+
+                .slogan {
+                    padding-top: 269px;
+                    padding-bottom: 417px;
+                }
+            }
+
+            &__experience {
+                padding: 60px;
+                padding-bottom: 0;
+                flex-direction: column;
+
+                .experience_list {
+                    text-align: left;
+                    display: flex;
+                    width: 100%;
+                    overflow: hidden;
+                    padding-right: 0;
+
+                    li {
+                        margin-bottom: 60px;
+                        padding-right: 30px;
+                        white-space: nowrap;
+
+                        &:last-child {
+                            margin-bottom: 60px;
+                        }
+                    }
+                }
+
+                .info {
+                    width: 100%;
+                    height: auto;
+                    padding-top: 60px;
+                    padding-left: 0;
+                    border-left: none;
+                    border-top: 4px solid #FFFFFF4D;
+                }
+            }
+        }
+
+        .slider {
+            .slider_content {
+                align-items: flex-start;
+                flex-direction: column;
+
+                img {
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+    @include breakpoint('tablet-sd') {
+        .intro_block {
+            &__splash {
+                &::after {
+                    width: 523px;
+                    height: 600px;
+                }
+
+                .slogan {
+                    padding: 0 30px;
+                    padding-top: 129px;
+                    padding-bottom: 159px;
+                }
+            }
+
+            &__experience {
+                padding: 30px 30px;
+                padding-bottom: 0;
+
+                .experience_list {
+                    @include hero(mobile);
+
+                    li {
+                        margin-bottom: 30px;
+
+                        &:last-child {
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                .info {
+                    padding: 0;
+                    padding-top: 30px;
+
+
+                    .title {
+                        @include h2(mobile);
+                    }
+
+                }
+            }
+        }
+
+        .slider {
+            padding: 50px 30px 0 30px;
+
+            .text_box {
+                padding: 30px;
+
+                h2 {
+                    @include hero(mobile);
+                }
+            }
+        }
+    }
+}

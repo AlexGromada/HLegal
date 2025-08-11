@@ -1,0 +1,66 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/variables' as *;
+
+.partners {
+    width: 1720px;
+    padding: 60px 100px;
+    text-align: center;
+    background-color: white;
+
+    h3 {
+        @extend %h3-caps;
+        
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $main-regular;
+        margin-bottom: 30px;
+    }
+
+    .photo_collage {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 120px);
+        border-radius: 12px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+    @include breakpoint('desktop-hd') {
+        width: 100%;
+        padding: 0;
+        padding-top: 60px;
+
+        .photo_collage {
+            border-radius: 0;
+        }
+    }
+
+
+    @include breakpoint('tablet-hd') {
+        .photo_collage {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 120px);
+        }
+    }
+
+
+    @include breakpoint('tablet-sd') {
+        .photo_collage {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(6, 120px);
+
+            &>*:nth-child(n+7){
+                display: none;
+            }
+        }
+    }
+}

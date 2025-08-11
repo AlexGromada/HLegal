@@ -1,0 +1,67 @@
+@use '../common/variables' as *;
+
+a {
+    color: $active-regular;
+    text-decoration: none;
+
+    &:hover {
+        color: $active-hover;
+        cursor: pointer;
+    }
+
+    &:active {
+        color: $active-active;
+    }
+
+    &:visited {
+        color: $active-regular;
+    }
+}
+
+
+*:hover {
+    cursor: default;
+}
+
+
+%dot-separator {
+    //places dots after each element of the block except the last one
+    content: '';
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: $grey-separator;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+%image-change-on-hover {
+    display: block;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity 0.7s ease;
+    }
+
+    .hover-img {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &:hover {
+        .hover-img {
+            opacity: 1;
+        }
+
+        .default-img {
+            opacity: 0;
+        }
+    }
+}

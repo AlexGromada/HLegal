@@ -1,0 +1,125 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+.services {
+    padding: 60px 160px;
+    padding-bottom: 0;
+
+    &>h3 {
+        @extend %h3-caps;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+        a {
+            @include ease-color-change;
+
+            &:hover {
+                color: $accent;
+            }
+        }
+    }
+
+    h2 {
+        @include hero(regular);
+        @include gradient-text($gradient-red-text);
+
+        margin-bottom: 60px;
+    }
+
+    .services_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 60px;
+        width: 1600px;
+        padding-bottom: 60px;
+
+        &__element {
+            width: 100%;
+            height: 321px;
+
+            img {
+                padding: 14px;
+                background-color: white;
+                border-radius: 24px;
+                margin-bottom: 30px;
+            }
+
+            h3 {
+                @include h3(regular);
+                color: $active-regular;
+
+                margin-bottom: 15px;
+            }
+
+            p {
+                @extend %paragraph-regular;
+                color: white;
+            }
+        }
+    }
+
+
+    @include breakpoint('desktop-hd') {
+        padding: 60px;
+        padding-bottom: 0;
+
+        .services_list {
+            width: 1320px;
+        }
+    }
+
+
+    @include breakpoint('desktop-sd') {
+        .services_list {
+            width: 904px;
+
+            &__element {
+                height: 400px;
+            }
+        }
+    }
+
+
+    @include breakpoint('tablet-hd') {
+        .services_list {
+            margin: 0 auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            width: 648px;
+
+            &__element {
+                width: 100%;
+                height: 347px;
+            }
+        }
+    }
+
+
+    @include breakpoint('tablet-sd') {
+        padding: 30px;
+        padding-bottom: 0;
+
+        h2 {
+            @include hero(mobile);
+            margin-bottom: 30px;
+        }
+
+        .services_list {
+            margin: 0;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(6, auto);
+            gap: 30px;
+            width: 100%;
+
+            &__element {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/variables' as *;
+
+.intro_block {
+        background: $gradient-supersoft;
+        position: relative;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            transform: translateY(100%);
+            left: 20px;
+            right: 20px;
+            height: 10px;
+            background-color: #CACADB;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            transform: translateY(100%);
+            left: 40px;
+            right: 40px;
+            height: 10px;
+            background-color: #E7E7F2;
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+    }

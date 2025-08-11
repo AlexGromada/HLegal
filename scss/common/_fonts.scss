@@ -1,0 +1,74 @@
+@use '../common/breakpoints' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+$bold: 700;
+$regular: 400;
+
+@mixin hero($mode: regular) {
+  font-weight: $bold;
+
+  @if $mode == regular {
+    line-height: 46px;
+    font-size: 38px;
+  }
+  @else if $mode == mobile {
+    line-height: 37px;
+    font-size: 30px;
+  }
+}
+
+@mixin h2($mode: regular) {
+  font-weight: $bold;
+
+  @if $mode == regular {
+    line-height: 37px;
+    font-size: 30px;
+  }
+  @else if $mode == mobile {
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+
+@mixin h3($mode: regular) {
+  font-weight: $bold;
+
+  @if $mode == regular {
+    line-height: 27px;
+    font-size: 22px;
+  }
+
+  @else if $mode == mobile {
+    font-size: 16px;
+  }
+}
+
+%h3-caps {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: $bold;
+}
+
+%h4-regular {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: $bold;
+}
+
+%paragraph-regular {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: $regular;
+}
+
+%paragraph-small {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: $regular;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: $regular;
+}

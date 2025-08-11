@@ -1,0 +1,143 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+.publications {
+    padding: 30px 160px;
+
+    h3 {
+        @extend %h3-caps;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+        a {
+            @include ease-color-change;
+
+            &:hover {
+                color: $accent;
+            }
+        }
+    }
+
+    h2 {
+        @include hero(regular);
+        margin-bottom: 30px;
+        @include gradient-text($gradient-red-text);
+    }
+
+    .publications_list {
+        width: 1600px;
+        height: 430px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        &__element {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: white;
+
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+            .text_box {
+                padding: 30px;
+
+                &__title {
+                    @extend %h4-regular;
+                    color: $active-regular;
+                    margin-bottom: 15px;
+                }
+
+                &__date {
+                    font-size: 12px;
+                    font-weight: $bold;
+                    letter-spacing: 1px;
+                    line-height: 15px;
+                    color: $grey-text;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+
+                hr {
+                    height: 4px;
+                    background-color: $grey-separator;
+                    border: 0;
+                    margin: 0;
+                    margin-bottom: 15px;
+                }
+
+                &__text {
+                    @extend %paragraph-small;
+                }
+            }
+        }
+    }
+
+
+    @include breakpoint('desktop-hd') {
+        padding: 30px 60px;
+
+        .publications_list {
+            width: 1320px;
+            height: 450px;
+        }
+    }
+
+
+    @include breakpoint('desktop-sd') {
+        .publications_list {
+            width: 904px;
+            height: 556px;
+        }
+    }
+
+    @include breakpoint('tablet-hd') {
+        .publications_list {
+            width: 100%;
+            height: auto;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 514px 388px;
+            gap: 30px;
+
+            &>:last-child {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+        }
+    }
+
+
+    @include breakpoint('tablet-sd') {
+        padding: 30px;
+
+        h3 {
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            @include hero(mobile);
+        }
+
+        .publications_list {
+            width: 100%;
+            height: auto;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(3, auto);
+            gap: 30px;
+
+            &>:last-child {
+                grid-column-start: auto;
+                grid-column-end: auto;
+            }
+        }
+    }
+}
