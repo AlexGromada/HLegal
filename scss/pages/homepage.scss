@@ -13,7 +13,7 @@
 @use '../components/footer';
 
 body {
-    background-color: $grey-bg;
+    background-color: white;
 
     .intro_block {
         &__splash {
@@ -50,8 +50,8 @@ body {
                 width: 42px;
                 height: 42px;
                 position: relative;
-                
-                img{
+
+                img {
                     cursor: pointer;
                 }
 
@@ -60,7 +60,7 @@ body {
         }
 
 
-        &__experience {
+        &__qualities {
             margin: 0 auto;
             padding: 60px 0;
             display: flex;
@@ -114,7 +114,7 @@ body {
     }
 
     .slider {
-        padding: 80px 160px 0 160px;
+        padding: 60px 160px 0 160px;
         background-color: white;
 
         .slider_content {
@@ -206,7 +206,7 @@ body {
                 }
             }
 
-            &__experience {
+            &__qualities {
                 .info {
                     padding: 43px 0 43px 60px;
                     width: 641px;
@@ -239,7 +239,7 @@ body {
                 }
             }
 
-            &__experience {
+            &__qualities {
                 .info {
                     width: 465px;
                     align-content: center;
@@ -266,7 +266,7 @@ body {
                 }
             }
 
-            &__experience {
+            &__qualities {
                 padding: 60px;
                 padding-bottom: 0;
                 flex-direction: column;
@@ -329,7 +329,7 @@ body {
                 }
             }
 
-            &__experience {
+            &__qualities {
                 padding: 30px 30px;
                 padding-bottom: 0;
 
@@ -359,7 +359,7 @@ body {
         }
 
         .slider {
-            padding: 50px 30px 0 30px;
+            padding: 30px 30px 0 30px;
 
             .text_box {
                 padding: 30px;

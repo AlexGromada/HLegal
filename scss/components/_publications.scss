@@ -5,6 +5,7 @@
 @use '../common/variables' as *;
 
 .publications {
+    background: $grey-bg;
     padding: 30px 160px;
 
     h3 {

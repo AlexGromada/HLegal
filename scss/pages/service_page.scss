@@ -1,0 +1,12 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+
+@use '../components/header';
+@use '../components/intro_block.scss';
+@use '../components/services';
+@use '../components/partners';
+@use '../components/footer';
