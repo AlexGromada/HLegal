@@ -3,6 +3,7 @@
   width: 100%;
 }
 .container .content {
+  max-width: 100%;
   width: 1920px;
   margin: 0 auto;
   box-sizing: border-box;
