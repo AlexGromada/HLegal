@@ -19,7 +19,7 @@ const translations = {
 
         "slogan": {
             "en": "your legal solutions provider",
-            "uk": "ваш провайдер юридичних рішень",
+            "uk": "Ваш юридичний провайдер",
             "es": "tu proveedor de soluciones legales"
         },
 
@@ -187,16 +187,16 @@ const translations = {
 function changeLang(newLang) {
     currentLang = newLang;
 
-    // зняти active з усіх мов
+    // Зняти active з усіх мов
     document.querySelectorAll(".settings_and_contacts__lang li").forEach(li => {
         li.classList.remove("active");
     });
 
-    // додати active до тієї, що натиснули
-    const activeBtn = document.querySelector(`.settings_and_contacts__lang li[onclick="changeLang('${newLang}')"]`);
+    // Додати active до елемента з data-lang = newLang
+    const activeBtn = document.getElementById(newLang);
     if (activeBtn) activeBtn.classList.add("active");
 
-    // повторно завантажити контент
+    // Повторно завантажити контент
     loadContent(pageCategory, pageId);
 }
 

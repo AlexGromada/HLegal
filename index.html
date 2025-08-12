@@ -23,9 +23,9 @@
 
                     <div class="settings_and_contacts">
                         <ul class="settings_and_contacts__lang">
-                            <li onclick="changeLang('uk')">УК</li>
-                            <li onclick="changeLang('es')">ES</li>
-                            <li onclick="changeLang('en')" class="active">EN</li>
+                            <li id="uk" onclick="changeLang('uk'); refreshTranslationsAndSetupClicks()">УК</li>
+                            <li id="es" onclick="changeLang('es'); refreshTranslationsAndSetupClicks()">ES</li>
+                            <li id="en" onclick="changeLang('en'); refreshTranslationsAndSetupClicks()" class="active">EN</li>
                         </ul>
 
                         <p class="settings_and_contacts__address" data-translate="address">Kyiv, Mechnikova str, 14/1
@@ -290,78 +290,49 @@
         const pageCategory = "static";
         const pageId = "homepage";
 
-        function loadContent(pageCategory, pageId) {
-            let content;
-
-            if (pageCategory === "static") {
-                content = translations[pageId];
-            } else if (pageCategory === "service") {
-                content = translations.services?.[pageId];
-            }
-
-            if (!content) {
-                document.body.innerHTML = "<h2>Content not found</h2>";
-                return;
-            }
-
-            // Перекладаємо всі елементи з data-translate (крім li з data-quality)
-            document.querySelectorAll("[data-translate]").forEach(el => {
-                const key = el.getAttribute("data-translate");
-                const value = content[key];
-
-                if (typeof value === "object") {
-                    el.textContent = value[currentLang];
-                } else {
-                    el.src = value;
-                }
-            });
-
-            // Окремо перекладемо назви у li
-            translateQualityLabels(content);
-
-            // Оновлюємо інфо-блок згідно активного пункту
-            updateQualityContent(getActiveQualityKey());
-        }
-
-        function translateQualityLabels(content) {
-            const lis = document.querySelectorAll(".experience_list li");
-            lis.forEach(li => {
-                const qualityKey = li.getAttribute("data-quality");
-                if (content[qualityKey] && content[qualityKey].label) {
-                    li.textContent = content[qualityKey].label[currentLang];
-                }
-            });
-        }
-
-        function getActiveQualityKey() {
-            const activeLi = document.querySelector(".experience_list li.active");
-            return activeLi ? activeLi.getAttribute("data-quality") : null;
-        }
-
-        function updateQualityContent(qualityKey) {
-            if (!qualityKey) return;
-            const content = translations[pageId];
-            const quality = content[qualityKey];
-            if (!quality) return;
-
-            const titleEl = document.querySelector("[data-translate='qualities_title']");
-            const textEl = document.querySelector("[data-translate='qualities_text']");
-
-            if (titleEl) titleEl.textContent = quality.title[currentLang];
-            if (textEl) textEl.textContent = quality.text[currentLang];
-        }
-
-        // Ініціалізація
         loadContent(pageCategory, pageId);
+        refreshTranslationsAndSetupClicks();
+        
+        function refreshTranslationsAndSetupClicks() {
+            const content = translations[pageId];
+            if (!content) return;
 
-        // Обробка кліків по li
-        document.querySelectorAll(".experience_list li").forEach(li => {
-            li.addEventListener("click", () => {
-                document.querySelectorAll(".experience_list li").forEach(el => el.classList.remove("active"));
-                li.classList.add("active");
-                updateQualityContent(li.getAttribute("data-quality"));
+            // Переклад лейблів у li
+            document.querySelectorAll(".experience_list li").forEach(li => {
+                const key = li.getAttribute("data-quality");
+                if (key && content[key]?.label) {
+                    li.textContent = content[key].label[currentLang];
+                }
             });
-        });
+
+            // Функція для оновлення інфо блоку
+            function updateQualityContent(qualityKey) {
+                if (!qualityKey) return;
+                const quality = content[qualityKey];
+                if (!quality) return;
+
+                const titleEl = document.querySelector("[data-translate='qualities_title']");
+                const textEl = document.querySelector("[data-translate='qualities_text']");
+                if (titleEl) titleEl.textContent = quality.title[currentLang];
+                if (textEl) textEl.textContent = quality.text[currentLang];
+            }
+
+            // Встановлення обробників кліку (щоб переключати активний клас і оновлювати інфо-блок)
+            document.querySelectorAll(".experience_list li").forEach(li => {
+                li.onclick = () => {
+                    document.querySelectorAll(".experience_list li").forEach(el => el.classList.remove("active"));
+                    li.classList.add("active");
+                    updateQualityContent(li.getAttribute("data-quality"));
+                };
+            });
+
+            // Оновлення інфо блоку за активним пунктом на момент виклику
+            const activeLi = document.querySelector(".experience_list li.active");
+            if (activeLi) {
+                updateQualityContent(activeLi.getAttribute("data-quality"));
+            }
+        }
+
 
     </script>
 
