@@ -1,0 +1,130 @@
+{
+  "homepage": {
+    "lang_uk": { "en": "UK", "uk": "УК" },
+    "lang_es": { "en": "ES", "uk": "ES" },
+    "lang_en": { "en": "EN", "uk": "EN" },
+
+    "address": {
+      "en": "Kyiv, Mechnikova str, 14/1",
+      "uk": "Київ, вул. Мечникова, 14/1"
+    },
+    "phone": { "en": "0800 211 927", "uk": "0800 211 927" },
+
+    "open_menu_btn": { "en": "Open menu", "uk": "Відкрити меню" },
+    "close_menu_btn": { "en": "Close menu", "uk": "Закрити меню" },
+
+    "nav_about": { "en": "about us", "uk": "про нас" },
+    "nav_services": { "en": "services", "uk": "послуги" },
+    "nav_team": { "en": "team", "uk": "команда" },
+    "nav_publications": { "en": "publications", "uk": "публікації" },
+    "nav_contact": { "en": "contact", "uk": "контакти" },
+
+    "slogan": {
+      "en": "your legal solutions provider",
+      "uk": "ваш провайдер юридичних рішень"
+    },
+
+    "scroll_button_aria_label": { "en": "Scroll down", "uk": "Прокрутити вниз" },
+
+    "quality_1": { "en": "Consistent", "uk": "Послідовний" },
+    "quality_2": { "en": "Customer oriented", "uk": "Орієнтований на клієнта" },
+    "quality_3": { "en": "Innovative", "uk": "Інноваційний" },
+    "quality_4": { "en": "Business oriented", "uk": "Орієнтований на бізнес" },
+
+    "qualities_title": {
+      "en": "We turn the idea of legal services",
+      "uk": "Ми втілюємо ідею юридичних послуг"
+    },
+    "qualities_text": {
+      "en": "Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.",
+      "uk": "Об’єднуючи багаторічний досвід та практику, юристи компанії супроводжують складні проєкти та досягають важливих рішень для галузі. Багато з них формують практику застосування морського права в Україні."
+    },
+
+    "services_link": { "en": "Services >", "uk": "Послуги >" },
+    "services_title": {
+      "en": "What can we do better than others?",
+      "uk": "Що ми робимо краще за інших?"
+    },
+
+    "service_it_ecommerce": { "en": "IT and e-commerce", "uk": "IT та електронна комерція" },
+    "service_it_ecommerce_text": {
+      "en": "An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.",
+      "uk": "Нескінченний потік договорів, податкові питання, трудові відносини, корпоративні документи — юридична робота відволікає вас від ведення бізнесу. Але наймати штатного юриста не так вже й складно."
+    },
+
+    "service_legal_support": { "en": "Comprehensive daily legal support", "uk": "Комплексна щоденна юридична підтримка" },
+    "service_legal_support_text": {
+      "en": "In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.",
+      "uk": "З часом робота стане одноманітною і нецікавою штатному юристу. І ми добре знаємо, як складно знайти хорошого кандидата з досвідом в IT-сфері в Україні."
+    },
+
+    "service_corporate_structuring": { "en": "Structuring corporate relationships", "uk": "Структурування корпоративних відносин" },
+    "service_corporate_structuring_text": {
+      "en": "Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.",
+      "uk": "Замість просто надання юридичних послуг, ми залучимо юриста чи команду, які стануть частиною щоденного життя вашої компанії."
+    },
+
+    "service_contract_relations": { "en": "Building contractual relations", "uk": "Побудова договірних відносин" },
+    "service_contract_relations_text": {
+      "en": "Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.",
+      "uk": "Щотижня або через місяць у вас буде власний юрист поруч. Кожен у компанії може зустріти його біля кавоварки та поговорити про поточні справи замість очікування оновлення статусу."
+    },
+
+    "service_business_protection": { "en": "Protection of business, intellectual property", "uk": "Захист бізнесу та інтелектуальної власності" },
+    "service_business_protection_text": {
+      "en": "And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.",
+      "uk": "Весь інший час він працюватиме над новими проєктами, тож точно не зупиниться в професійному розвитку. В будь-якому випадку всі Axon Partners працюватимуть за вас замість корпоративного юриста."
+    },
+
+    "service_judicial_representation": { "en": "Judicial representation", "uk": "Судове представництво" },
+    "service_judicial_representation_text": {
+      "en": "Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?",
+      "uk": "Чи це мала, середня компанія або лідер ринку? Локальний бізнес чи міжнародна компанія? Чи маєте власний юридичний відділ чи ні?"
+    },
+
+    "slider_team_link": { "en": "Team >", "uk": "Команда >" },
+    "slider_title": {
+      "en": "We are used to taking responsibility and always guarantee honest, timely assistance — even in situations where most are powerless.",
+      "uk": "Ми звикли брати відповідальність і завжди гарантуємо чесну, своєчасну допомогу — навіть у ситуаціях, де більшість безсила."
+    },
+    "slider_name": { "en": "Oleksandr Oleksandrovskiy", "uk": "Олександр Олександровський" },
+    "slider_role": { "en": "Managing Partner", "uk": "Генеральний партнер" },
+
+    "partners_title": { "en": "They already trust us", "uk": "Нам вже довіряють" },
+
+    "publications_link": { "en": "Publications >", "uk": "Публікації >" },
+    "publications_title": { "en": "We have something to tell", "uk": "Ми маємо що розповісти" },
+
+    "publication_1_title": { "en": "Equity associate", "uk": "Equity associate" },
+    "publication_1_date": { "en": "april 22", "uk": "22 квітня" },
+    "publication_1_text": {
+      "en": "I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…",
+      "uk": "Я учасник проектів. Я співвласник юридичної фірми. Як це сталося. Перед вступом мої батьки казали, що якщо я…"
+    },
+
+    "publication_2_title": {
+      "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
+      "uk": "Штраф для доброї корпорації: що буде з Google та іншими за порушення GDPR"
+    },
+    "publication_2_date": { "en": "september 29", "uk": "29 вересня" },
+    "publication_2_text": {
+      "en": "And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.",
+      "uk": "І чому відшкодування 50 мільйонів євро може стати фатальним прецедентом. За даними Mind.ua 21 січня Національна комісія з питань захисту даних."
+    },
+
+    "publication_3_title": { "en": "Millennial Testament", "uk": "Millennial Testament" },
+    "publication_3_date": { "en": "august 19", "uk": "19 серпня" },
+    "publication_3_text": {
+      "en": "What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…",
+      "uk": "Що і як сучасні блогери, лідери думок і криптомільйонери успадкують. Типова спадщина українського покоління X виглядає так: квартира в…"
+    },
+
+    "footer_address": { "en": "Kyiv, Mechnikova str, 14/1", "uk": "Київ, вул. Мечникова, 14/1" },
+    "footer_phone": { "en": "0800 211 927", "uk": "0800 211 927" },
+    "footer_email": { "en": "contact@forstudy.space", "uk": "contact@forstudy.space" },
+    "footer_copyright": {
+      "en": "© 2021 HLEGAL Law company, LLC",
+      "uk": "© 2021 Юридична компанія HLEGAL, ТОВ"
+    }
+  }
+}

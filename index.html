@@ -3,12 +3,11 @@
 
 <head>
     <title>hlegal</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/reset.css">
-
-    <link rel="stylesheet" href="css/pages/homepage.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pages/homepage.css" />
 </head>
 
 <body>
@@ -18,160 +17,172 @@
                 <header class="header" data-theme="dark">
 
                     <div class="logo">
-                        <img src="images/header/dark_theme_logo.svg" alt="our logo">
-                        <!-- to change theme you have to change this picture -->
-                        <img src="images/header/slash.svg" alt="slash">
+                        <img src="images/header/dark_theme_logo.svg" alt="our logo" />
+                        <img src="images/header/slash.svg" alt="slash" />
                     </div>
 
                     <div class="settings_and_contacts">
                         <ul class="settings_and_contacts__lang">
-                            <li>УК</li>
-                            <li>ES</li>
-                            <li class="active">EN</li>
+                            <li onclick="changeLang('uk')">УК</li>
+                            <li onclick="changeLang('es')">ES</li>
+                            <li onclick="changeLang('en')" class="active">EN</li>
                         </ul>
 
-                        <p class="settings_and_contacts__address">Kyiv, Mechnikova str, 14/1</p>
+                        <p class="settings_and_contacts__address" data-translate="address">Kyiv, Mechnikova str, 14/1
+                        </p>
 
-                        <a href="tel:0800211927" class="settings_and_contacts__phone">0800 211 927</a>
+                        <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone">0800 211
+                            927</a>
 
                         <a href="https://www.facebook.com/p/HL-Legal-100057503766728/"
-                            class="settings_and_contacts__image">
-                            <img src="images/header/facebook.svg" alt="facebook" class="default-img">
-                            <img src="images/header/facebook_active.svg" alt="facebook" class="hover-img">
+                            class="settings_and_contacts__image" aria-label="facebook">
+                            <img src="images/header/facebook.svg" alt="facebook" class="default-img" />
+                            <img src="images/header/facebook_active.svg" alt="facebook" class="hover-img" />
                         </a>
                     </div>
 
                     <nav>
-                        <button id="open-menu" aria-expanded="false" aria-controls="menu" aria-label="Відкрити меню">
-                            <img src="images/header/dark_theme_menu.svg" alt="menu icon">
+                        <button id="open-menu" aria-expanded="false" aria-controls="menu" aria-label="Open menu"
+                            data-translate="open_menu_btn">
+                            <img src="images/header/dark_theme_menu.svg" alt="menu icon" />
                         </button>
-                        <!-- to change theme you have to change this picture -->
                         <div id="shade" class="shade invisible"></div>
 
                         <ul id="menu" role="menu">
                             <li>
                                 <button id="close-menu" aria-expanded="true" aria-controls="menu"
-                                    aria-label="Закрити меню">
-                                    <img src="images/header/close_a_menu.svg" alt="exit icon">
+                                    aria-label="Close menu" data-translate="close_menu_btn">
+                                    <img src="images/header/close_a_menu.svg" alt="exit icon" />
                                 </button>
                             </li>
 
-                            <li role="menu item">
-                                <a href="pages/about_page.html">about us</a>
+                            <li role="menuitem">
+                                <a href="pages/about_page.html" data-translate="nav_about">about us</a>
                             </li>
-                            <li role="menu item">
-                                <a href="pages/service_page.html">services</a>
+                            <li role="menuitem">
+                                <a href="pages/services_page.html" data-translate="nav_services">services</a>
                             </li>
-                            <li role="menu item">
-                                <a href="pages/team_page.html">team</a>
+                            <li role="menuitem">
+                                <a href="pages/team_page.html" data-translate="nav_team">team</a>
                             </li>
-                            <li role="menu item">
-                                <a href="pages/publications_page.html">publications</a>
+                            <li role="menuitem">
+                                <a href="pages/publications_page.html"
+                                    data-translate="nav_publications">publications</a>
                             </li>
-                            <li role="menu item">
-                                <a href="pages/contact_page.html">contact</a>
+                            <li role="menuitem">
+                                <a href="pages/contact_page.html" data-translate="nav_contact">contact</a>
                             </li>
                         </ul>
                     </nav>
                 </header>
 
-                <p class="slogan">your legal solutions provider</p>
-                <a href="#qualities" class="scroll_button">
-                    <img class="scroll default-img" src="images/homepage/scroll.svg" alt="scroll button">
-                    <img class="scroll hover-img" src="images/homepage/scroll_hover.svg" alt="scroll button">
+                <p class="slogan" data-translate="slogan">your legal solutions provider</p>
+                <a href="#qualities" class="scroll_button" aria-label="Scroll down">
+                    <img class="scroll default-img" src="images/homepage/scroll.svg" alt="scroll button" />
+                    <img class="scroll hover-img" src="images/homepage/scroll_hover.svg" alt="scroll button" />
                 </a>
             </div>
 
             <div class="intro_block__qualities" id="qualities">
                 <ul class="experience_list">
-                    <li class="active">Consistent</li>
-                    <li>Customer oriented</li>
-                    <li>Innovative</li>
-                    <li>Business oriented</li>
+                    <li class="active" data-translate="qualities_label" data-quality="quality_1">Consistent</li>
+                    <li data-translate="qualities_label" data-quality="quality_2">Customer oriented</li>
+                    <li data-translate="qualities_label" data-quality="quality_3">Innovative</li>
+                    <li data-translate="qualities_label" data-quality="quality_4">Business oriented</li>
                 </ul>
 
                 <div class="info">
-                    <h2 class="title">We turn the idea of legal services</h2>
-                    <p class="text">Consolidating many years of experience and practice, the company's lawyers accompany
-                        complex
-                        projects and achieve a number of important decisions for the industry. Many of them form the
-                        practice of applying the law of the sea in Ukraine.</p>
+                    <h2 class="title" data-translate="qualities_title"></h2>
+                    <p class="text" data-translate="qualities_text"></p>
                 </div>
             </div>
 
             <div class="services">
-                <h3><a href="services">Services ></a></h3>
-                <h2>What can we do better than others?</h2>
+                <h3><a href="pages/services_page.html" data-translate="services_link">Services ></a></h3>
+                <h2 data-translate="services_title">What can we do better than others?</h2>
 
                 <div class="services_list">
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/ecommerce.svg" alt="ecommerce">
-                        <h3><a href="#">IT and e-commerce</a></h3>
-                        <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work
+                        <img src="images/homepage/services_icons/ecommerce.svg" alt="ecommerce" />
+                        <h3><a href="#" data-translate="service_it_ecommerce">IT and e-commerce</a></h3>
+                        <p data-translate="service_it_ecommerce_text">
+                            An endless stream of contracts, tax issues, labor relations, corporate papers - legal work
                             distracts you from doing business. But there is not much work to do to hire an in-house
-                            lawyer.</p>
+                            lawyer.
+                        </p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/support.svg" alt="support">
-                        <h3><a href="#">Comprehensive daily
-                            legal support</a></h3>
-                        <p>In addition, over time, the work will become the same type and uninteresting for a full-time
+                        <img src="images/homepage/services_icons/support.svg" alt="support" />
+                        <h3><a href="#" data-translate="service_legal_support">Comprehensive daily legal support</a>
+                        </h3>
+                        <p data-translate="service_legal_support_text">
+                            In addition, over time, the work will become the same type and uninteresting for a full-time
                             lawyer. And we know very well how difficult it is to find a good candidate with experience
-                            in the field of information technology in Ukraine.</p>
+                            in the field of information technology in Ukraine.
+                        </p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/corporate.svg" alt="corporate">
-                        <h3><a href="#">Structuring corporate relationships</a></h3>
-                        <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will fit
-                            into the daily life of your company.</p>
+                        <img src="images/homepage/services_icons/corporate.svg" alt="corporate" />
+                        <h3><a href="#" data-translate="service_corporate_structuring">Structuring corporate
+                                relationships</a></h3>
+                        <p data-translate="service_corporate_structuring_text">
+                            Instead of just providing legal services, we will hire a lawyer or a whole team that will
+                            fit into the daily life of your company.
+                        </p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/trust.svg" alt="trust">
-                        <h3><a href="#">Building contractual relations</a></h3>
-                        <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the
+                        <img src="images/homepage/services_icons/trust.svg" alt="trust" />
+                        <h3><a href="#" data-translate="service_contract_relations">Building contractual relations</a>
+                        </h3>
+                        <p data-translate="service_contract_relations_text">
+                            Once a week, or week after month, you have your own lawyer by your side. Anyone in the
                             company can catch it at the coffee maker and just talk about current affairs instead of
-                            waiting for update status.</p>
+                            waiting for update status.
+                        </p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/protection.svg" alt="protection">
-                        <h3><a href="#">Protection of business, intellectual property</a></h3>
-                        <p>And all the other time he will work on new diverse projects, so he will definitely not stop
+                        <img src="images/homepage/services_icons/protection.svg" alt="protection" />
+                        <h3><a href="#" data-translate="service_business_protection">Protection of business,
+                                intellectual property</a></h3>
+                        <p data-translate="service_business_protection_text">
+                            And all the other time he will work on new diverse projects, so he will definitely not stop
                             in professional development. One way or another, all Axon Partners will work for you instead
-                            of a corporate lawyer.</p>
+                            of a corporate lawyer.
+                        </p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="images/homepage/services_icons/court.svg" alt="court">
-                        <h3><a href="#">Judicial representation</a></h3>
-                        <p>Is it a small, medium-sized company or a market leader? Local business or multinational
-                            company? Do you have your own legal department or not?</p>
+                        <img src="images/homepage/services_icons/court.svg" alt="court" />
+                        <h3><a href="#" data-translate="service_judicial_representation">Judicial representation</a>
+                        </h3>
+                        <p data-translate="service_judicial_representation_text">
+                            Is it a small, medium-sized company or a market leader? Local business or multinational
+                            company? Do you have your own legal department or not?
+                        </p>
                     </div>
 
                 </div>
-
             </div>
-
         </div>
     </div>
 
     <div class="container">
         <div class="content slider">
-
             <div class="slider_content">
-                <img src="images/homepage/slider_pictures/image.jpg" alt="a smiling man">
+                <img src="images/homepage/slider_pictures/image.jpg" alt="a smiling man" />
                 <div class="text_box">
-                    <h3 class="text_box__link"><a href="team">Team ></a></h3>
-                    <h2 class="text_box__title">
+                    <h3 class="text_box__link"><a href="team" data-translate="slider_team_link">Team ></a></h3>
+                    <h2 class="text_box__title" data-translate="slider_title">
                         We are used to taking responsibility and always guarantee honest, timely assistance — even in
                         situations where most are powerless.
                     </h2>
-                    <h4 class="text_box__name">Oleksandr Oleksandrovskiy</h4>
-                    <p class="text_box__role">Managing Partner</p>
+                    <h4 class="text_box__name" data-translate="slider_name">Oleksandr Oleksandrovskiy</h4>
+                    <p class="text_box__role" data-translate="slider_role">Managing Partner</p>
                 </div>
             </div>
 
@@ -180,68 +191,72 @@
                 <li class="dot"></li>
                 <li class="dot"></li>
             </ul>
-
         </div>
     </div>
 
     <div class="container">
         <div class="content partners">
-            <h3>They already trust us</h3>
+            <h3 data-translate="partners_title">They already trust us</h3>
             <div class="photo_collage">
-                <img src="images/homepage/partners/Hillel.jpg" alt="Hillel">
-                <img src="images/homepage/partners/WannaBiz.jpg" alt="WannaBiz">
-                <img src="images/homepage/partners/Tapgerine.jpg" alt="Tapgerine">
-                <img src="images/homepage/partners/3DLook.jpg" alt="3DLook">
-                <img src="images/homepage/partners/Orangear.jpg" alt="Orangear">
-                <img src="images/homepage/partners/Adteligent.jpg" alt="Adteligent">
-                <img src="images/homepage/partners/Clickky.jpg" alt="Clickky">
-                <img src="images/homepage/partners/EcoLeasing.jpg" alt="EcoLeasing">
-                <img src="images/homepage/partners/InfraTek.jpg" alt="InfraTek">
-                <img src="images/homepage/partners/CityPark.jpg" alt="CityPark">
-                <img src="images/homepage/partners/ArtPrint.jpg" alt="ArtPrint">
-                <img src="images/homepage/partners/UltimateCard.jpg" alt="UltimateCard">
+                <img src="images/homepage/partners/Hillel.jpg" alt="Hillel" />
+                <img src="images/homepage/partners/WannaBiz.jpg" alt="WannaBiz" />
+                <img src="images/homepage/partners/Tapgerine.jpg" alt="Tapgerine" />
+                <img src="images/homepage/partners/3DLook.jpg" alt="3DLook" />
+                <img src="images/homepage/partners/Orangear.jpg" alt="Orangear" />
+                <img src="images/homepage/partners/Adteligent.jpg" alt="Adteligent" />
+                <img src="images/homepage/partners/Clickky.jpg" alt="Clickky" />
+                <img src="images/homepage/partners/EcoLeasing.jpg" alt="EcoLeasing" />
+                <img src="images/homepage/partners/InfraTek.jpg" alt="InfraTek" />
+                <img src="images/homepage/partners/CityPark.jpg" alt="CityPark" />
+                <img src="images/homepage/partners/ArtPrint.jpg" alt="ArtPrint" />
+                <img src="images/homepage/partners/UltimateCard.jpg" alt="UltimateCard" />
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="content publications">
-            <h3><a href="publications">Publications ></a></h3>
-            <h2>We have something to tell</h2>
+            <h3><a href="publications" data-translate="publications_link">Publications ></a></h3>
+            <h2 data-translate="publications_title">We have something to tell</h2>
             <div class="publications_list">
 
                 <div class="publications_list__element">
-                    <img src="images/homepage/publications/equity.jpg" alt="equity associate">
+                    <img src="images/homepage/publications/equity.jpg" alt="equity associate" />
                     <div class="text_box">
-                        <h4 class="text_box__title">Equity associate</h4>
-                        <p class="text_box__date">april 22</p>
-                        <hr>
-                        <p class="text_box__text">I'm a jun on projects. I am a co-owner of a law firm. How it happened.
-                            Before entering my parents told me that if I…</p>
+                        <h4 class="text_box__title" data-translate="publication_1_title">Equity associate</h4>
+                        <p class="text_box__date" data-translate="publication_1_date">april 22</p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_1_text">
+                            I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my
+                            parents told me that if I…
+                        </p>
                     </div>
                 </div>
 
                 <div class="publications_list__element">
-                    <img src="images/homepage/publications/gdpr.jpg" alt="gdpr image">
+                    <img src="images/homepage/publications/gdpr.jpg" alt="gdpr image" />
                     <div class="text_box">
-                        <h4 class="text_box__title">Penalty for the Good Corporation: what will happen to Google and
-                            others for violating the GDPR</h4>
-                        <p class="text_box__date">september 29</p>
-                        <hr>
-                        <p class="text_box__text">And why the recovery of 50 million euros could be a fateful precedent
-                            According to Mind.ua January 21 National Commission for Data Protection.</p>
+                        <h4 class="text_box__title" data-translate="publication_2_title">Penalty for the Good
+                            Corporation: what will happen to Google and others for violating the GDPR</h4>
+                        <p class="text_box__date" data-translate="publication_2_date">september 29</p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_2_text">
+                            And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua
+                            January 21 National Commission for Data Protection.
+                        </p>
                     </div>
                 </div>
 
                 <div class="publications_list__element">
-                    <img src="images/homepage/publications/milennials.jpg" alt="millennial testament">
+                    <img src="images/homepage/publications/milennials.jpg" alt="millennial testament" />
                     <div class="text_box">
-                        <h4 class="text_box__title">Millennial Testament</h4>
-                        <p class="text_box__date">august 19</p>
-                        <hr>
-                        <p class="text_box__text">What and how modern vloggers, opinion leaders and crypto-millionaires
-                            will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment
-                            in…</p>
+                        <h4 class="text_box__title" data-translate="publication_3_title">Millennial Testament</h4>
+                        <p class="text_box__date" data-translate="publication_3_date">august 19</p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_3_text">
+                            What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical
+                            legacy of the Ukrainian generation X looks like this: an apartment in…
+                        </p>
                     </div>
                 </div>
 
@@ -252,28 +267,105 @@
     <footer class="container">
         <div class="content footer">
             <div class="contacts_and_address">
-                <p class="contacts_and_address__address">
-                    <span>Kyiv, Mechnikova str, 14/1</span>
-                    <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank">ON
-                        MAP</a>
-                </p>
+                <p class="contacts_and_address__address" data-translate="footer_address">Kyiv, Mechnikova str, 14/1</p>
                 <div class="contacts_and_address__contacts">
-                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img">
-                        <img src="images/footer/facebook.svg" alt="facebook" class="default-img">
-                        <img src="images/footer/facebook_active.svg" alt="facebook" class="hover-img">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                        aria-label="facebook">
+                        <img src="images/footer/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="images/footer/facebook_active.svg" alt="facebook" class="hover-img" />
                     </a>
-                    <a href="tel:0800211927" class="phone">0800 211 927</a>
-                    <a href="mailto:contact@forstudy.space" class="email">contact@forstudy.space</a>
+                    <a href="tel:0800211927" class="phone" data-translate="footer_phone">0800 211 927</a>
+                    <a href="mailto:contact@forstudy.space" class="email"
+                        data-translate="footer_email">contact@forstudy.space</a>
                 </div>
             </div>
 
-            <p class="copyright">
-                © 2021 HLEGAL Law company, LLC
-            </p>
+            <p class="copyright" data-translate="footer_copyright">© 2021 HLEGAL Law company, LLC</p>
         </div>
     </footer>
 
     <script src="js/header.js"></script>
+    <script src="js/translation.js"></script>
+    <script>
+        let currentLang = "en";
+        const pageCategory = "static";
+        const pageId = "homepage";
+
+        function loadContent(pageCategory, pageId) {
+            let content;
+
+            if (pageCategory === "static") {
+                content = translations[pageId];
+            } else if (pageCategory === "service") {
+                content = translations.services?.[pageId];
+            }
+
+            if (!content) {
+                document.body.innerHTML = "<h2>Content not found</h2>";
+                return;
+            }
+
+            // Перекладаємо всі елементи з data-translate (крім li з data-quality)
+            document.querySelectorAll("[data-translate]").forEach(el => {
+                const key = el.getAttribute("data-translate");
+                const value = content[key];
+
+                if (typeof value === "object") {
+                    el.textContent = value[currentLang];
+                } else {
+                    el.src = value;
+                }
+            });
+
+            // Окремо перекладемо назви у li
+            translateQualityLabels(content);
+
+            // Оновлюємо інфо-блок згідно активного пункту
+            updateQualityContent(getActiveQualityKey());
+        }
+
+        function translateQualityLabels(content) {
+            const lis = document.querySelectorAll(".experience_list li");
+            lis.forEach(li => {
+                const qualityKey = li.getAttribute("data-quality");
+                if (content[qualityKey] && content[qualityKey].label) {
+                    li.textContent = content[qualityKey].label[currentLang];
+                }
+            });
+        }
+
+        function getActiveQualityKey() {
+            const activeLi = document.querySelector(".experience_list li.active");
+            return activeLi ? activeLi.getAttribute("data-quality") : null;
+        }
+
+        function updateQualityContent(qualityKey) {
+            if (!qualityKey) return;
+            const content = translations[pageId];
+            const quality = content[qualityKey];
+            if (!quality) return;
+
+            const titleEl = document.querySelector("[data-translate='qualities_title']");
+            const textEl = document.querySelector("[data-translate='qualities_text']");
+
+            if (titleEl) titleEl.textContent = quality.title[currentLang];
+            if (textEl) textEl.textContent = quality.text[currentLang];
+        }
+
+        // Ініціалізація
+        loadContent(pageCategory, pageId);
+
+        // Обробка кліків по li
+        document.querySelectorAll(".experience_list li").forEach(li => {
+            li.addEventListener("click", () => {
+                document.querySelectorAll(".experience_list li").forEach(el => el.classList.remove("active"));
+                li.classList.add("active");
+                updateQualityContent(li.getAttribute("data-quality"));
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>

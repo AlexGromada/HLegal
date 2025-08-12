@@ -275,8 +275,16 @@ body {
                     text-align: left;
                     display: flex;
                     width: 100%;
-                    overflow: hidden;
                     padding-right: 0;
+
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
 
                     li {
                         margin-bottom: 60px;

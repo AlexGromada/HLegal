@@ -1,0 +1,228 @@
+const translations = {
+    "homepage": {
+
+        "address": {
+            "en": "Kyiv, Mechnikova str, 14/1",
+            "uk": "Київ, вул. Мечникова, 14/1",
+            "es": "Kiev, calle Mechnikova, 14/1"
+        },
+        "phone": { "en": "0800 211 927", "uk": "0800 211 927", "es": "0800 211 927" },
+
+        "open_menu_btn": { "en": "Open menu", "uk": "Відкрити меню", "es": "Abrir menú" },
+        "close_menu_btn": { "en": "Close menu", "uk": "Закрити меню", "es": "Cerrar menú" },
+
+        "nav_about": { "en": "about us", "uk": "про нас", "es": "sobre nosotros" },
+        "nav_services": { "en": "services", "uk": "послуги", "es": "servicios" },
+        "nav_team": { "en": "team", "uk": "команда", "es": "equipo" },
+        "nav_publications": { "en": "publications", "uk": "публікації", "es": "publicaciones" },
+        "nav_contact": { "en": "contact", "uk": "контакти", "es": "contacto" },
+
+        "slogan": {
+            "en": "your legal solutions provider",
+            "uk": "ваш провайдер юридичних рішень",
+            "es": "tu proveedor de soluciones legales"
+        },
+
+        "scroll_button_aria_label": { "en": "Scroll down", "uk": "Прокрутити вниз", "es": "Desplazar hacia abajo" },
+
+        "quality_1": {
+            "label": { "en": "Consistent", "uk": "Послідовний", "es": "Consistente" },
+            "title": {
+                "en": "We turn the idea of legal services",
+                "uk": "Ми втілюємо ідею юридичних послуг",
+                "es": "Convertimos la idea de servicios legales"
+            },
+            "text": {
+                "en": "Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.",
+                "uk": "Об’єднуючи багаторічний досвід та практику, юристи компанії супроводжують складні проєкти та досягають важливих рішень для галузі. Багато з них формують практику застосування морського права в Україні.",
+                "es": "Consolidando muchos años de experiencia y práctica, los abogados de la empresa acompañan proyectos complejos y logran importantes decisiones para la industria. Muchos de ellos forman la práctica de la aplicación del derecho marítimo en Ucrania."
+            }
+        },
+        "quality_2": {
+            "label": { "en": "Customer oriented", "uk": "Орієнтований на клієнта", "es": "Orientado al cliente" },
+            "title": {
+                "en": "Focused on customer success",
+                "uk": "Сфокусовані на успіху клієнта",
+                "es": "Enfocados en el éxito del cliente"
+            },
+            "text": {
+                "en": "Our approach centers on understanding customer needs and delivering solutions that provide real value. We build lasting partnerships by listening carefully and exceeding expectations.",
+                "uk": "Наш підхід зосереджений на розумінні потреб клієнтів та наданні рішень, що приносять реальну користь. Ми будуємо тривалі партнерства, уважно слухаючи і перевищуючи очікування.",
+                "es": "Nuestro enfoque se centra en comprender las necesidades del cliente y ofrecer soluciones que proporcionen valor real. Construimos asociaciones duraderas escuchando atentamente y superando expectativas."
+            }
+        },
+        "quality_3": {
+            "label": { "en": "Innovative", "uk": "Інноваційний", "es": "Innovador" },
+            "title": {
+                "en": "Driving innovation in legal practice",
+                "uk": "Впроваджуємо інновації в юридичну практику",
+                "es": "Impulsando la innovación en la práctica legal"
+            },
+            "text": {
+                "en": "We seek new methods and technologies to deliver cutting-edge legal services. Our team embraces change to meet the challenges of modern law.",
+                "uk": "Ми шукаємо нові методи та технології для надання передових юридичних послуг. Наша команда приймає зміни, щоб відповідати викликам сучасного права.",
+                "es": "Buscamos nuevos métodos y tecnologías para ofrecer servicios legales innovadores. Nuestro equipo acepta el cambio para enfrentar los desafíos del derecho moderno."
+            }
+
+        },
+        "quality_4": {
+            "label": { "en": "Business oriented", "uk": "Орієнтований на бізнес", "es": "Orientado a negocios" },
+            "title": {
+                "en": "Aligning legal solutions with business goals",
+                "uk": "Поєднуємо юридичні рішення з бізнес-цілями",
+                "es": "Alineando soluciones legales con objetivos empresariales"
+            },
+            "text": {
+                "en": "We help businesses navigate legal complexities while supporting growth and strategy. Our expertise ensures legal support that drives success.",
+                "uk": "Ми допомагаємо бізнесам орієнтуватись у юридичних складнощах, підтримуючи розвиток і стратегію. Наш досвід забезпечує юридичну підтримку для досягнення успіху.",
+                "es": "Ayudamos a las empresas a navegar por complejidades legales mientras apoyamos el crecimiento y la estrategia. Nuestra experiencia asegura soporte legal que impulsa el éxito."
+            }
+        },
+
+
+        "services_link": { "en": "Services >", "uk": "Послуги >", "es": "Servicios >" },
+        "services_title": {
+            "en": "What can we do better than others?",
+            "uk": "Що ми робимо краще за інших?",
+            "es": "¿Qué podemos hacer mejor que otros?"
+        },
+
+        "service_it_ecommerce": { "en": "IT and e-commerce", "uk": "IT та електронна комерція", "es": "TI y comercio electrónico" },
+        "service_it_ecommerce_text": {
+            "en": "An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.",
+            "uk": "Нескінченний потік договорів, податкові питання, трудові відносини, корпоративні документи — юридична робота відволікає вас від ведення бізнесу. Але наймати штатного юриста не так вже й складно.",
+            "es": "Un flujo interminable de contratos, temas fiscales, relaciones laborales, documentos corporativos: el trabajo legal te distrae de hacer negocios. Pero no es mucho trabajo contratar a un abogado interno."
+        },
+
+        "service_legal_support": { "en": "Comprehensive daily legal support", "uk": "Комплексна щоденна юридична підтримка", "es": "Soporte legal diario integral" },
+        "service_legal_support_text": {
+            "en": "In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.",
+            "uk": "З часом робота стане одноманітною і нецікавою штатному юристу. І ми добре знаємо, як складно знайти хорошого кандидата з досвідом в IT-сфері в Україні.",
+            "es": "Además, con el tiempo, el trabajo se volverá monótono y poco interesante para un abogado a tiempo completo. Y sabemos muy bien lo difícil que es encontrar un buen candidato con experiencia en tecnología de la información en Ucrania."
+        },
+
+        "service_corporate_structuring": { "en": "Structuring corporate relationships", "uk": "Структурування корпоративних відносин", "es": "Estructuración de relaciones corporativas" },
+        "service_corporate_structuring_text": {
+            "en": "Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.",
+            "uk": "Замість просто надання юридичних послуг, ми залучимо юриста чи команду, які стануть частиною щоденного життя вашої компанії.",
+            "es": "En lugar de solo brindar servicios legales, contrataremos a un abogado o a todo un equipo que se integrará en la vida diaria de su empresa."
+        },
+
+        "service_contract_relations": { "en": "Building contractual relations", "uk": "Побудова договірних відносин", "es": "Construcción de relaciones contractuales" },
+        "service_contract_relations_text": {
+            "en": "Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.",
+            "uk": "Щотижня або через місяць у вас буде власний юрист поруч. Кожен у компанії може зустріти його біля кавоварки та поговорити про поточні справи замість очікування оновлення статусу.",
+            "es": "Una vez a la semana, o semana tras mes, tienes a tu propio abogado a tu lado. Cualquiera en la empresa puede encontrarlo junto a la cafetera y simplemente hablar sobre asuntos actuales en lugar de esperar la actualización del estado."
+        },
+
+        "service_business_protection": { "en": "Protection of business, intellectual property", "uk": "Захист бізнесу та інтелектуальної власності", "es": "Protección del negocio y propiedad intelectual" },
+        "service_business_protection_text": {
+            "en": "And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.",
+            "uk": "Весь інший час він працюватиме над новими проєктами, тож точно не зупиниться в професійному розвитку. В будь-якому випадку всі Axon Partners працюватимуть за вас замість корпоративного юриста.",
+            "es": "Y todo el tiempo restante trabajará en nuevos proyectos diversos, por lo que definitivamente no se detendrá en el desarrollo profesional. De una forma u otra, todos los Axon Partners trabajarán para usted en lugar de un abogado corporativo."
+        },
+
+        "service_judicial_representation": { "en": "Judicial representation", "uk": "Судове представництво", "es": "Representación judicial" },
+        "service_judicial_representation_text": {
+            "en": "Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?",
+            "uk": "Чи це мала, середня компанія або лідер ринку? Локальний бізнес чи міжнародна компанія? Чи маєте власний юридичний відділ чи ні?",
+            "es": "¿Es una empresa pequeña, mediana o líder del mercado? ¿Negocio local o multinacional? ¿Tiene su propio departamento legal o no?"
+        },
+
+        "slider_team_link": { "en": "Team >", "uk": "Команда >", "es": "Equipo >" },
+        "slider_title": {
+            "en": "We are used to taking responsibility and always guarantee honest, timely assistance — even in situations where most are powerless.",
+            "uk": "Ми звикли брати відповідальність і завжди гарантуємо чесну, своєчасну допомогу — навіть у ситуаціях, де більшість безсила.",
+            "es": "Estamos acostumbrados a asumir la responsabilidad y siempre garantizamos asistencia honesta y oportuna, incluso en situaciones donde la mayoría está indefensa."
+        },
+        "slider_name": { "en": "Oleksandr Oleksandrovskiy", "uk": "Олександр Олександровський", "es": "Oleksandr Oleksandrovskiy" },
+        "slider_role": { "en": "Managing Partner", "uk": "Генеральний партнер", "es": "Socio gerente" },
+
+        "partners_title": { "en": "They already trust us", "uk": "Нам вже довіряють", "es": "Ya confían en nosotros" },
+
+        "publications_link": { "en": "Publications >", "uk": "Публікації >", "es": "Publicaciones >" },
+        "publications_title": { "en": "We have something to tell", "uk": "Ми маємо що розповісти", "es": "Tenemos algo que contar" },
+
+        "publication_1_title": { "en": "Equity associate", "uk": "Equity associate", "es": "Asociado de acciones" },
+        "publication_1_date": { "en": "april 22", "uk": "22 квітня", "es": "22 de abril" },
+        "publication_1_text": {
+            "en": "I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…",
+            "uk": "Я учасник проектів. Я співвласник юридичної фірми. Як це сталося. Перед вступом мої батьки казали, що якщо я…",
+            "es": "Soy un joven en proyectos. Soy copropietario de un bufete de abogados. Cómo sucedió. Antes de entrar, mis padres me dijeron que si yo…"
+        },
+
+        "publication_2_title": {
+            "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
+            "uk": "Штраф для доброї корпорації: що буде з Google та іншими за порушення GDPR",
+            "es": "Multa para la Buena Corporación: qué pasará con Google y otros por violar el GDPR"
+        },
+        "publication_2_date": { "en": "september 29", "uk": "29 вересня", "es": "29 de septiembre" },
+        "publication_2_text": {
+            "en": "And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.",
+            "uk": "І чому відшкодування 50 мільйонів євро може стати фатальним прецедентом. За даними Mind.ua 21 січня Національна комісія з питань захисту даних.",
+            "es": "Y por qué la recuperación de 50 millones de euros podría ser un precedente fatal. Según Mind.ua, el 21 de enero la Comisión Nacional para la Protección de Datos."
+        },
+
+        "publication_3_title": { "en": "Millennial Testament", "uk": "Millennial Testament", "es": "Testamento Millennial" },
+        "publication_3_date": { "en": "august 19", "uk": "19 серпня", "es": "19 de agosto" },
+        "publication_3_text": {
+            "en": "What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…",
+            "uk": "Що і як сучасні блогери, лідери думок і криптомільйонери успадкують. Типова спадщина українського покоління X виглядає так: квартира в…",
+            "es": "Qué y cómo heredarán los vloggers modernos, líderes de opinión y cripto-millonarios. Un legado típico de la generación X ucraniana se ve así: un apartamento en…"
+        },
+
+        "footer_address": { "en": "Kyiv, Mechnikova str, 14/1", "uk": "Київ, вул. Мечникова, 14/1", "es": "Kiev, calle Mechnikova, 14/1" },
+        "footer_phone": { "en": "0800 211 927", "uk": "0800 211 927", "es": "0800 211 927" },
+        "footer_email": { "en": "contact@forstudy.space", "uk": "contact@forstudy.space", "es": "contacto@forstudy.space" },
+        "footer_copyright": {
+            "en": "© 2021 HLEGAL Law company, LLC",
+            "uk": "© 2021 Юридична компанія HLEGAL, ТОВ",
+            "es": "© 2021 Compañía Legal HLEGAL, LLC"
+        }
+    }
+};
+
+
+
+function changeLang(newLang) {
+    currentLang = newLang;
+
+    // зняти active з усіх мов
+    document.querySelectorAll(".settings_and_contacts__lang li").forEach(li => {
+        li.classList.remove("active");
+    });
+
+    // додати active до тієї, що натиснули
+    const activeBtn = document.querySelector(`.settings_and_contacts__lang li[onclick="changeLang('${newLang}')"]`);
+    if (activeBtn) activeBtn.classList.add("active");
+
+    // повторно завантажити контент
+    loadContent(pageCategory, pageId);
+}
+
+
+function loadContent(pageCategory, pageId) {
+    let content;
+
+    if (pageCategory === "static") {
+        content = translations[pageId]; // напр., translations.homepage, translations.about
+    } else if (pageCategory === "service") {
+        content = translations.services?.[pageId]; // якщо є services
+    }
+
+    if (!content) {
+        document.body.innerHTML = "<h2>Content not found</h2>";
+        return;
+    }
+
+    document.querySelectorAll("[data-translate]").forEach(el => {
+        const key = el.getAttribute("data-translate");
+        const value = content[key];
+
+        if (typeof value === "object") {
+            el.textContent = value[currentLang];
+        } else {
+            el.src = value;
+        }
+    });
+}
