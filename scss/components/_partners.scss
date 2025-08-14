@@ -5,7 +5,7 @@
 
 .partners {
     width: 1720px;
-    padding: 60px 100px;
+    padding: 0 100px 60px 100px;
     text-align: center;
     background-color: white;
 
@@ -36,7 +36,6 @@
     @include breakpoint('desktop-hd') {
         width: 100%;
         padding: 0;
-        padding-top: 60px;
 
         .photo_collage {
             border-radius: 0;

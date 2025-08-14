@@ -4,20 +4,24 @@ a {
     color: $active-regular;
     text-decoration: none;
 
-    &:hover {
-        color: $active-hover;
-        cursor: pointer;
+    &:visited {
+        color: $active-regular;
     }
 
     &:active {
         color: $active-active;
     }
 
-    &:visited {
-        color: $active-regular;
+    &:hover {
+        color: $active-hover;
+        cursor: pointer;
     }
+
 }
 
+ul li::marker{
+    color: $accent;
+}
 
 *:hover {
     cursor: default;

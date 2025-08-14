@@ -3,12 +3,11 @@
 
 <head>
     <title>hlegal</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../css/reset.css">
-
-    <link rel="stylesheet" href="../css/pages/services_page.css">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pages/services_page.css" />
 </head>
 
 <body>
@@ -17,174 +16,160 @@
             <header class="header" data-theme="dark">
 
                 <div class="logo">
-                    <img src="../images/header/dark_theme_logo.svg" alt="our logo">
-                    <!-- to change theme you have to change this picture -->
-                    <img src="../images/header/slash.svg" alt="slash">
-                    <p>services</p>
+                    <img src="../images/header/dark_theme_logo.svg" alt="our logo" />
+                    <img src="../images/header/slash.svg" alt="slash" />
                 </div>
 
                 <div class="settings_and_contacts">
                     <ul class="settings_and_contacts__lang">
-                        <li>УК</li>
-                        <li>ES</li>
-                        <li class="active">EN</li>
+                        <li id="uk" onclick="changeLang('uk')">УК</li>
+                        <li id="es" onclick="changeLang('es')">ES</li>
+                        <li id="en" onclick="changeLang('en')" class="active">EN</li>
                     </ul>
 
-                    <p class="settings_and_contacts__address">Kyiv, Mechnikova str, 14/1</p>
+                    <p class="settings_and_contacts__address" data-translate="address"></p>
 
-                    <a href="tel:0800211927" class="settings_and_contacts__phone">0800 211 927</a>
+                    <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone"></a>
 
-                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image">
-                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img">
-                        <img src="../images/header/facebook_active.svg" alt="facebook" class="hover-img">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
+                        aria-label="facebook">
+                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/header/facebook_active.svg" alt="facebook" class="hover-img" />
                     </a>
                 </div>
 
                 <nav>
-                    <button id="open-menu" aria-expanded="false" aria-controls="menu" aria-label="Відкрити меню">
-                        <img src="../images/header/dark_theme_menu.svg" alt="menu icon">
+                    <button id="open-menu" aria-expanded="false" aria-controls="menu">
+                        <img src="../images/header/dark_theme_menu.svg" alt="menu icon" />
                     </button>
-                    <!-- to change theme you have to change this picture -->
                     <div id="shade" class="shade invisible"></div>
 
                     <ul id="menu" role="menu">
                         <li>
-                            <button id="close-menu" aria-expanded="true" aria-controls="menu" aria-label="Закрити меню">
-                                <img src="../images/header/close_a_menu.svg" alt="exit icon">
+                            <button id="close-menu" aria-expanded="true" aria-controls="menu">
+                                <img src="../images/close_icon.svg" alt="exit icon" />
                             </button>
                         </li>
 
-                        <li role="menu item">
-                            <a href="about_page.html">about us</a>
+                        <li role="menuitem">
+                            <a href="about_page.html" data-translate="nav_about"></a>
                         </li>
-                        <li class="active" role="menu item">
-                            <a href="service_entry.html">services</a>
+                        <li role="menuitem" class="active">
+                            <a href="services_page.html" class="active" data-translate="nav_services"></a>
                         </li>
-                        <li role="menu item">
-                            <a href="/pages/team">team</a>
+                        <li role="menuitem">
+                            <a href="team_page.html" data-translate="nav_team"></a>
                         </li>
-                        <li role="menu item">
-                            <a href="/pages/publications">publications</a>
+                        <li role="menuitem">
+                            <a href="publications_page.html" data-translate="nav_publications"></a>
                         </li>
-                        <li role="menu item">
-                            <a href="/pages/contact">contact</a>
+                        <li role="menuitem">
+                            <a href="contact_page.html" data-translate="nav_contact"></a>
                         </li>
                     </ul>
                 </nav>
-
             </header>
 
-
             <div class="services">
-                <h2>What can we do better than others?</h2>
+                <h2 data-translate="services_title"></h2>
 
                 <div class="services_list">
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/ecommerce.svg" alt="ecommerce">
-                        <h3><a href="#">IT and e-commerce</a></h3>
-                        <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal
-                            work
-                            distracts you from doing business. But there is not much work to do to hire an in-house
-                            lawyer.</p>
+                        <img src="../images/services_icons/ecommerce.svg" alt="ecommerce" />
+                        <h3><a href="service_entry.html?id=ecommerce" data-translate="service_it_ecommerce"></a></h3>
+                        <p data-translate="service_it_ecommerce_text"></p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/support.svg" alt="support">
-                        <h3><a href="#">Comprehensive daily
-                                legal support</a></h3>
-                        <p>In addition, over time, the work will become the same type and uninteresting for a
-                            full-time
-                            lawyer. And we know very well how difficult it is to find a good candidate with
-                            experience
-                            in the field of information technology in Ukraine.</p>
+                        <img src="../images/services_icons/support.svg" alt="support" />
+                        <h3><a href="service_entry.html?id=legal_support" data-translate="service_legal_support"></a></h3>
+                        <p data-translate="service_legal_support_text"></p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/corporate.svg" alt="corporate">
-                        <h3><a href="#">Structuring corporate relationships</a></h3>
-                        <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will
-                            fit
-                            into the daily life of your company.</p>
+                        <img src="../images/services_icons/corporate.svg" alt="corporate" />
+                        <h3><a href="service_entry.html?id=corporate_structuring"
+                                data-translate="service_corporate_structuring"></a></h3>
+                        <p data-translate="service_corporate_structuring_text"></p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/trust.svg" alt="trust">
-                        <h3><a href="#">Building contractual relations</a></h3>
-                        <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the
-                            company can catch it at the coffee maker and just talk about current affairs instead of
-                            waiting for update status.</p>
+                        <img src="../images/services_icons/trust.svg" alt="trust" />
+                        <h3><a href="service_entry.html?id=contract_relations" data-translate="service_contract_relations"></a></h3>
+                        <p data-translate="service_contract_relations_text"></p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/protection.svg" alt="protection">
-                        <h3><a href="#">Protection of business, intellectual property</a></h3>
-                        <p>And all the other time he will work on new diverse projects, so he will definitely not
-                            stop
-                            in professional development. One way or another, all Axon Partners will work for you
-                            instead
-                            of a corporate lawyer.</p>
+                        <img src="../images/services_icons/protection.svg" alt="protection" />
+                        <h3><a href="service_entry.html?id=business_protection" data-translate="service_business_protection"></a>
+                        </h3>
+                        <p data-translate="service_business_protection_text"></p>
                     </div>
 
                     <div class="services_list__element">
-                        <img src="../images/homepage/services_icons/court.svg" alt="court">
-                        <h3><a href="#">Judicial representation</a></h3>
-                        <p>Is it a small, medium-sized company or a market leader? Local business or multinational
-                            company? Do you have your own legal department or not?</p>
+                        <img src="../images/services_icons/court.svg" alt="court" />
+                        <h3><a href="service_entry.html?id=judicial_representation" data-translate="service_judicial_representation"></a>
+                        </h3>
+                        <p data-translate="service_judicial_representation_text"></p>
                     </div>
 
                 </div>
-
             </div>
         </div>
-
 
         <div class="container">
             <div class="content partners">
-                <h3>They already trust us</h3>
+                <h3 data-translate="partners_title"></h3>
                 <div class="photo_collage">
-                    <img src="../images/homepage/partners/Hillel.jpg" alt="Hillel">
-                    <img src="../images/homepage/partners/WannaBiz.jpg" alt="WannaBiz">
-                    <img src="../images/homepage/partners/Tapgerine.jpg" alt="Tapgerine">
-                    <img src="../images/homepage/partners/3DLook.jpg" alt="3DLook">
-                    <img src="../images/homepage/partners/Orangear.jpg" alt="Orangear">
-                    <img src="../images/homepage/partners/Adteligent.jpg" alt="Adteligent">
-                    <img src="../images/homepage/partners/Clickky.jpg" alt="Clickky">
-                    <img src="../images/homepage/partners/EcoLeasing.jpg" alt="EcoLeasing">
-                    <img src="../images/homepage/partners/InfraTek.jpg" alt="InfraTek">
-                    <img src="../images/homepage/partners/CityPark.jpg" alt="CityPark">
-                    <img src="../images/homepage/partners/ArtPrint.jpg" alt="ArtPrint">
-                    <img src="../images/homepage/partners/UltimateCard.jpg" alt="UltimateCard">
+                    <img src="../images/partners/Hillel.jpg" alt="Hillel" />
+                    <img src="../images/partners/WannaBiz.jpg" alt="WannaBiz" />
+                    <img src="../images/partners/Tapgerine.jpg" alt="Tapgerine" />
+                    <img src="../images/partners/3DLook.jpg" alt="3DLook" />
+                    <img src="../images/partners/Orangear.jpg" alt="Orangear" />
+                    <img src="../images/partners/Adteligent.jpg" alt="Adteligent" />
+                    <img src="../images/partners/Clickky.jpg" alt="Clickky" />
+                    <img src="../images/partners/EcoLeasing.jpg" alt="EcoLeasing" />
+                    <img src="../images/partners/InfraTek.jpg" alt="InfraTek" />
+                    <img src="../images/partners/CityPark.jpg" alt="CityPark" />
+                    <img src="../images/partners/ArtPrint.jpg" alt="ArtPrint" />
+                    <img src="../images/partners/UltimateCard.jpg" alt="UltimateCard" />
                 </div>
             </div>
         </div>
-
 
         <footer class="container">
             <div class="content footer">
                 <div class="contacts_and_address">
                     <p class="contacts_and_address__address">
-                        <span>Kyiv, Mechnikova str, 14/1</span>
-                        <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank">ON
-                            MAP</a>
+                        <span data-translate="footer_address"></span>
+                        <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                            data-translate="footer__map_link"></a>
                     </p>
                     <div class="contacts_and_address__contacts">
-                        <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img">
-                            <img src="../images/footer/facebook.svg" alt="facebook" class="default-img">
-                            <img src="../images/footer/facebook_active.svg" alt="facebook" class="hover-img">
+                        <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                            aria-label="facebook">
+                            <img src="../images/footer/facebook.svg" alt="facebook" class="default-img" />
+                            <img src="../images/footer/facebook_active.svg" alt="facebook" class="hover-img" />
                         </a>
-                        <a href="tel:0800211927" class="phone">0800 211 927</a>
-                        <a href="mailto:contact@forstudy.space" class="email">contact@forstudy.space</a>
+                        <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                        <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
                     </div>
                 </div>
 
-                <p class="copyright">
-                    © 2021 HLEGAL Law company, LLC
-                </p>
+                <p class="copyright" data-translate="footer_copyright"></p>
             </div>
         </footer>
 
         <script src="../js/header.js"></script>
+        <script src="../js/translation.js"></script>
+        <script>
+            const pageCategory = "static";
+            const pageId = "services";
+            const componentsList = ["header", "services", "partners", "footer"]
+
+            loadContent(pageCategory, pageId, componentsList);
+        </script>
 </body>
 
 </html>

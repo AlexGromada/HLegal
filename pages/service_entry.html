@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hlegal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pages/service_entry.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content intro_block">
+            <header class="header" data-theme="dark">
+
+                <div class="logo">
+                    <img src="../images/header/dark_theme_logo.svg" alt="our logo" />
+                    <img src="../images/header/slash.svg" alt="slash" />
+                </div>
+
+                <div class="settings_and_contacts">
+                    <ul class="settings_and_contacts__lang">
+                        <li id="uk" onclick="changeLang('uk')">УК</li>
+                        <li id="es" onclick="changeLang('es')">ES</li>
+                        <li id="en" onclick="changeLang('en')" class="active">EN</li>
+                    </ul>
+
+                    <p class="settings_and_contacts__address" data-translate="address"></p>
+
+                    <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone"></a>
+
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
+                        aria-label="facebook">
+                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/header/facebook_active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                </div>
+
+                <nav>
+                    <button id="open-menu" aria-expanded="false" aria-controls="menu">
+                        <img src="../images/header/dark_theme_menu.svg" alt="menu icon" />
+                    </button>
+                    <div id="shade" class="shade invisible"></div>
+
+                    <ul id="menu" role="menu">
+                        <li>
+                            <button id="close-menu" aria-expanded="true" aria-controls="menu">
+                                <img src="../images/close_icon.svg" alt="exit icon" />
+                            </button>
+                        </li>
+
+                        <li role="menuitem">
+                            <a href="about_page.html" data-translate="nav_about"></a>
+                        </li>
+                        <li role="menuitem" class="active">
+                            <a href="services_page.html" data-translate="nav_services"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="team_page.html" data-translate="nav_team"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="publications_page.html" data-translate="nav_publications"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="contact_page.html" data-translate="nav_contact"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="service_container">
+                <div class="service_info">
+                    <img data-translate="service_image">
+                    <h2 class="service_name" data-translate="service_name"></h2>
+                    <div class="service_description">
+                        <p data-translate="service_description1"></p>
+                        <p data-translate="service_description2"></p>
+                    </div>
+                    <button id="openForm" data-translate="consultation_button"></button>
+                </div>
+
+                <hr class="separating_line">
+
+                <div class="services_in_area">
+                    <p class="title" data-translate="services_list_title"></p>
+
+                    <ul class="services_list">
+                        <li data-translate="list_item1"></li>
+                        <li data-translate="list_item3"></li>
+                        <li data-translate="list_item4"></li>
+                        <li data-translate="list_item5"></li>
+                        <li data-translate="list_item2"></li>
+                        <li data-translate="list_item6"></li>
+                        <li data-translate="list_item7"></li>
+                        <li data-translate="list_item8"></li>
+                    </ul>
+                </div>
+
+                <div id="popup" class="popup invisible">
+                    <div id="formShade" class="shade"></div>
+
+                    <form id="form" class="form">
+                        <h2 class="form__title" data-translate="form_title"></h2>
+                        <button id="closeForm" type="button" class="close_form"><img
+                                src="../images/close_icon.svg"></button>
+
+                        <div class="form__message_content">
+                            <input type="text" maxlength="30" data-attr="placeholder"
+                                data-translate="name_placeholder">
+                            <textarea class="message_area" rows="3" data-attr="placeholder"
+                                data-translate="message_placeholder"></textarea>
+                        </div>
+
+                        <div class="form__contact_info">
+                            <p data-translate="how_to_answer_you"></p>
+                            <input type="tel" maxlength="20" data-attr="placeholder"
+                                data-translate="tel_placeholder">
+                            <input type="email" data-attr="placeholder"
+                                data-translate="email_placeholder">
+                        </div>
+
+                        <button type="submit" class="submit" data-translate="form_submit"></button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="content publications">
+                <h3><a href="publications" data-translate="publications_link"></a></h3>
+                <h2 data-translate="publications_title"></h2>
+                <div class="publications_list">
+
+                    <div class="publications_list__element">
+                        <img src="../images/publications/equity.jpg" alt="equity associate" />
+                        <div class="text_box">
+                            <h4 class="text_box__title" data-translate="publication_1_title"></h4>
+                            <p class="text_box__date" data-translate="publication_1_date"></p>
+                            <hr />
+                            <p class="text_box__text" data-translate="publication_1_text"></p>
+                        </div>
+                    </div>
+
+                    <div class="publications_list__element">
+                        <img src="../images/publications/gdpr.jpg" alt="gdpr image" />
+                        <div class="text_box">
+                            <h4 class="text_box__title" data-translate="publication_2_title"></h4>
+                            <p class="text_box__date" data-translate="publication_2_date"></p>
+                            <hr />
+                            <p class="text_box__text" data-translate="publication_2_text"></p>
+                        </div>
+                    </div>
+
+                    <div class="publications_list__element">
+                        <img src="../images/publications/milennials.jpg" alt="millennial testament" />
+                        <div class="text_box">
+                            <h4 class="text_box__title" data-translate="publication_3_title"></h4>
+                            <p class="text_box__date" data-translate="publication_3_date"></p>
+                            <hr />
+                            <p class="text_box__text" data-translate="publication_3_text"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="container">
+            <div class="content footer">
+                <div class="contacts_and_address">
+                    <p class="contacts_and_address__address">
+                        <span data-translate="footer_address"></span>
+                        <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                            data-translate="footer__map_link"></a>
+                    </p>
+                    <div class="contacts_and_address__contacts">
+                        <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                            aria-label="facebook">
+                            <img src="../images/footer/facebook.svg" alt="facebook" class="default-img" />
+                            <img src="../images/footer/facebook_active.svg" alt="facebook" class="hover-img" />
+                        </a>
+                        <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                        <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
+                    </div>
+                </div>
+
+                <p class="copyright" data-translate="footer_copyright"></p>
+            </div>
+        </footer>
+
+        <script src="../js/header.js"></script>
+        <script src="../js/translation.js"></script>
+        <script>
+            const pageCategory = "entry";
+            const pageId = "service_entry";
+            const componentsList = ["header", "publications", "footer"]
+
+            loadContent(pageCategory, pageId, componentsList);
+
+            const popup = document.getElementById('popup');
+            const openFormBtn = document.getElementById('openForm');
+            const closeFormBtn = document.getElementById('closeForm');
+            const formShade = document.getElementById('formShade');
+            const form = document.getElementById('form');
+
+            openFormBtn.addEventListener('click', () => {
+                popup.classList.remove('invisible');
+            });
+
+            closeFormBtn.addEventListener('click', () => {
+                popup.classList.add('invisible');
+            });
+
+            formShade.addEventListener('click', () => {
+                popup.classList.add('invisible');
+            });
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                console.log('Форма надіслана!');
+                form.reset();
+                popup.classList.add('invisible');
+            });
+        </script>
+</body>
+
+</html>

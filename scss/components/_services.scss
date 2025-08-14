@@ -54,6 +54,10 @@
                 color: $active-regular;
 
                 margin-bottom: 15px;
+
+                a:hover{
+                    color: $accent;
+                }
             }
 
             p {

@@ -28,15 +28,19 @@ a {
   color: #24A3FF;
   text-decoration: none;
 }
-a:hover {
-  color: #0085FF;
-  cursor: pointer;
+a:visited {
+  color: #24A3FF;
 }
 a:active {
   color: #006CCF;
 }
-a:visited {
-  color: #24A3FF;
+a:hover {
+  color: #0085FF;
+  cursor: pointer;
+}
+
+ul li::marker {
+  color: #F0145A;
 }
 
 *:hover {
@@ -426,7 +430,7 @@ body {
   position: relative;
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
-  margin-bottom: 20px !important;
+  margin-bottom: 80px !important;
 }
 .intro_block::before {
   content: "";
@@ -503,6 +507,9 @@ body {
   color: #24A3FF;
   margin-bottom: 15px;
 }
+.services .services_list__element h3 a:hover {
+  color: #F0145A;
+}
 .services .services_list__element p {
   color: white;
 }
@@ -561,7 +568,7 @@ body {
 
 .partners {
   width: 1720px;
-  padding: 60px 100px;
+  padding: 0 100px 60px 100px;
   text-align: center;
   background-color: white;
 }
@@ -587,7 +594,6 @@ body {
   .partners {
     width: 100%;
     padding: 0;
-    padding-top: 60px;
   }
   .partners .photo_collage {
     border-radius: 0;
@@ -615,8 +621,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 32px 160px 30px 160px;
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
   position: relative;
 }
 .footer::before {
@@ -648,6 +652,7 @@ body {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
+  text-transform: uppercase;
 }
 .footer .contacts_and_address__address a:hover {
   color: #F0145A;
@@ -724,4 +729,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=service_page.css.map */
+/*# sourceMappingURL=services_page.css.map */

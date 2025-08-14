@@ -1,0 +1,256 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+
+@use '../components/header';
+@use '../components/intro_block.scss';
+@use '../components/publications';
+@use '../components/footer';
+
+.service_container {
+    padding: 60px 280px;
+
+    .service_info {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+
+        img {
+            margin: 0 auto;
+            padding: 14px;
+            width: 64px;
+            height: 64px;
+            border-radius: 24px;
+            background-color: white;
+        }
+
+        .service_name {
+            @include hero(regular);
+            @include gradient-text($gradient-red-text)
+        }
+
+        .service_description {
+            &>:first-child {
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: white;
+                font-size: 19px;
+                line-height: 30px;
+                letter-spacing: 0%;
+            }
+        }
+
+        button {
+            margin: 0 auto;
+            padding: 18px 30px;
+            width: 208px;
+            height: 56px;
+            box-sizing: border-box;
+            border: 0;
+            border-radius: 12px;
+            @extend %h4-regular;
+            color: white;
+            background-color: $active-regular;
+            box-shadow: 0px 0px 20px 0px #24A3FF80;
+        }
+    }
+
+
+    .separating_line {
+        width: 100%;
+        height: 4px;
+        margin-bottom: 30px;
+        background-color: #FFFFFF80;
+    }
+
+    .services_in_area {
+        .title {
+            @include h3(regular);
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .services_list {
+            list-style: disc outside;
+            column-count: 2;
+            column-gap: 60px;
+            padding-left: 20px;
+
+            li {
+                margin-bottom: 15px;
+                font-size: 18px;
+                line-height: 26px;
+                color: white;
+                break-inside: avoid;
+            }
+        }
+    }
+
+
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 2;
+
+        .shade {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($main-regular, 0.7);
+            z-index: 1;
+        }
+
+        .form {
+            width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            background: $grey-bg;
+            box-shadow: 0px 15px 80px 0px #28285680;
+            padding: 30px;
+            gap: 30px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+
+            &__title {
+                @include hero(regular);
+                @include gradient-text($gradient-red-text);
+            }
+
+            .close_form {
+                background: transparent;
+                border: none;
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                height: 32px;
+                padding: 0;
+
+                &:hover, &:active{
+                    border-radius: 8px;
+                    background-color: $grey-separator;
+                }
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                padding: 15px;
+                box-sizing: border-box;
+                border-radius: 8px;
+                border: 1px solid white;
+                @extend %paragraph-regular;
+                background-color: white;
+                resize: none;
+
+                &::placeholder {
+                    color: $grey-text
+                }
+            }
+
+            &__message_content,
+            &__contact_info {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .message_area {
+                gap: 10px;
+            }
+
+
+
+            p {
+                @extend %h3-caps;
+                color: $grey-text;
+                text-transform: uppercase;
+            }
+
+
+            .submit {
+                width: 100%;
+                border: none;
+                border-radius: 12px;
+                gap: 10px;
+                padding: 18px 30px;
+                background-color: $active-regular;
+                box-shadow: 0px 0px 20px 0px #24A3FF80;
+                color: white;
+                @extend %h4-regular;
+            }
+        }
+
+        &.invisible {
+            display: none;
+        }
+    }
+
+
+    @include breakpoint('desktop-hd') {
+        padding: 60px 180px;
+    }
+
+    @include breakpoint('desktop-sd') {
+        padding: 60px;
+    }
+
+    @include breakpoint('tablet-sd') {
+        padding: 60px 30px;
+
+        .service_info {
+            .service_name {
+                @include hero(mobile);
+            }
+        }
+
+        .services_in_area {
+            .title {
+                @include h3(regular);
+                color: white;
+                margin-bottom: 30px;
+            }
+
+            .services_list {
+                column-count: 1;
+            }
+        }
+
+
+        .popup {
+            .form {
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                top: 0;
+                left: 0;
+                transform: none;
+                box-shadow: none;
+                border-radius: 0;
+
+                &__title {
+                    @include hero(mobile);
+                    padding-right: 42px;
+                }
+            }
+        }
+    }
+
+}
