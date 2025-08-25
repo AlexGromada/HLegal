@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hlegal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pages/contact_page.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header" data-theme="light">
+
+                <div class="logo">
+                    <img src="../images/header/light_theme_logo.svg" alt="our logo" />
+                    <img src="../images/header/slash.svg" alt="slash" />
+                    <p data-translate="page_title"></p>
+                </div>
+
+                <div class="settings_and_contacts">
+                    <ul class="settings_and_contacts__lang">
+                        <li id="uk" onclick="changeLang('uk'), toggleSizeUpdate();">УК</li>
+                        <li id="es" onclick="changeLang('es'), toggleSizeUpdate();">ES</li>
+                        <li id="en" onclick="changeLang('en'), toggleSizeUpdate();" class="active">EN</li>
+                    </ul>
+
+                    <p class="settings_and_contacts__address" data-translate="address"></p>
+
+                    <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone"></a>
+
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
+                        aria-label="facebook">
+                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/header/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                </div>
+
+                <nav>
+                    <button id="open-menu" aria-expanded="false" aria-controls="menu">
+                        <img src="../images/header/light_theme_menu.svg" alt="menu icon" />
+                    </button>
+                    <div id="shade" class="shade invisible"></div>
+
+                    <ul id="menu" role="menu">
+                        <li>
+                            <button id="close-menu" aria-expanded="true" aria-controls="menu">
+                                <img src="../images/close_icon.svg" alt="exit icon" />
+                            </button>
+                        </li>
+
+                        <li role="menuitem">
+                            <a href="about_page.html" data-translate="nav_about"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="services_page.html" data-translate="nav_services"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="team_page.html" data-translate="nav_team"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="publications_page.html" data-translate="nav_publications"></a>
+                        </li>
+                        <li role="menuitem" class="active">
+                            <a href="contact_page.html" data-translate="nav_contact"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <main class="content contact">
+            <aside class="contact__info">
+                <p id="split_address" data-translate="address" class="address"></p>
+                <hr>
+                <div>
+                    <a href="tel:0800211927" class="phone_number" data-translate="phone"></a>
+                    <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
+                </div>
+                <hr>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook_link"
+                        aria-label="facebook">
+                        <div class="image_block">
+                            <img src="../images/facebook.svg" alt="facebook" class="default-img" />
+                            <img src="../images/facebook__active.svg" alt="facebook" class="hover-img" />
+                        </div>
+                        <p id="split_facebook_link" data-translate="facebook"></p>
+                    </a>
+                </div>
+            </aside>
+            <form class="form">
+                <h2 class="form__title" data-translate="form_title"></h2>
+
+                <div class="form__message_content">
+                    <input type="text" maxlength="30" data-attr="placeholder" data-translate="name_placeholder">
+                    <textarea class="message_area" rows="3" data-attr="placeholder"
+                        data-translate="message_placeholder"></textarea>
+                </div>
+
+                <div class="form__contact_info">
+                    <p data-translate="how_to_answer_you"></p>
+                    <input type="tel" maxlength="20" data-attr="placeholder" data-translate="tel_placeholder">
+                    <input type="email" data-attr="placeholder" data-translate="email_placeholder">
+                </div>
+
+                <button type="submit" class="submit" data-translate="form_submit"></button>
+            </form>
+        </main>
+    </div>
+
+
+    <footer class="container">
+        <div class="content footer">
+            <div class="contacts_and_address">
+                <p class="contacts_and_address__address">
+                    <span data-translate="footer_address"></span>
+                    <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                        data-translate="footer__map_link"></a>
+                </p>
+                <div class="contacts_and_address__contacts">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                        aria-label="facebook">
+                        <img src="../images/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                    <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                    <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
+                </div>
+            </div>
+
+            <p class="copyright" data-translate="footer_copyright"></p>
+        </div>
+    </footer>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/translation.js"></script>
+    <script>
+        const pageCategory = "static";
+        const pageName = "contact";
+        const componentsList = ["header", "form", "footer"]
+
+        fetch('/data/translation.json')
+            .then(res => res.json())
+            .then(() => split_p());
+
+        function split_p() {
+            const split_address = document.getElementById('split_address');
+            const split_facebook_link = document.getElementById('split_facebook_link');
+            split_address.innerHTML = split_address.innerHTML.replace(/,(.*)/, ',<br>$1' );
+            split_facebook_link.innerHTML = split_facebook_link.innerHTML.replace(/^((?:\S+\s){2})/, '$1<br>' );
+        }
+    </script>
+</body>
+
+</html>

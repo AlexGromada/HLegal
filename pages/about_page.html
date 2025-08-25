@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hlegal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pages/about_page.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header" data-theme="light">
+
+                <div class="logo">
+                    <img src="../images/header/light_theme_logo.svg" alt="our logo" />
+                    <img src="../images/header/slash.svg" alt="slash" />
+                    <p data-translate="page_title"></p>
+                </div>
+
+                <div class="settings_and_contacts">
+                    <ul class="settings_and_contacts__lang">
+                        <li id="uk" onclick="changeLang('uk'), toggleSizeUpdate();">УК</li>
+                        <li id="es" onclick="changeLang('es'), toggleSizeUpdate();">ES</li>
+                        <li id="en" onclick="changeLang('en'), toggleSizeUpdate();" class="active">EN</li>
+                    </ul>
+
+                    <p class="settings_and_contacts__address" data-translate="address"></p>
+
+                    <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone"></a>
+
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
+                        aria-label="facebook">
+                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/header/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                </div>
+
+                <nav>
+                    <button id="open-menu" aria-expanded="false" aria-controls="menu">
+                        <img src="../images/header/light_theme_menu.svg" alt="menu icon" />
+                    </button>
+                    <div id="shade" class="shade invisible"></div>
+
+                    <ul id="menu" role="menu">
+                        <li>
+                            <button id="close-menu" aria-expanded="true" aria-controls="menu">
+                                <img src="../images/close_icon.svg" alt="exit icon" />
+                            </button>
+                        </li>
+
+                        <li role="menuitem" class="active">
+                            <a href="about_page.html" data-translate="nav_about"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="services_page.html" data-translate="nav_services"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="team_page.html" data-translate="nav_team"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="publications_page.html" data-translate="nav_publications"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="contact_page.html" data-translate="nav_contact"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <main class="content about_us">
+
+            <div class="about_us__info">
+
+                <div class="textbox textbox__layout_a">
+                    <h2 class="textbox__title" data-translate="innovation_title"></h2>
+                    <div class="textbox__info">
+                        <p data-translate="innovation_text_part1"></p>
+                        <p data-translate="innovation_text_part2"></p>
+                    </div>
+                </div>
+
+                <aside>
+                    <ul class="highlights_list">
+                        <li class="highlights_list__item">
+                            <div>
+                                <img src="../images/about_us/flag_icon.svg" alt="flag icon">
+                                <h2>10+</h2>
+                            </div>
+                            <h4 data-translate="experience"></h4>
+                        </li>
+
+                        <li class="highlights_list__item">
+                            <div>
+                                <img src="../images/about_us/briefcase_icon.svg" alt="briefcase icon">
+                                <h2>30+</h2>
+                            </div>
+                            <h4 data-translate="clients_active"></h4>
+                        </li>
+
+                        <li class="highlights_list__item">
+                            <div>
+                                <img src="../images/about_us/star_icon.svg" alt="star icon">
+                                <h2>500+</h2>
+                            </div>
+                            <h4 data-translate="probono_hours"></h4>
+                        </li>
+                    </ul>
+                </aside>
+
+            </div>
+
+
+            <div class="team_photo">
+                <img src="../images/about_us/team_photo.jpg" alt="team_picture">
+                <h1 data-translate="image_text"></h1>
+            </div>
+
+
+            <div class="textbox textbox__layout_b">
+                <div class="textbox__info">
+                    <p data-translate="quality_text_part1"></p>
+                    <p data-translate="quality_text_part2"></p>
+                    <p data-translate="quality_text_part3"></p>
+                </div>
+                <h2 class="textbox__title" data-translate="quality_title"></h2>
+            </div>
+
+
+            <div class="achievements_slider">
+
+                <h3 class="achievements_slider__title" data-translate="slider_title"></h3>
+
+                <div class="achievements_slider__content">
+                    <div>
+                        <img src="../images/about_us/legal_500.jpg" alt="legal 500">
+                    </div>
+                    <div>
+                        <img src="../images/about_us/law_premium.jpg" alt="law premium">
+                    </div>
+                    <div>
+                        <img src="../images/about_us/market_leaders.jpg" alt="market leaders">
+                    </div>
+                    <div>
+                        <img src="../images/about_us/ulf_2017.jpg" alt="ulf2017">
+                    </div>
+                </div>
+
+                <ul class="achievements_slider__dots">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+        </main>
+    </div>
+
+
+    <footer class="container">
+        <div class="content footer">
+            <div class="contacts_and_address">
+                <p class="contacts_and_address__address">
+                    <span data-translate="footer_address"></span>
+                    <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                        data-translate="footer__map_link"></a>
+                </p>
+                <div class="contacts_and_address__contacts">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                        aria-label="facebook">
+                        <img src="../images/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                    <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                    <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
+                </div>
+            </div>
+
+            <p class="copyright" data-translate="footer_copyright"></p>
+        </div>
+    </footer>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/translation.js"></script>
+    <script>
+        const pageCategory = "static";
+        const pageName = "about_us";
+        const componentsList = ["header", "footer"]
+    </script>
+</body>
+
+</html>

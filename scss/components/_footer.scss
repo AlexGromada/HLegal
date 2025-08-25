@@ -2,6 +2,7 @@
 @use '../common/fonts' as *;
 @use '../common/breakpoints' as *;
 @use '../common/variables' as *;
+@use '../common/mixins' as *;
 
 .footer {
     background: $grey-bg;
@@ -44,6 +45,7 @@
             }
 
             a {
+                @include ease-color-change;
                 font-weight: $bold;
                 font-size: 12px;
                 line-height: 15px;

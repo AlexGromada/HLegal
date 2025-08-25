@@ -18,6 +18,7 @@
                 <div class="logo">
                     <img src="../images/header/dark_theme_logo.svg" alt="our logo" />
                     <img src="../images/header/slash.svg" alt="slash" />
+                    <p data-translate="page_title"></p>
                 </div>
 
                 <div class="settings_and_contacts">
@@ -34,7 +35,7 @@
                     <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
                         aria-label="facebook">
                         <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
-                        <img src="../images/header/facebook_active.svg" alt="facebook" class="hover-img" />
+                        <img src="../images/header/facebook__active.svg" alt="facebook" class="hover-img" />
                     </a>
                 </div>
 
@@ -107,18 +108,15 @@
                                 src="../images/close_icon.svg"></button>
 
                         <div class="form__message_content">
-                            <input type="text" maxlength="30" data-attr="placeholder"
-                                data-translate="name_placeholder">
+                            <input type="text" maxlength="30" data-attr="placeholder" data-translate="name_placeholder">
                             <textarea class="message_area" rows="3" data-attr="placeholder"
                                 data-translate="message_placeholder"></textarea>
                         </div>
 
                         <div class="form__contact_info">
                             <p data-translate="how_to_answer_you"></p>
-                            <input type="tel" maxlength="20" data-attr="placeholder"
-                                data-translate="tel_placeholder">
-                            <input type="email" data-attr="placeholder"
-                                data-translate="email_placeholder">
+                            <input type="tel" maxlength="20" data-attr="placeholder" data-translate="tel_placeholder">
+                            <input type="email" data-attr="placeholder" data-translate="email_placeholder">
                         </div>
 
                         <button type="submit" class="submit" data-translate="form_submit"></button>
@@ -128,104 +126,115 @@
             </div>
 
         </div>
+    </div>
 
-        <div class="container">
-            <div class="content publications">
-                <h3><a href="publications" data-translate="publications_link"></a></h3>
-                <h2 data-translate="publications_title"></h2>
-                <div class="publications_list">
+    <div class="container">
+        <div class="content publications">
+            <h3><a href="publications" data-translate="publications_link"></a></h3>
+            <h2 data-translate="publications_title"></h2>
+            <div class="publications_list">
 
-                    <div class="publications_list__element">
-                        <img src="../images/publications/equity.jpg" alt="equity associate" />
-                        <div class="text_box">
-                            <h4 class="text_box__title" data-translate="publication_1_title"></h4>
-                            <p class="text_box__date" data-translate="publication_1_date"></p>
-                            <hr />
-                            <p class="text_box__text" data-translate="publication_1_text"></p>
-                        </div>
+                <div class="publications_list__element">
+                    <img data-translate="publication_1_image" alt="Equity associate" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=equity_associate" data-translate="publication_1_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_1_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_1_text"></p>
                     </div>
-
-                    <div class="publications_list__element">
-                        <img src="../images/publications/gdpr.jpg" alt="gdpr image" />
-                        <div class="text_box">
-                            <h4 class="text_box__title" data-translate="publication_2_title"></h4>
-                            <p class="text_box__date" data-translate="publication_2_date"></p>
-                            <hr />
-                            <p class="text_box__text" data-translate="publication_2_text"></p>
-                        </div>
-                    </div>
-
-                    <div class="publications_list__element">
-                        <img src="../images/publications/milennials.jpg" alt="millennial testament" />
-                        <div class="text_box">
-                            <h4 class="text_box__title" data-translate="publication_3_title"></h4>
-                            <p class="text_box__date" data-translate="publication_3_date"></p>
-                            <hr />
-                            <p class="text_box__text" data-translate="publication_3_text"></p>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="publications_list__element">
+                    <img data-translate="publication_2_image"
+                        alt="Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=gdpr" data-translate="publication_2_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_2_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_2_text"></p>
+                    </div>
+                </div>
+
+                <div class="publications_list__element">
+                    <img data-translate="publication_3_image" alt="Millennial Testament" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=millennials" data-translate="publication_3_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_3_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_3_text"></p>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
 
-        <footer class="container">
-            <div class="content footer">
-                <div class="contacts_and_address">
-                    <p class="contacts_and_address__address">
-                        <span data-translate="footer_address"></span>
-                        <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
-                            data-translate="footer__map_link"></a>
-                    </p>
-                    <div class="contacts_and_address__contacts">
-                        <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
-                            aria-label="facebook">
-                            <img src="../images/footer/facebook.svg" alt="facebook" class="default-img" />
-                            <img src="../images/footer/facebook_active.svg" alt="facebook" class="hover-img" />
-                        </a>
-                        <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
-                        <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
-                    </div>
+    <footer class="container">
+        <div class="content footer">
+            <div class="contacts_and_address">
+                <p class="contacts_and_address__address">
+                    <span data-translate="footer_address"></span>
+                    <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                        data-translate="footer__map_link"></a>
+                </p>
+                <div class="contacts_and_address__contacts">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                        aria-label="facebook">
+                        <img src="../images/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                    <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                    <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
                 </div>
-
-                <p class="copyright" data-translate="footer_copyright"></p>
             </div>
-        </footer>
 
-        <script src="../js/header.js"></script>
-        <script src="../js/translation.js"></script>
-        <script>
-            const pageCategory = "entry";
-            const pageId = "service_entry";
-            const componentsList = ["header", "publications", "footer"]
+            <p class="copyright" data-translate="footer_copyright"></p>
+        </div>
+    </footer>
 
-            loadContent(pageCategory, pageId, componentsList);
+    <script src="../js/header.js"></script>
+    <script src="../js/translation.js"></script>
+    <script>
+        const pageCategory = "entry";
+        const pageName = "service_entry";
+        const componentsList = ["header", "form", "publications", "footer"]
 
-            const popup = document.getElementById('popup');
-            const openFormBtn = document.getElementById('openForm');
-            const closeFormBtn = document.getElementById('closeForm');
-            const formShade = document.getElementById('formShade');
-            const form = document.getElementById('form');
+        const popup = document.getElementById('popup');
+        const openFormBtn = document.getElementById('openForm');
+        const closeFormBtn = document.getElementById('closeForm');
+        const formShade = document.getElementById('formShade');
+        const form = document.getElementById('form');
 
-            openFormBtn.addEventListener('click', () => {
-                popup.classList.remove('invisible');
-            });
+        openFormBtn.addEventListener('click', () => {
+            popup.classList.remove('invisible');
+        });
 
-            closeFormBtn.addEventListener('click', () => {
-                popup.classList.add('invisible');
-            });
+        function closeForm() {
+            popup.classList.add('invisible');
+            form.reset();
+        }
 
-            formShade.addEventListener('click', () => {
-                popup.classList.add('invisible');
-            });
+        closeFormBtn.addEventListener('click', () => {
+            closeForm();
+        });
 
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                console.log('Форма надіслана!');
-                form.reset();
-                popup.classList.add('invisible');
-            });
-        </script>
+
+        formShade.addEventListener('click', () => {
+            closeForm();
+        });
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            console.log('Форма надіслана!');
+            closeForm();
+        });
+    </script>
 </body>
 
 </html>

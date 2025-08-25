@@ -124,9 +124,11 @@ body {
             overflow: hidden;
             margin-bottom: 30px;
             border-radius: 12px;
-            height: 298px;
-
+            overflow: hidden;
+            
             img {
+                width: 400px;
+                height: 298px;
                 object-fit: cover;
             }
 
@@ -217,9 +219,11 @@ body {
         .slider {
             padding: 0 60px;
             background-color: white;
-
+            
             .slider_content {
-                height: auto;
+                img{
+                    height: 344px;
+                }
             }
         }
     }
@@ -245,6 +249,14 @@ body {
                     align-content: center;
                     padding: 0;
                     padding-left: 60px;
+                }
+            }
+        }
+
+        .slider {
+            .slider_content {
+                img{
+                    height: 528px;
                 }
             }
         }

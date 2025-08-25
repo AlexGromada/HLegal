@@ -1,0 +1,318 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+
+@use '../components/header';
+@use '../components/footer';
+
+.test {
+    white-space: pre-line;
+
+}
+
+.about_us {
+    .textbox {
+        padding: 60px 0;
+
+        &__title {
+            @include hero(regular);
+            @include gradient-text($gradient-red-text)
+        }
+
+        &__info {
+            flex-shrink: 0;
+            width: 940px;
+
+            p {
+                font-size: 19px;
+                line-height: 30px;
+            }
+
+            &>*:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__layout_a {
+            .textbox__title {
+                margin-bottom: 28px;
+            }
+        }
+
+        &__layout_b {
+            padding: 60px 280px;
+            display: flex;
+            gap: 60px;
+        }
+    }
+
+
+
+
+    &__info {
+        display: flex;
+        gap: 30px;
+        padding: 60px 280px;
+
+        aside {
+            padding: 60px 0;
+
+            .highlights_list {
+                padding-left: 30px;
+                border-left: 4px solid $grey-separator;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+                &__item {
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+
+                        h2 {
+                            font-weight: 700;
+                            font-size: 36px;
+                            line-height: 44px;
+
+                            @include gradient-text($gradient-red-text)
+                        }
+                    }
+
+                    h4 {
+                        @extend %h4-regular;
+                        color: $main-regular;
+                        font-weight: 400;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+    .team_photo {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        h1 {
+            padding-left: 63px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 117px;
+            letter-spacing: 63px;
+            text-transform: uppercase;
+            color: white;
+            text-align: center;
+            text-shadow: 0px 15px 30px 0px rgba(40, 40, 86, 0.8);
+        }
+    }
+
+
+
+    .achievements_slider {
+        padding: 0 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $grey-bg;
+
+        &__title {
+            padding: 30px 0;
+            text-transform: uppercase;
+            @extend %h3-caps;
+            color: $main-regular;
+        }
+
+
+        &__content {
+            width: 100%;
+            height: 110px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+
+            &>* {
+                width: 100%;
+                height: 100%;
+                border-radius: 12px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    height: 60px;
+                }
+            }
+        }
+
+
+        &__dots {
+            display: flex;
+            gap: 14px;
+            padding: 30px 0;
+
+            li {
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background-color: rgba($active-regular, 0.2);
+
+                &.active {
+                    background-color: $active-regular;
+                }
+            }
+
+            &>:nth-child(n+4) {
+                display: none;
+            }
+        }
+    }
+
+
+
+
+    @include breakpoint('desktop-hd') {
+        .textbox {
+            &__info {
+                width: 660px;
+            }
+
+            &__layout_b {
+                padding: 60px 180px;
+            }
+        }
+
+        &__info {
+            padding: 60px 180px;
+        }
+
+        .achievements_slider {
+            padding: 0 60px;
+        }
+    }
+
+    @include breakpoint('desktop-sd') {
+        .textbox {
+            &__info {
+                width: 480px;
+            }
+
+            &__layout_b {
+                padding: 60px;
+            }
+        }
+
+        &__info {
+            padding: 60px;
+        }
+
+        .team_photo {
+            h1 {
+                font-size: 86px;
+                line-height: 105px;
+            }
+        }
+    }
+
+    @include breakpoint('tablet-hd') {
+        .textbox {
+            &__info {
+                width: 100%;
+            }
+
+            &__layout_a {
+                padding: 0;
+            }
+
+            &__layout_b {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+
+        &__info {
+            flex-direction: column;
+
+            aside {
+                padding: 0;
+            }
+        }
+
+        .team_photo {
+            h1 {
+                font-size: 46px;
+                line-height: 56px;
+            }
+        }
+
+        .achievements_slider {
+            &__content {
+                height: 90px;
+
+                &>* {
+                    img {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint('tablet-sd') {
+        .textbox {
+            &__title {
+                @include hero(mobile);
+            }
+
+            &__layout_b {
+                padding: 30px;
+                padding-bottom: 60px;
+            }
+        }
+
+        &__info {
+            padding: 30px;
+        }
+
+        .team_photo {
+            h1 {
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: 13px;
+                padding-left: 13px;
+            }
+        }
+
+        .achievements_slider {
+            &__content {
+                grid-template-columns: 1fr;
+
+                &>* {
+                    display: none;
+                }
+                &> :first-child {
+                    display: flex;
+                }
+            }
+
+            &__dots {
+                &>:nth-child(n+4) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

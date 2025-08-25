@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hlegal</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/pages/publications_page.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header" data-theme="light">
+
+                <div class="logo">
+                    <img src="../images/header/light_theme_logo.svg" alt="our logo" />
+                    <img src="../images/header/slash.svg" alt="slash" />
+                    <p data-translate="page_title"></p>
+                </div>
+
+                <div class="settings_and_contacts">
+                    <ul class="settings_and_contacts__lang">
+                        <li id="uk" onclick="changeLang('uk'), toggleSizeUpdate();">УК</li>
+                        <li id="es" onclick="changeLang('es'), toggleSizeUpdate();">ES</li>
+                        <li id="en" onclick="changeLang('en'), toggleSizeUpdate();" class="active">EN</li>
+                    </ul>
+
+                    <p class="settings_and_contacts__address" data-translate="address"></p>
+
+                    <a href="tel:0800211927" class="settings_and_contacts__phone" data-translate="phone"></a>
+
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="settings_and_contacts__image"
+                        aria-label="facebook">
+                        <img src="../images/header/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/header/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                </div>
+
+                <nav>
+                    <button id="open-menu" aria-expanded="false" aria-controls="menu">
+                        <img src="../images/header/light_theme_menu.svg" alt="menu icon" />
+                    </button>
+                    <div id="shade" class="shade invisible"></div>
+
+                    <ul id="menu" role="menu">
+                        <li>
+                            <button id="close-menu" aria-expanded="true" aria-controls="menu">
+                                <img src="../images/close_icon.svg" alt="exit icon" />
+                            </button>
+                        </li>
+
+                        <li role="menuitem">
+                            <a href="about_page.html" data-translate="nav_about"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="services_page.html" data-translate="nav_services"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="team_page.html" data-translate="nav_team"></a>
+                        </li>
+                        <li role="menuitem" class="active">
+                            <a href="publications_page.html" data-translate="nav_publications"></a>
+                        </li>
+                        <li role="menuitem">
+                            <a href="contact_page.html" data-translate="nav_contact"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="publications content">
+
+            <div id="toggle" class="toggle">
+                <p id="news" class="active" data-translate="toggle_news"></p>
+                <p id="articles" data-translate="toggle_articles"></p>
+            </div>
+
+            <div id="list" class="news_list shortened_list">
+                <div class="list_item">
+                    <img data-translate="publication_1_image" alt="Equity associate" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=equity_associate"
+                                data-translate="publication_1_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_1_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_1_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_2_image"
+                        alt="Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=gdpr" data-translate="publication_2_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_2_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_2_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_3_image" alt="Millennial Testament" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=millennials" data-translate="publication_3_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_3_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_3_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_4_image" alt="Language Law: How to Make Your Website Relevant" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=language_law" data-translate="publication_4_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_4_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_4_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_5_image"
+                        alt="Reimbursement of the child's tuition fees in kindergarten and school" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=tuition" data-translate="publication_5_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_5_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_5_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_6_image"
+                        alt="Currency control is dead, long live currency control!" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=currency_control"
+                                data-translate="publication_6_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_6_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_6_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_7_image"
+                        alt="Boeing Starliner setback: astronauts remain on ISS until 2025" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=boeing_failure" data-translate="publication_7_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_7_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_7_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_8_image" alt="Bitcoin surpasses $100,000 for the first time" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=bitcoin" data-translate="publication_8_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_8_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_8_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_9_image"
+                        alt="Paris 2024 Olympics conclude with record-breaking performances" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=olympics" data-translate="publication_9_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_9_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_9_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_10_image"
+                        alt="King Charles III and Princess Kate complete cancer treatments" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=cancer_fight" data-translate="publication_10_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_10_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_10_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_11_image" alt="EU enforces first-ever AI regulations" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=eu_ai" data-translate="publication_11_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_11_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_11_text"></p>
+                    </div>
+                </div>
+
+                <div class="list_item">
+                    <img data-translate="publication_12_image"
+                        alt="Ukrainian strike destroys major Russian Black Sea Fleet ship in Sevastopol" />
+                    <div class="text_box">
+                        <h4 class="text_box__title">
+                            <a href="publication_entry.html?id=ukrainian_success"
+                                data-translate="publication_12_title"></a>
+                        </h4>
+                        <p class="text_box__date" data-translate="publication_12_date"></p>
+                        <hr />
+                        <p class="text_box__text" data-translate="publication_12_text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <button id="show_more" class="button" data-translate="show_more_button"></button>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="content footer">
+            <div class="contacts_and_address">
+                <p class="contacts_and_address__address">
+                    <span data-translate="footer_address"></span>
+                    <a href="https://www.google.com/maps?q=вул.+Мечникова+14%2F1+Київ" target="_blank"
+                        data-translate="footer__map_link"></a>
+                </p>
+                <div class="contacts_and_address__contacts">
+                    <a href="https://www.facebook.com/p/HL-Legal-100057503766728/" class="facebook-img"
+                        aria-label="facebook">
+                        <img src="../images/facebook.svg" alt="facebook" class="default-img" />
+                        <img src="../images/facebook__active.svg" alt="facebook" class="hover-img" />
+                    </a>
+                    <a href="tel:0800211927" class="phone" data-translate="footer_phone"></a>
+                    <a href="mailto:contact@forstudy.space" class="email" data-translate="footer_email"></a>
+                </div>
+            </div>
+
+            <p class="copyright" data-translate="footer_copyright"></p>
+        </div>
+    </footer>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/translation.js"></script>
+    <script>
+        const pageCategory = "static";
+        const pageName = "publications";
+        const componentsList = ["header", "publications", "footer"]
+
+        const toggle = document.getElementById('toggle');
+        const news = document.getElementById('news');
+        const articles = document.getElementById('articles');
+        const toggle_elements = [news, articles];
+        const list = document.getElementById("list");
+        let max = 0;
+
+        function toggleSizeUpdate() {
+            toggle_elements.forEach(p => max = Math.max(max, p.offsetWidth)); // ensures both <p> elements have the same width
+            toggle_elements.forEach(p => p.style.width = max + 'px');
+        }
+
+        toggle_elements.forEach(p => {
+            p.addEventListener('click', () => {
+                toggle_elements.forEach(el => el.classList.remove('active'));
+                p.classList.add('active');
+
+                if (p.id === "news") {
+                    list.classList.replace('articles_list', 'news_list');
+                } else {
+                    list.classList.replace('news_list', 'articles_list');
+                }
+
+                const left = p.offsetLeft;
+                toggle.style.setProperty('--bg-left', `${left}px`);
+            });
+        });
+
+        fetch('/data/translation.json')
+            .then(res => res.json())
+            .then(() => toggleSizeUpdate());
+
+
+
+        const show_moreBtn = document.getElementById("show_more");
+        let list_state = false;
+
+        show_moreBtn.addEventListener("click", () => {
+            if (!list_state) {
+                list.classList.add("full_list");
+                list.classList.remove("shortened_list");
+                show_moreBtn.setAttribute("data-translate", "show_less_button");
+            } else {
+                list.classList.add("shortened_list");
+                list.classList.remove("full_list");
+                show_moreBtn.setAttribute("data-translate", "show_more_button");
+            }
+
+            list_state = !list_state;
+            loadContent(pageCategory, pageName, componentsList);
+        });
+    </script>
+</body>
+
+</html>

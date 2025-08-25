@@ -7,6 +7,7 @@
 
 @use '../components/header';
 @use '../components/intro_block.scss';
+@use '../components/form.scss';
 @use '../components/publications';
 @use '../components/footer';
 
@@ -49,17 +50,7 @@
         }
 
         button {
-            margin: 0 auto;
-            padding: 18px 30px;
-            width: 208px;
-            height: 56px;
-            box-sizing: border-box;
-            border: 0;
-            border-radius: 12px;
-            @extend %h4-regular;
-            color: white;
-            background-color: $active-regular;
-            box-shadow: 0px 0px 20px 0px #24A3FF80;
+            @include blue_button;
         }
     }
 
@@ -121,18 +112,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 2;
-            background: $grey-bg;
             box-shadow: 0px 15px 80px 0px #28285680;
-            padding: 30px;
-            gap: 30px;
-            border-radius: 12px;
-            display: flex;
-            flex-direction: column;
-
-            &__title {
-                @include hero(regular);
-                @include gradient-text($gradient-red-text);
-            }
 
             .close_form {
                 background: transparent;
@@ -143,58 +123,11 @@
                 height: 32px;
                 padding: 0;
 
-                &:hover, &:active{
+                &:hover,
+                &:active {
                     border-radius: 8px;
                     background-color: $grey-separator;
                 }
-            }
-
-            input,
-            textarea {
-                width: 100%;
-                padding: 15px;
-                box-sizing: border-box;
-                border-radius: 8px;
-                border: 1px solid white;
-                @extend %paragraph-regular;
-                background-color: white;
-                resize: none;
-
-                &::placeholder {
-                    color: $grey-text
-                }
-            }
-
-            &__message_content,
-            &__contact_info {
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-            }
-
-            .message_area {
-                gap: 10px;
-            }
-
-
-
-            p {
-                @extend %h3-caps;
-                color: $grey-text;
-                text-transform: uppercase;
-            }
-
-
-            .submit {
-                width: 100%;
-                border: none;
-                border-radius: 12px;
-                gap: 10px;
-                padding: 18px 30px;
-                background-color: $active-regular;
-                box-shadow: 0px 0px 20px 0px #24A3FF80;
-                color: white;
-                @extend %h4-regular;
             }
         }
 
@@ -246,7 +179,6 @@
                 border-radius: 0;
 
                 &__title {
-                    @include hero(mobile);
                     padding-right: 42px;
                 }
             }

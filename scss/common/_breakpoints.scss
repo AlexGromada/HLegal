@@ -5,7 +5,6 @@ $breakpoints_list: (
     desktop-sd: 1440px,
     tablet-hd: 1024px,
     tablet-sd: 768px,
-    mobile: 375px
 );
 
 @mixin breakpoint($breakpoint) {

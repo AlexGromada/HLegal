@@ -61,6 +61,7 @@ ul li::marker {
 
 .footer .contacts_and_address__contacts .facebook-img, .header .settings_and_contacts__image {
   display: block;
+  position: relative;
 }
 .footer .contacts_and_address__contacts .facebook-img img, .header .settings_and_contacts__image img {
   position: absolute;
@@ -81,20 +82,20 @@ ul li::marker {
   opacity: 0;
 }
 
-.service_container .popup .form p, .publications h3 {
+.publications h3, .form p {
   font-size: 14px;
   line-height: 17px;
   font-weight: 700;
 }
 
-.service_container .service_info button, .service_container .popup .form .submit, .publications .publications_list__element .text_box__title {
+.service_container .service_info button, .publications .publications_list__element .text_box__title, .form .submit {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
 }
 
-.service_container .popup .form input,
-.service_container .popup .form textarea, .header .settings_and_contacts p {
+.form input,
+.form textarea, .header .settings_and_contacts p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -161,7 +162,7 @@ body {
 .header .logo p {
   font-size: 36px;
   line-height: 44px;
-  color: white;
+  color: var(--pagename-color);
 }
 .header .settings_and_contacts {
   display: flex;
@@ -188,6 +189,7 @@ body {
   line-height: 15px;
 }
 .header .settings_and_contacts__lang .active {
+  color: white;
   background-color: #F0145A;
 }
 .header .settings_and_contacts__lang :not(.active):hover {
@@ -469,6 +471,86 @@ body {
   border-bottom-left-radius: 12px;
 }
 
+.form {
+  background: #F5F5FA;
+  padding: 30px;
+  gap: 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.form__title {
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 38px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: white;
+  resize: none;
+  outline: none;
+}
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #B3B3BA;
+}
+.form input:focus,
+.form textarea:focus {
+  border-color: #24A3FF;
+}
+.form input:invalid,
+.form textarea:invalid {
+  border-color: #F0145A;
+  color: #F0145A;
+}
+.form__message_content, .form__contact_info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form .message_area {
+  gap: 10px;
+}
+.form p {
+  color: #B3B3BA;
+  text-transform: uppercase;
+}
+.form .submit {
+  margin: 0 auto;
+  padding: 18px 30px;
+  max-width: 220px;
+  border: 0;
+  border-radius: 12px;
+  color: white;
+  background-color: #24A3FF;
+  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5019607843);
+  max-width: none;
+  width: 100%;
+}
+.form .submit:hover {
+  background-color: #0085FF;
+}
+.form .submit:active {
+  background-color: #006CCF;
+}
+
+@media (max-width: 768px) {
+  .form__title {
+    font-weight: 700;
+    line-height: 37px;
+    font-size: 30px;
+  }
+}
 .publications {
   background: #F5F5FA;
   padding: 30px 160px;
@@ -510,6 +592,7 @@ body {
   background-color: white;
 }
 .publications .publications_list__element img {
+  display: block;
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -520,6 +603,12 @@ body {
 .publications .publications_list__element .text_box__title {
   color: #24A3FF;
   margin-bottom: 15px;
+}
+.publications .publications_list__element .text_box__title a {
+  transition: 0.4s ease;
+}
+.publications .publications_list__element .text_box__title a:hover {
+  color: #F0145A;
 }
 .publications .publications_list__element .text_box__date {
   font-size: 12px;
@@ -557,7 +646,7 @@ body {
     width: 100%;
     height: auto;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 514px 388px;
+    grid-template-rows: auto auto;
     gap: 30px;
   }
   .publications .publications_list > :last-child {
@@ -623,6 +712,7 @@ body {
   line-height: 20px;
 }
 .footer .contacts_and_address__address a {
+  transition: 0.4s ease;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -744,14 +834,18 @@ body {
 .service_container .service_info button {
   margin: 0 auto;
   padding: 18px 30px;
-  width: 208px;
-  height: 56px;
-  box-sizing: border-box;
+  max-width: 220px;
   border: 0;
   border-radius: 12px;
   color: white;
   background-color: #24A3FF;
   box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5019607843);
+}
+.service_container .service_info button:hover {
+  background-color: #0085FF;
+}
+.service_container .service_info button:active {
+  background-color: #006CCF;
 }
 .service_container .separating_line {
   width: 100%;
@@ -804,23 +898,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  background: #F5F5FA;
   box-shadow: 0px 15px 80px 0px rgba(40, 40, 86, 0.5019607843);
-  padding: 30px;
-  gap: 30px;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.service_container .popup .form__title {
-  font-weight: 700;
-  line-height: 46px;
-  font-size: 38px;
-  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
 }
 .service_container .popup .form .close_form {
   background: transparent;
@@ -834,42 +912,6 @@ body {
 .service_container .popup .form .close_form:hover, .service_container .popup .form .close_form:active {
   border-radius: 8px;
   background-color: #E6E6F0;
-}
-.service_container .popup .form input,
-.service_container .popup .form textarea {
-  width: 100%;
-  padding: 15px;
-  box-sizing: border-box;
-  border-radius: 8px;
-  border: 1px solid white;
-  background-color: white;
-  resize: none;
-}
-.service_container .popup .form input::placeholder,
-.service_container .popup .form textarea::placeholder {
-  color: #B3B3BA;
-}
-.service_container .popup .form__message_content, .service_container .popup .form__contact_info {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.service_container .popup .form .message_area {
-  gap: 10px;
-}
-.service_container .popup .form p {
-  color: #B3B3BA;
-  text-transform: uppercase;
-}
-.service_container .popup .form .submit {
-  width: 100%;
-  border: none;
-  border-radius: 12px;
-  gap: 10px;
-  padding: 18px 30px;
-  background-color: #24A3FF;
-  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5019607843);
-  color: white;
 }
 .service_container .popup.invisible {
   display: none;
@@ -914,9 +956,6 @@ body {
     border-radius: 0;
   }
   .service_container .popup .form__title {
-    font-weight: 700;
-    line-height: 37px;
-    font-size: 30px;
     padding-right: 42px;
   }
 }

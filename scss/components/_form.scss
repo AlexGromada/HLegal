@@ -1,0 +1,81 @@
+@use '../common/fonts' as *;
+@use '../common/breakpoints' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+.form {
+    background: $grey-bg;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        @include hero(regular);
+        @include gradient-text($gradient-red-text);
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border: 1px solid white;
+        @extend %paragraph-regular;
+        background-color: white;
+        resize: none;
+        outline: none;
+
+        &::placeholder {
+            color: $grey-text
+        }
+
+
+        &:focus {
+            border-color: $active-regular;
+        }
+
+        &:invalid {
+            border-color: $accent;
+            color: $accent;
+        }
+    }
+
+    &__message_content,
+    &__contact_info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .message_area {
+        gap: 10px;
+    }
+
+
+
+    p {
+        @extend %h3-caps;
+        color: $grey-text;
+        text-transform: uppercase;
+    }
+
+
+    .submit {
+        @include blue_button;
+        max-width: none;
+        width: 100%;
+    }
+}
+
+
+
+@include breakpoint('tablet-sd') {
+    .form {
+        &__title {
+            @include hero(mobile);
+        }
+    }
+}

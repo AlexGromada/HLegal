@@ -61,6 +61,7 @@ ul li::marker {
 
 .footer .contacts_and_address__contacts .facebook-img, .header .settings_and_contacts__image {
   display: block;
+  position: relative;
 }
 .footer .contacts_and_address__contacts .facebook-img img, .header .settings_and_contacts__image img {
   position: absolute;
@@ -148,7 +149,7 @@ body {
 .header .logo p {
   font-size: 36px;
   line-height: 44px;
-  color: white;
+  color: var(--pagename-color);
 }
 .header .settings_and_contacts {
   display: flex;
@@ -175,6 +176,7 @@ body {
   line-height: 15px;
 }
 .header .settings_and_contacts__lang .active {
+  color: white;
   background-color: #F0145A;
 }
 .header .settings_and_contacts__lang :not(.active):hover {
@@ -507,6 +509,9 @@ body {
   color: #24A3FF;
   margin-bottom: 15px;
 }
+.services .services_list__element h3 a {
+  transition: 0.4s ease;
+}
 .services .services_list__element h3 a:hover {
   color: #F0145A;
 }
@@ -649,6 +654,7 @@ body {
   line-height: 20px;
 }
 .footer .contacts_and_address__address a {
+  transition: 0.4s ease;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;

@@ -47,7 +47,6 @@
                 "es": "contacto"
             }
         },
-
         "footer": {
             "footer_address": {
                 "en": "Kyiv, Mechnikova str, 14/1",
@@ -75,85 +74,328 @@
                 "es": "© 2021 Compañía Legal HLEGAL, LLC"
             }
         },
-
         "publications": {
-            "publications_link": { "en": "Publications >", "uk": "Публікації >", "es": "Publicaciones >" },
-            "publications_title": { "en": "We have something to tell", "uk": "Ми маємо що розповісти", "es": "Tenemos algo que contar" },
-            "publication_1_title": { "en": "Equity associate", "uk": "Партнер-співвласник", "es": "Asociado de acciones" },
-            "publication_1_date": { "en": "april 22", "uk": "22 квітня", "es": "22 de abril" },
+            "publications_link": {
+                "en": "Publications >",
+                "uk": "Публікації >",
+                "es": "Publicaciones >"
+            },
+            "publications_title": {
+                "en": "We have something to tell",
+                "uk": "Ми маємо що розповісти",
+                "es": "Tenemos algo que contar"
+            },
+            "publication_1_image": "/images/publications/equity.jpg",
+            "publication_1_title": {
+                "en": "Equity associate",
+                "uk": "Партнер-співвласник",
+                "es": "Asociado de acciones"
+            },
+            "publication_1_date": {
+                "en": "april 22",
+                "uk": "22 квітня",
+                "es": "22 de abril"
+            },
             "publication_1_text": {
                 "en": "I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…",
                 "uk": "Я учасник проектів. Я співвласник юридичної фірми. Як це сталося. Перед вступом мої батьки казали, що якщо я…",
                 "es": "Soy un joven en proyectos. Soy copropietario de un bufete de abogados. Cómo sucedió. Antes de entrar, mis padres me dijeron que si yo…"
             },
+            "publication_2_image": "/images/publications/gdpr.jpg",
             "publication_2_title": {
                 "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
                 "uk": "Штраф для доброї корпорації: що буде з Google та іншими за порушення GDPR",
                 "es": "Multa para la Buena Corporación: qué pasará con Google y otros por violar el GDPR"
             },
-            "publication_2_date": { "en": "september 29", "uk": "29 вересня", "es": "29 de septiembre" },
+            "publication_2_date": {
+                "en": "september 29",
+                "uk": "29 вересня",
+                "es": "29 de septiembre"
+            },
             "publication_2_text": {
                 "en": "And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.",
                 "uk": "І чому відшкодування 50 мільйонів євро може стати фатальним прецедентом. За даними Mind.ua 21 січня Національна комісія з питань захисту даних.",
                 "es": "Y por qué la recuperación de 50 millones de euros podría ser un precedente fatal. Según Mind.ua, el 21 de enero la Comisión Nacional para la Protección de Datos."
             },
-            "publication_3_title": { "en": "Millennial Testament", "uk": "Спадщина мілленіалів", "es": "Testamento Millennial" },
-            "publication_3_date": { "en": "august 19", "uk": "19 серпня", "es": "19 de agosto" },
+            "publication_3_image": "/images/publications/milennials.jpg",
+            "publication_3_title": {
+                "en": "Millennial Testament",
+                "uk": "Спадщина мілленіалів",
+                "es": "Testamento Millennial"
+            },
+            "publication_3_date": {
+                "en": "august 19",
+                "uk": "19 серпня",
+                "es": "19 de agosto"
+            },
             "publication_3_text": {
                 "en": "What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…",
                 "uk": "Що і як сучасні блогери, лідери думок і криптомільйонери успадкують. Типова спадщина українського покоління X виглядає так: квартира в…",
                 "es": "Qué y cómo heredarán los vloggers modernos, líderes de opinión y cripto-millonarios. Un legado típico de la generación X ucraniana se ve así: un apartamento en…"
+            },
+            "publication_4_image": "/images/publications/language_law.jpg",
+            "publication_4_title": {
+                "en": "Language Law: How to Make Your Website Relevant",
+                "uk": "Закон про мову: як зробити свій сайт релевантним",
+                "es": "Ley de idioma: cómo hacer que tu sitio web sea relevante"
+            },
+            "publication_4_date": {
+                "en": "August 19",
+                "uk": "19 серпня",
+                "es": "19 de agosto"
+            },
+            "publication_4_text": {
+                "en": "Natalia Kyryk, head of content studio Wordfactory.ua: First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. IN…",
+                "uk": "Наталя Кирик, керівниця контент-студії Wordfactory.ua: По-перше, це красиво! Це аргумент номер один на користь українськомовного сайту. По-друге, ефективно. IN…",
+                "es": "Natalia Kyryk, jefa del estudio de contenido Wordfactory.ua: ¡Primero, es hermoso! Este es el argumento número uno a favor del sitio en ucraniano. Segundo, es efectivo. IN…"
+            },
+            "publication_5_image": "/images/publications/tuition.jpg",
+            "publication_5_title": {
+                "en": "Reimbursement of the child's tuition fees in kindergarten and school",
+                "uk": "Відшкодування плати за навчання дитини у садочку та школі",
+                "es": "Reembolso de las tarifas de matrícula del niño en jardín de infancia y escuela"
+            },
+            "publication_5_date": {
+                "en": "February 5, 2018",
+                "uk": "5 лютого 2018",
+                "es": "5 de febrero de 2018"
+            },
+            "publication_5_text": {
+                "en": "What we are talking about: In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official…",
+                "uk": "Про що йдеться: У червні цього року Верховна Рада внесла зміни до Податкового кодексу України. Відтепер батьки, які отримують офіційні…",
+                "es": "De qué estamos hablando: En junio de este año, la Rada Suprema enmendó el Código Tributario de Ucrania. A partir de ahora, los padres que reciben un oficial…"
+            },
+            "publication_6_image": "/images/publications/currency_control.jpg",
+            "publication_6_title": {
+                "en": "Currency control is dead, long live currency control!",
+                "uk": "Контроль за валютними операціями мертвий, хай живе контроль за валютними операціями!",
+                "es": "¡El control de divisas ha muerto, viva el control de divisas!"
+            },
+            "publication_6_date": {
+                "en": "June 14, 2018",
+                "uk": "14 червня 2018",
+                "es": "14 de junio de 2018"
+            },
+            "publication_6_text": {
+                "en": "Experts hold conferences, round tables and other events on 'liberalization of currency legislation.' Lawyers-experts-novelists rub their fingers about 'ctrl + c / ctrl + v'.",
+                "uk": "Експерти проводять конференції, круглі столи та інші заходи щодо 'лібералізації валютного законодавства'. Юристи-експерти-письменники тримають пальці на 'ctrl + c / ctrl + v'.",
+                "es": "Los expertos realizan conferencias, mesas redondas y otros eventos sobre 'liberalización de la legislación cambiaria'. Abogados-expertos-novelistas frotan sus dedos sobre 'ctrl + c / ctrl + v'."
+            },
+            "publication_7_image": "/images/publications/boeing_failure.jpg",
+            "publication_7_title": {
+                "en": "Boeing Starliner setback: astronauts remain on ISS until 2025",
+                "uk": "Невдача Boeing Starliner: астронавти залишаються на МКС до 2025 року",
+                "es": "Revés de Boeing Starliner: astronautas permanecen en la EEI hasta 2025"
+            },
+            "publication_7_date": {
+                "en": "October 12, 2024",
+                "uk": "12 жовтня 2024",
+                "es": "12 de octubre de 2024"
+            },
+            "publication_7_text": {
+                "en": "NASA confirmed that Sunita Williams and Butch Wilmore will stay aboard the ISS until early 2025 due to thruster malfunctions and helium leaks on Boeing's Starliner capsule.",
+                "uk": "NASA підтвердило, що Суніта Вільямс та Бутч Вілмор залишаться на борту МКС до початку 2025 року через несправності двигунів та витоки гелію на капсулі Starliner компанії Boeing.",
+                "es": "La NASA confirmó que Sunita Williams y Butch Wilmore permanecerán en la EEI hasta principios de 2025 debido a fallos en los propulsores y fugas de helio en la cápsula Starliner de Boeing."
+            },
+            "publication_8_image": "/images/publications/bitcoin.jpg",
+            "publication_8_title": {
+                "en": "Bitcoin surpasses $100,000 for the first time",
+                "uk": "Bitcoin вперше перевищив позначку у $100 000",
+                "es": "Bitcoin supera los $100,000 por primera vez"
+            },
+            "publication_8_date": {
+                "en": "December 5, 2024",
+                "uk": "5 грудня 2024",
+                "es": "5 de diciembre de 2024"
+            },
+            "publication_8_text": {
+                "en": "The cryptocurrency market hit a historic milestone as Bitcoin's value crossed $100,000, driven by institutional adoption and global economic uncertainty.",
+                "uk": "Ринок криптовалют досяг історичної позначки: вартість Bitcoin перевищила $100 000 на тлі інституційного прийняття та глобальної економічної невизначеності.",
+                "es": "El mercado de criptomonedas alcanzó un hito histórico cuando el valor de Bitcoin superó los $100,000, impulsado por la adopción institucional y la incertidumbre económica global."
+            },
+            "publication_9_image": "/images/publications/olympics.jpg",
+            "publication_9_title": {
+                "en": "Paris 2024 Olympics conclude with record-breaking performances",
+                "uk": "Олімпіада-2024 у Парижі завершилася рекордними досягненнями",
+                "es": "Los Juegos Olímpicos de París 2024 concluyen con actuaciones récord"
+            },
+            "publication_9_date": {
+                "en": "August 11, 2024",
+                "uk": "11 серпня 2024",
+                "es": "11 de agosto de 2024"
+            },
+            "publication_9_text": {
+                "en": "The Summer Olympics in Paris ended with the USA topping the medal table, while Ukraine celebrated its best performance in history with multiple golds in gymnastics and boxing.",
+                "uk": "Літні Олімпійські ігри в Парижі завершилися перемогою США у медальному заліку, а Україна відсвяткувала найкращий результат в історії, здобувши кілька золотих медалей у гімнастиці та боксі.",
+                "es": "Los Juegos Olímpicos de Verano en París terminaron con Estados Unidos encabezando el medallero, mientras que Ucrania celebró su mejor actuación histórica con múltiples oros en gimnasia y boxeo."
+            },
+            "publication_10_image": "/images/publications/cancer_fight.jpg",
+            "publication_10_title": {
+                "en": "King Charles III and Princess Kate complete cancer treatments",
+                "uk": "Король Чарльз III та принцеса Кейт завершили лікування від раку",
+                "es": "El rey Carlos III y la princesa Kate completan tratamientos contra el cáncer"
+            },
+            "publication_10_date": {
+                "en": "September 28, 2024",
+                "uk": "28 вересня 2024",
+                "es": "28 de septiembre de 2024"
+            },
+            "publication_10_text": {
+                "en": "After months of chemotherapy, both King Charles III and Princess Kate announced they had completed treatment and resumed public duties, sparking hope among supporters.",
+                "uk": "Після кількох місяців хіміотерапії король Чарльз III та принцеса Кейт оголосили про завершення лікування та повернення до публічних обов’язків, що викликало хвилю підтримки.",
+                "es": "Tras meses de quimioterapia, el rey Carlos III y la princesa Kate anunciaron que habían completado el tratamiento y reanudado sus funciones públicas, generando esperanza entre sus seguidores."
+            },
+            "publication_11_image": "/images/publications/eu_ai.jpg",
+            "publication_11_title": {
+                "en": "EU enforces first-ever AI regulations",
+                "uk": "ЄС запровадив перші в історії правила регулювання ШІ",
+                "es": "La UE aplica las primeras regulaciones de IA de la historia"
+            },
+            "publication_11_date": {
+                "en": "November 1, 2024",
+                "uk": "1 листопада 2024",
+                "es": "1 de noviembre de 2024"
+            },
+            "publication_11_text": {
+                "en": "The European Union's groundbreaking AI Act came into force, setting strict rules for transparency, safety, and ethical use of artificial intelligence across member states.",
+                "uk": "Набув чинності новаторський Акт ЄС про штучний інтелект, який встановлює суворі правила прозорості, безпеки та етичного використання ШІ у країнах-членах.",
+                "es": "Entró en vigor la innovadora Ley de IA de la UE, que establece estrictas normas de transparencia, seguridad y uso ético de la inteligencia artificial en los Estados miembros."
+            },
+            "publication_12_image": "/images/publications/ukraines_success.jpg",
+            "publication_12_title": {
+                "en": "Ukrainian strike destroys major Russian Black Sea Fleet ship in Sevastopol",
+                "uk": "Український удар знищив великий корабель Чорноморського флоту РФ у Севастополі",
+                "es": "Ataque ucraniano destruye un gran buque de la Flota del Mar Negro rusa en Sebastopol"
+            },
+            "publication_12_date": {
+                "en": "October 15, 2024",
+                "uk": "15 жовтня 2024",
+                "es": "15 de octubre de 2024"
+            },
+            "publication_12_text": {
+                "en": "Ukraine's Armed Forces confirmed the destruction of the Russian landing ship 'Novocherkassk' during a precision missile strike on Sevastopol, dealing a significant blow to Russia's naval capabilities in the Black Sea.",
+                "uk": "Збройні сили України підтвердили знищення російського великого десантного корабля «Новочеркаськ» під час точкового ракетного удару по Севастополю, що стало серйозним ударом по морських можливостях РФ у Чорному морі.",
+                "es": "Las Fuerzas Armadas de Ucrania confirmaron la destrucción del buque de desembarco ruso 'Novocherkassk' durante un ataque con misiles de precisión en Sebastopol, asestando un golpe significativo a las capacidades navales de Rusia en el Mar Negro."
             }
         },
-
         "partners": {
-            "partners_title": { "en": "They already trust us", "uk": "Нам вже довіряють", "es": "Ya confían en nosotros" }
+            "partners_title": {
+                "en": "They already trust us",
+                "uk": "Нам вже довіряють",
+                "es": "Ya confían en nosotros"
+            }
         },
-
         "services": {
-            "services_link": { "en": "Services >", "uk": "Послуги >", "es": "Servicios >" },
-            "services_title": { "en": "What can we do better than others?", "uk": "Що ми робимо краще за інших?", "es": "¿Qué podemos hacer mejor que otros?" },
-            "service_it_ecommerce": { "en": "IT and e-commerce", "uk": "IT та електронна комерція", "es": "TI y comercio electrónico" },
+            "services_link": {
+                "en": "Services >",
+                "uk": "Послуги >",
+                "es": "Servicios >"
+            },
+            "services_title": {
+                "en": "What can we do better than others?",
+                "uk": "Що ми робимо краще за інших?",
+                "es": "¿Qué podemos hacer mejor que otros?"
+            },
+            "service_it_ecommerce": {
+                "en": "IT and e-commerce",
+                "uk": "IT та електронна комерція",
+                "es": "TI y comercio electrónico"
+            },
             "service_it_ecommerce_text": {
                 "en": "An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.",
                 "uk": "Нескінченний потік договорів, податкові питання, трудові відносини, корпоративні документи — юридична робота відволікає вас від ведення бізнесу. Але наймати штатного юриста не так вже й складно.",
                 "es": "Un flujo interminable de contratos, temas fiscales, relaciones laborales, documentos corporativos: el trabajo legal te distrae de hacer negocios. Pero no es mucho trabajo contratar a un abogado interno."
             },
-            "service_legal_support": { "en": "Comprehensive daily legal support", "uk": "Комплексна щоденна юридична підтримка", "es": "Soporte legal diario integral" },
+            "service_legal_support": {
+                "en": "Comprehensive daily legal support",
+                "uk": "Комплексна щоденна юридична підтримка",
+                "es": "Soporte legal diario integral"
+            },
             "service_legal_support_text": {
                 "en": "In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.",
                 "uk": "З часом робота стане одноманітною і нецікавою штатному юристу. І ми добре знаємо, як складно знайти хорошого кандидата з досвідом в IT-сфері в Україні.",
                 "es": "Además, con el tiempo, el trabajo se volverá monótono y poco interesante para un abogado a tiempo completo. Y sabemos muy bien lo difícil que es encontrar un buen candidato con experiencia en tecnología de la información en Ucrania."
             },
-            "service_corporate_structuring": { "en": "Structuring corporate relationships", "uk": "Структурування корпоративних відносин", "es": "Estructuración de relaciones corporativas" },
+            "service_corporate_structuring": {
+                "en": "Structuring corporate relationships",
+                "uk": "Структурування корпоративних відносин",
+                "es": "Estructuración de relaciones corporativas"
+            },
             "service_corporate_structuring_text": {
                 "en": "Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.",
                 "uk": "Замість просто надання юридичних послуг, ми залучимо юриста чи команду, які стануть частиною щоденного життя вашої компанії.",
                 "es": "En lugar de solo brindar servicios legales, contrataremos a un abogado o a todo un equipo que se integrará en la vida diaria de su empresa."
             },
-            "service_contract_relations": { "en": "Building contractual relations", "uk": "Побудова договірних відносин", "es": "Construcción de relaciones contractuales" },
+            "service_contract_relations": {
+                "en": "Building contractual relations",
+                "uk": "Побудова договірних відносин",
+                "es": "Construcción de relaciones contractuales"
+            },
             "service_contract_relations_text": {
                 "en": "Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.",
                 "uk": "Щотижня або через місяць у вас буде власний юрист поруч. Кожен у компанії може зустріти його біля кавоварки та поговорити про поточні справи замість очікування оновлення статусу.",
                 "es": "Una vez a la semana, o semana tras mes, tienes a tu propio abogado a tu lado. Cualquiera en la empresa puede encontrarlo junto a la cafetera y simplemente hablar sobre asuntos actuales en lugar de esperar la actualización del estado."
             },
-            "service_business_protection": { "en": "Protection of business, intellectual property", "uk": "Захист бізнесу та інтелектуальної власності", "es": "Protección del negocio y propiedad intelectual" },
+            "service_business_protection": {
+                "en": "Protection of business, intellectual property",
+                "uk": "Захист бізнесу та інтелектуальної власності",
+                "es": "Protección del negocio y propiedad intelectual"
+            },
             "service_business_protection_text": {
                 "en": "And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.",
                 "uk": "Весь інший час він працюватиме над новими проєктами, тож точно не зупиниться в професійному розвитку. В будь-якому випадку всі Axon Partners працюватимуть за вас замість корпоративного юриста.",
                 "es": "Y todo el tiempo restante trabajará en nuevos proyectos diversos, por lo que definitivamente no se detendrá en el desarrollo profesional. De una forma u otra, todos los Axon Partners trabajarán para usted en lugar de un abogado corporativo."
             },
-            "service_judicial_representation": { "en": "Judicial representation", "uk": "Судове представництво", "es": "Representación judicial" },
+            "service_judicial_representation": {
+                "en": "Judicial representation",
+                "uk": "Судове представництво",
+                "es": "Representación judicial"
+            },
             "service_judicial_representation_text": {
                 "en": "Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?",
                 "uk": "Чи це мала, середня компанія або лідер ринку? Локальний бізнес чи міжнародна компанія? Чи маєте власний юридичний відділ чи ні?",
                 "es": "¿Es una empresa pequeña, mediana o líder del mercado? ¿Negocio local o multinacional? ¿Tiene su propio departamento legal o no?"
             }
+        },
+        "form": {
+            "form_title": {
+                "en": "We would like to help you",
+                "uk": "Ми хочемо вам допомогти",
+                "es": "Nos gustaría ayudarle"
+            },
+            "name_placeholder": {
+                "en": "Name",
+                "uk": "Ім'я",
+                "es": "Nombre"
+            },
+            "message_placeholder": {
+                "en": "Message",
+                "uk": "Повідомлення",
+                "es": "Mensaje"
+            },
+            "how_to_answer_you": {
+                "en": "how to answer you",
+                "uk": "як з вами зв’язатися",
+                "es": "cómo responderle"
+            },
+            "tel_placeholder": {
+                "en": "Phone number",
+                "uk": "Номер телефону",
+                "es": "Número de teléfono"
+            },
+            "email_placeholder": {
+                "en": "Email",
+                "uk": "Електронна пошта",
+                "es": "Correo electrónico"
+            },
+            "form_submit": {
+                "en": "Send message",
+                "uk": "Надіслати повідомлення",
+                "es": "Enviar mensaje"
+            }
         }
     },
-
     "pages": {
-
         "homepage": {
             "slogan": {
                 "en": "your legal solutions provider",
@@ -166,7 +408,11 @@
                 "es": "Desplazar hacia abajo"
             },
             "quality_1": {
-                "label": { "en": "Consistent", "uk": "Послідовні", "es": "Consistente" },
+                "label": {
+                    "en": "Consistent",
+                    "uk": "Послідовні",
+                    "es": "Consistente"
+                },
                 "title": {
                     "en": "We turn the idea of legal services",
                     "uk": "Ми втілюємо ідею юридичних послуг",
@@ -179,7 +425,11 @@
                 }
             },
             "quality_2": {
-                "label": { "en": "Customer oriented", "uk": "Орієнтовані на клієнта", "es": "Orientado al cliente" },
+                "label": {
+                    "en": "Customer oriented",
+                    "uk": "Орієнтовані на клієнта",
+                    "es": "Orientado al cliente"
+                },
                 "title": {
                     "en": "Focused on customer success",
                     "uk": "Сфокусовані на успіху клієнта",
@@ -192,7 +442,11 @@
                 }
             },
             "quality_3": {
-                "label": { "en": "Innovative", "uk": "Інноваційні", "es": "Innovador" },
+                "label": {
+                    "en": "Innovative",
+                    "uk": "Інноваційні",
+                    "es": "Innovador"
+                },
                 "title": {
                     "en": "Driving innovation in legal practice",
                     "uk": "Впроваджуємо інновації в юридичну практику",
@@ -205,7 +459,11 @@
                 }
             },
             "quality_4": {
-                "label": { "en": "Business oriented", "uk": "Орієнтовані на бізнес", "es": "Orientado a negocios" },
+                "label": {
+                    "en": "Business oriented",
+                    "uk": "Орієнтовані на бізнес",
+                    "es": "Orientado a negocios"
+                },
                 "title": {
                     "en": "Aligning legal solutions with business goals",
                     "uk": "Поєднуємо юридичні рішення з бізнес-цілями",
@@ -217,29 +475,50 @@
                     "es": "Ayudamos a las empresas a navegar por complejidades legales mientras apoyamos el crecimiento y la estrategia. Nuestra experiencia asegura soporte legal que impulsa el éxito."
                 }
             },
-            "slider_team_link": { "en": "Team >", "uk": "Команда >", "es": "Equipo >" },
+            "slider_team_link": {
+                "en": "Team >",
+                "uk": "Команда >",
+                "es": "Equipo >"
+            },
             "slider_title": {
                 "en": "We are used to taking responsibility and always guarantee honest, timely assistance — even in situations where most are powerless.",
                 "uk": "Ми звикли брати відповідальність і завжди гарантуємо чесну, своєчасну допомогу — навіть у ситуаціях, де більшість безсила.",
                 "es": "Estamos acostumbrados a asumir la responsabilidad y siempre garantizamos asistencia honesta y oportuna, incluso en situaciones donde la mayoría está indefensa."
             },
-            "slider_name": { "en": "Oleksandr Oleksandrovskiy", "uk": "Олександр Олександровський", "es": "Oleksandr Oleksandrovskiy" },
-            "slider_role": { "en": "Managing Partner", "uk": "Генеральний партнер", "es": "Socio gerente" }
+            "slider_name": {
+                "en": "Oleksandr Oleksandrovskiy",
+                "uk": "Олександр Олександровський",
+                "es": "Oleksandr Oleksandrovskiy"
+            },
+            "slider_role": {
+                "en": "Managing Partner",
+                "uk": "Генеральний партнер",
+                "es": "Socio gerente"
+            }
         },
-
-
-
+        "services": {
+            "page_title": {
+                "en": "services",
+                "uk": "послуги",
+                "es": "servicios"
+            }
+        },
         "service_entry": {
-            "consultation_button": { "en": "Free consultation", "uk": "Безкоштовна консультація", "es": "Consulta gratuita" },
-            "services_list_title": { "en": "Services in this area:", "uk": "Послуги в цій сфері:", "es": "Servicios en esta área:" },
-            "form_title": { "en": "We would like to help you", "uk": "Ми хочемо вам допомогти", "es": "Nos gustaría ayudarle" },
-            "name_placeholder": { "en": "Name", "uk": "Ім'я", "es": "Nombre" },
-            "message_placeholder": { "en": "Message", "uk": "Повідомлення", "es": "Mensaje" },
-            "how_to_answer_you": { "en": "how to answer you", "uk": "як з вами зв’язатися", "es": "cómo responderle" },
-            "tel_placeholder": { "en": "Phone number", "uk": "Номер телефону", "es": "Número de teléfono" },
-            "email_placeholder": { "en": "Email", "uk": "Електронна пошта", "es": "Correo electrónico" },
-            "form_submit": { "en": "Send message", "uk": "Надіслати повідомлення", "es": "Enviar mensaje" },
-
+            "page_title": {
+                "en": "services",
+                "uk": "послуги",
+                "es": "servicios"
+            },
+            "consultation_button": {
+                "en": "Free consultation",
+                "uk": "Безкоштовна консультація",
+                "es": "Consulta gratuita"
+            },
+            "services_list_title": {
+                "en": "Services in this area:",
+                "uk": "Послуги в цій сфері:",
+                "es": "Servicios en esta área:"
+            },
             "ecommerce": {
                 "service_image": "../images/services_icons/ecommerce.svg",
                 "service_name": {
@@ -298,7 +577,6 @@
                     "es": "apelaciones contra acciones relacionadas con la imposición ilegal de servicios en el puerto por parte de empresas monopolistas."
                 }
             },
-
             "legal_support": {
                 "service_image": "../images/services_icons/support.svg",
                 "service_name": {
@@ -357,7 +635,6 @@
                     "es": "Representación ante autoridades estatales"
                 }
             },
-
             "corporate_structuring": {
                 "service_image": "../images/services_icons/corporate.svg",
                 "service_name": {
@@ -416,8 +693,6 @@
                     "es": "Optimización de la estructura fiscal"
                 }
             },
-
-
             "contract_relations": {
                 "service_image": "../images/services_icons/trust.svg",
                 "service_name": {
@@ -476,8 +751,6 @@
                     "es": "Adaptación de contratos a los cambios legislativos"
                 }
             },
-
-
             "business_protection": {
                 "service_image": "../images/services_icons/protection.svg",
                 "service_name": {
@@ -536,8 +809,6 @@
                     "es": "Representación en litigios por infracción"
                 }
             },
-
-
             "judicial_representation": {
                 "service_image": "../images/services_icons/court.svg",
                 "service_name": {
@@ -596,7 +867,1357 @@
                     "es": "Asistencia en procesos de mediación"
                 }
             }
+        },
+        "publications": {
+            "page_title": {
+                "en": "publications",
+                "uk": "публікації",
+                "es": "publicaciones"
+            },
+            "show_more_button": {
+                "en": "More publication",
+                "uk": "Більше публікацій",
+                "es": "Más publicaciones"
+            },
+            "show_less_button": {
+                "en": "Less publication",
+                "uk": "Менше публікацій",
+                "es": "Menos publicaciones"
+            },
+            "toggle_news": {
+                "en": "news",
+                "uk": "новини",
+                "es": "noticias"
+            },
+            "toggle_articles": {
+                "en": "articles",
+                "uk": "статті",
+                "es": "artículos"
+            }
+        },
+        "publication_entry": {
+            "page_title": {
+                "en": "publications",
+                "uk": "публікації",
+                "es": "publicaciones"
+            },
+            "equity_associate": {
+                "header_image": "/images/publication_page/equity.jpg",
+                "title": {
+                    "en": "Equity associate",
+                    "uk": "Асоційований партнер із часткою",
+                    "es": "Asociado de capital"
+                },
+                "date": {
+                    "en": "april 22",
+                    "uk": "22 квітня",
+                    "es": "22 de abril"
+                },
+                "article_text_part1": {
+                    "en": "I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I chose law, I would always have a solid foundation in life. At first, I thought of it as just another profession, but over time I realized that law is both business and responsibility.",
+                    "uk": "Я займаюся проєктами і є співвласником юридичної фірми. Як це сталося. Перед вступом мої батьки сказали, що якщо я оберу право, завжди матиму міцну основу в житті. Спочатку я сприймав це як чергову професію, але згодом зрозумів, що право — це і бізнес, і відповідальність.",
+                    "es": "Estoy involucrado en proyectos y soy copropietario de un bufete de abogados. Cómo sucedió. Antes de ingresar, mis padres me dijeron que si elegía derecho, siempre tendría una base sólida en la vida. Al principio lo veía como otra profesión más, pero con el tiempo me di cuenta de que el derecho es tanto un negocio como una responsabilidad."
+                },
+                "article_text_part2": {
+                    "en": "Becoming an equity associate was not an instant process. At first, I was simply involved in supporting senior partners with research and client preparation. But gradually, I started taking on more responsibility, proving that I could bring value beyond routine work. At some point, the firm offered me a share, and that was the turning point.",
+                    "uk": "Стати асоційованим партнером із часткою було нелегко. Спочатку я допомагав старшим партнерам із дослідженнями та підготовкою клієнтів. Але з часом я брав на себе все більше відповідальності та доводив, що можу створювати цінність не лише в рутинній роботі. Зрештою фірма запропонувала мені долю, і це стало переломним моментом.",
+                    "es": "Convertirse en asociado de capital no fue un proceso instantáneo. Al principio, simplemente apoyaba a los socios sénior con investigaciones y preparación de clientes. Pero gradualmente comencé a asumir más responsabilidades, demostrando que podía aportar valor más allá del trabajo rutinario. En un momento, la firma me ofreció una participación, y ese fue el punto de inflexión."
+                },
+                "side_note": {
+                    "en": "Equity associates are not just employees — they are partial owners, which means they share both risks and rewards.",
+                    "uk": "Асоційовані партнери — це не просто працівники, вони є частковими власниками, а це означає, що вони розподіляють і ризики, і винагороду.",
+                    "es": "Los asociados de capital no son solo empleados, son copropietarios parciales, lo que significa que comparten tanto los riesgos como las recompensas."
+                },
+                "key_issues": {
+                    "en": "The main differences between equity and non-equity associates are usually focused on two aspects:",
+                    "uk": "Основні відмінності між партнером із часткою та партнером без частки зазвичай зосереджені на двох аспектах:",
+                    "es": "Las principales diferencias entre asociados con participación y sin participación suelen centrarse en dos aspectos:"
+                },
+                "key_issues__element1": {
+                    "en": "Level of financial involvement — equity associates invest in the firm and participate in profit-sharing.",
+                    "uk": "Рівень фінансової участі — асоційовані партнери інвестують у фірму та беруть участь у розподілі прибутку.",
+                    "es": "Nivel de participación financiera: los asociados de capital invierten en la firma y participan en la distribución de beneficios."
+                },
+                "key_issues__element2": {
+                    "en": "Level of responsibility — they influence decisions, client strategies, and long-term development of the firm.",
+                    "uk": "Рівень відповідальності — вони впливають на прийняття рішень, стратегії роботи з клієнтами та довгостроковий розвиток фірми.",
+                    "es": "Nivel de responsabilidad: influyen en las decisiones, las estrategias con los clientes y el desarrollo a largo plazo de la firma."
+                },
+                "article_text_part3": {
+                    "en": "This role changed my attitude towards work. I began to understand that every client and every case is not only a professional challenge but also a direct impact on the financial stability of the company. That feeling pushes you to work more carefully, double-check strategies, and be more attentive to details.",
+                    "uk": "Ця роль змінила моє ставлення до роботи. Я почав розуміти, що кожен клієнт і кожна справа — це не лише професійний виклик, а й прямий вплив на фінансову стабільність компанії. Це відчуття спонукає працювати ретельніше, перевіряти стратегії та звертати увагу на дрібниці.",
+                    "es": "Este rol cambió mi actitud hacia el trabajo. Empecé a comprender que cada cliente y cada caso no solo son un desafío profesional, sino también un impacto directo en la estabilidad financiera de la empresa. Esta sensación te impulsa a trabajar con más cuidado, revisar las estrategias dos veces y prestar más atención a los detalles."
+                },
+                "context_image": "/images/publication_page/equity_context.jpg",
+                "context_text": {
+                    "en": "Equity associates are more than legal experts — they are stakeholders in the firm’s future. This role blends ownership with strategic influence, making every decision matter.",
+                    "uk": "Асоційовані партнери із часткою — це не просто юристи, а співвласники майбутнього фірми. Їхня роль поєднує відповідальність за розвиток із стратегічним впливом, де кожне рішення має значення.",
+                    "es": "Los asociados de capital son más que expertos legales: son partícipes del futuro de la firma. Este rol combina propiedad con influencia estratégica, haciendo que cada decisión cuente."
+                },
+                "article_text_part4": {
+                    "en": "Still, being an equity associate is not only about prestige. There are evenings when work piles up endlessly, weekends that disappear under contracts, and constant pressure from clients who expect perfection. And yet, all of this becomes part of your own story, because the results directly affect you.",
+                    "uk": "Втім, бути асоційованим партнером із часткою — це не лише престиж. Є вечори, коли робота накопичується нескінченно, вихідні, що зникають під договорами, і постійний тиск з боку клієнтів, які очікують досконалості. І все це стає частиною твоєї власної історії, бо результати безпосередньо впливають на тебе.",
+                    "es": "Sin embargo, ser un asociado de capital no solo se trata de prestigio. Hay noches en las que el trabajo se acumula sin cesar, fines de semana que desaparecen entre contratos y una presión constante de clientes que esperan la perfección. Y aun así, todo esto se convierte en parte de tu propia historia, porque los resultados te afectan directamente."
+                },
+                "conclusion": {
+                    "en": "So what is it really like to be an equity associate?",
+                    "uk": "Отже, яким насправді є життя асоційованого партнера із часткою?",
+                    "es": "Entonces, ¿cómo es realmente ser un asociado de capital?"
+                },
+                "article_text_part5": {
+                    "en": "It is a balance between growth and responsibility. On the one hand, you feel more freedom because you are not just an employee. On the other hand, you are tied to the long-term fate of the firm, and that adds weight to every decision you make.",
+                    "uk": "Це баланс між зростанням і відповідальністю. З одного боку, відчуваєш більше свободи, оскільки ти не просто працівник. З іншого боку, ти пов’язаний із довгостроковою долею фірми, і це додає ваги кожному твоєму рішенню.",
+                    "es": "Es un equilibrio entre crecimiento y responsabilidad. Por un lado, sientes más libertad porque no eres solo un empleado. Por otro lado, estás vinculado al destino a largo plazo de la firma, y eso añade peso a cada decisión que tomas."
+                },
+                "article_text_part6": {
+                    "en": "Looking back, I realize that my parents were right — law gave me stability. But the real difference came when I became a co-owner. It changed not only my career path but also my mindset: from thinking about tasks to thinking about the future of the whole firm.",
+                    "uk": "Оглядаючись назад, я розумію, що мої батьки були праві — юриспруденція дала мені стабільність. Але справжня різниця настала, коли я став співвласником. Це змінило не лише мій кар’єрний шлях, а й мій світогляд: від мислення про завдання до думок про майбутнє всієї фірми.",
+                    "es": "Al mirar atrás, me doy cuenta de que mis padres tenían razón: el derecho me dio estabilidad. Pero la verdadera diferencia llegó cuando me convertí en copropietario. Cambió no solo mi trayectoria profesional, sino también mi mentalidad: de pensar en las tareas a pensar en el futuro de toda la firma."
+                }
+            },
+            "gdpr": {
+                "header_image": "/images/publication_page/gdpr.jpg",
+                "title": {
+                    "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
+                    "uk": "Штраф для «доброго» корпорації: що чекає на Google та інших за порушення GDPR",
+                    "es": "Multa para la buena corporación: qué pasará con Google y otros por violar el GDPR"
+                },
+                "date": {
+                    "en": "September 29",
+                    "uk": "29 вересня",
+                    "es": "29 de septiembre"
+                },
+                "article_text_part1": {
+                    "en": "On January 21, the French National Data Protection Commission (CNIL) announced on its website that it had fined Google for violating the EU's General Data Protection Regulation (GDPR). It took six months for the EU countries to make a quality level-up in the amount of fines for non-compliance with this standard. Prior to that, the fine was mainly € 20,000-30,000, with the largest fine amounting to € 400,000 and related to a hospital in Portugal. But this precedent is interesting not so much the amount of the fine as the rigidity of the regulator's approaches. Denis Beregovyi, Axon Partners, explains why, especially for Mind.",
+                    "uk": "21 січня Французька національна комісія з захисту даних (CNIL) повідомила на своєму веб-сайті, що оштрафувала Google за порушення Загального регламенту захисту даних ЄС (GDPR). Після набуття чинності регламенту пройшло шість місяців, перш ніж країни ЄС збільшили розміри штрафів за невідповідність цьому стандарту. Раніше штрафи переважно становили €20 000–30 000, а найбільший штраф у розмірі €400 000 стосувався лікарні в Португалії. Однак цей прецедент цікавий не стільки розміром штрафу, скільки жорсткістю підходів регулятора. Денис Береговий з Axon Partners пояснює, чому, особливо для Mind.",
+                    "es": "El 21 de enero, la Comisión Nacional de Protección de Datos de Francia (CNIL) anunció en su sitio web que había multado a Google por violar el Reglamento General de Protección de Datos (GDPR) de la UE. Pasaron seis meses para que los países de la UE aumentaran significativamente el importe de las multas por incumplimiento de esta norma. Antes de eso, la multa era principalmente de €20 000–30 000, siendo la multa más alta de €400 000 y relacionada con un hospital en Portugal. Pero este precedente es interesante no tanto por la cuantía de la multa como por la rigurosidad de los enfoques del regulador. Denis Beregovyi, de Axon Partners, explica por qué, especialmente para Mind."
+                },
+                "article_text_part2": {
+                    "en": "For what? The group complaints against Google arrived at CNIL on the same day that the GDPR came into force. The complainants reported that Google processed users' personal data without due cause, in particular to create personalized advertising offers.",
+                    "uk": "За що? Групові скарги на Google надійшли до CNIL у той самий день, коли набув чинності GDPR. Скаржники повідомили, що Google обробляв персональні дані користувачів без обґрунтованих підстав, зокрема для створення персоналізованих рекламних пропозицій.",
+                    "es": "¿Por qué? Las denuncias colectivas contra Google llegaron a la CNIL el mismo día en que entró en vigor el GDPR. Los demandantes informaron que Google procesaba datos personales de los usuarios sin causa justificada, en particular para crear ofertas publicitarias personalizadas."
+                },
+                "side_note": {
+                    "en": "To the attention of Ukrainian security officers: the inspection was conducted online, without searches, without seizure of servers or other visible interference for business. And so it was possible.",
+                    "uk": "До уваги українських правоохоронців: перевірка проводилася онлайн, без обшуків, без вилучення серверів та іншого видимого втручання в бізнес. І так це було можливо.",
+                    "es": "Para atención de los oficiales de seguridad ucranianos: la inspección se realizó en línea, sin registros, sin incautación de servidores ni otra interferencia visible en el negocio. Y así fue posible."
+                },
+                "key_issues": {
+                    "en": "According to the results of CNIL inspections revealed violations of two requirements of the GDPR:",
+                    "uk": "За результатами перевірок CNIL було виявлено порушення двох вимог GDPR:",
+                    "es": "Según los resultados de las inspecciones de la CNIL, se revelaron violaciones de dos requisitos del GDPR:"
+                },
+                "key_issues__element1": {
+                    "en": "Transparency and awareness of users about the processing of personal data.",
+                    "uk": "Прозорість та обізнаність користувачів щодо обробки персональних даних.",
+                    "es": "Transparencia y concienciación de los usuarios sobre el tratamiento de datos personales."
+                },
+                "key_issues__element2": {
+                    "en": "Lack of proper user consent for the processing of personal data for the purpose of personalizing advertising.",
+                    "uk": "Відсутність належної згоди користувача на обробку персональних даних з метою персоналізації реклами.",
+                    "es": "Falta de consentimiento adecuado del usuario para el tratamiento de datos personales con fines de personalización publicitaria."
+                },
+                "article_text_part3": {
+                    "en": "In the case of personalization of advertising, Google was sure to obtain the consent of users, because, firstly, when creating Google accounts, the user agrees to the Privacy Policy, and secondly, Google has a section “Ads personalization”, where you can disable this feature.",
+                    "uk": "У випадку персоналізації реклами Google був упевнений, що отримав згоду користувачів, оскільки, по-перше, при створенні облікового запису Google користувач погоджується з Політикою конфіденційності, а по-друге, Google має розділ «Персоналізація реклами», де цю функцію можна вимкнути.",
+                    "es": "En el caso de la personalización de anuncios, Google estaba seguro de contar con el consentimiento de los usuarios, porque, en primer lugar, al crear una cuenta de Google, el usuario acepta la Política de privacidad, y en segundo lugar, Google dispone de la sección «Personalización de anuncios», donde se puede desactivar esta función."
+                },
+                "context_image": "/images/publication_page/gdpr_context.jpg",
+                "context_text": {
+                    "en": "This is what the ad personalization settings window in your Google Account looks like",
+                    "uk": "Ось як виглядає вікно налаштувань персоналізації реклами у вашому обліковому записі Google",
+                    "es": "Así es como se ve la ventana de configuración de personalización de anuncios en tu cuenta de Google"
+                },
+                "article_text_part4": {
+                    "en": "However, CNIL does not think so, because the information about the personalization of advertising is not clear enough to users. As an example, the Commission claims that the relevant Personalization window does not contain information on the full range of Google services that collect and process personal data for this purpose (YouTube, Google search, Play Store, Google pictures, Gmail, etc.). ), and therefore, the user cannot realize to what extent the data is used and how exactly they can be combined.",
+                    "uk": "Однак CNIL так не вважає, оскільки інформація про персоналізацію реклами недостатньо зрозуміла для користувачів. Наприклад, Комісія стверджує, що відповідне вікно «Персоналізація» не містить інформації про повний перелік сервісів Google, які збирають та обробляють персональні дані для цієї мети (YouTube, пошук Google, Play Store, Google Фото, Gmail тощо), і тому користувач не може усвідомити, в якій мірі дані використовуються та як саме їх можна поєднувати.",
+                    "es": "Sin embargo, la CNIL no lo cree así, porque la información sobre la personalización de anuncios no es lo suficientemente clara para los usuarios. Como ejemplo, la Comisión afirma que la ventana de Personalización relevante no contiene información sobre toda la gama de servicios de Google que recopilan y procesan datos personales para este propósito (YouTube, búsqueda de Google, Play Store, Google Fotos, Gmail, etc.), y por lo tanto, el usuario no puede comprender hasta qué punto se utilizan los datos y cómo exactamente se pueden combinar."
+                },
+                "conclusion": {
+                    "en": "So, let's walk through the text of the CNIL decision",
+                    "uk": "Отже, давайте пройдемося текстом рішення CNIL",
+                    "es": "Así que reparemos en el texto de la decisión de la CNIL"
+                },
+                "article_text_part5": {
+                    "en": "Why France and not Ireland. Google operates in Europe through a legal entity in Ireland. But the case was not initiated by the Irish, but by the French regulator. This is why it happened.",
+                    "uk": "Чому Франція, а не Ірландія. Google діє в Європі через юридичну особу в Ірландії. Але справа була ініційована не ірландцями, а французьким регулятором. Ось чому це сталося.",
+                    "es": "Por qué Francia y no Irlanda. Google opera en Europa a través de una entidad legal en Irlanda. Pero el caso no fue iniciado por los irlandeses, sino por el regulador francés. Por eso sucedió."
+                },
+                "article_text_part6": {
+                    "en": "If data processing decisions are taken anywhere outside the EU, there is a one-stop mechanism - where the complaint is received, the body considers it. Because Google's data processing center is located in the United States and the complaint was first received in France, CNIL considered it.",
+                    "uk": "Якщо рішення щодо обробки даних приймаються будь-де за межами ЄС, діє механізм єдиного вікна — там, де надходить скарга, орган її розглядає. Оскільки центр обробки даних Google розташований у Сполучених Штатах і скарга була спочатку отримана у Франції, саме CNIL її розглянула.",
+                    "es": "Si las decisiones sobre el tratamiento de datos se toman fuera de la UE, existe un mecanismo de ventanilla única: donde se recibe la denuncia, el organismo la examina. Dado que el centro de procesamiento de datos de Google está ubicado en Estados Unidos y la denuncia se recibió primero en Francia, la CNIL la consideró."
+                }
+            },
+            "millennials": {
+                "header_image": "/images/publication_page/milennials.jpg",
+                "title": {
+                    "en": "Millennial Testament",
+                    "uk": "Спадок міленіалів",
+                    "es": "Testamento millennial"
+                },
+                "date": {
+                    "en": "august 19",
+                    "uk": "19 серпня",
+                    "es": "19 de agosto"
+                },
+                "article_text_part1": {
+                    "en": "What and how modern vloggers, opinion leaders and crypto-millionaires will inherit. A typical legacy of the Ukrainian generation X looks like this: an apartment in a residential block, sometimes a car, and perhaps a dacha. But the new generation has a completely different picture of wealth and inheritance.",
+                    "uk": "Що і як успадковуватимуть сучасні влогери, лідери думок та криптомільйонери. Типова спадщина українського покоління X виглядає так: квартира в багатоповерхівці, іноді автомобіль і, можливо, дача. Але нове покоління має зовсім інше уявлення про багатство та спадок.",
+                    "es": "Qué y cómo heredarán los vloggers modernos, líderes de opinión y cripto-millonarios. El legado típico de la generación X ucraniana se ve así: un apartamento en un bloque residencial, a veces un coche y quizás una casa de campo. Pero la nueva generación tiene una visión completamente diferente de la riqueza y la herencia."
+                },
+                "article_text_part2": {
+                    "en": "Millennials and Gen Z often build their assets in the digital world: cryptocurrency wallets, monetized YouTube channels, collections of NFTs, or even brand identities on social media platforms. Unlike physical property, these assets can be harder to evaluate and even harder to pass on legally.",
+                    "uk": "Міленіали та покоління Z часто створюють свої активи у цифровому світі: криптовалютні гаманці, монетизовані YouTube-канали, колекції NFT або навіть брендові ідентичності в соцмережах. На відміну від фізичної власності, ці активи складніше оцінити і ще складніше передати юридично.",
+                    "es": "Los millennials y la generación Z suelen construir sus activos en el mundo digital: billeteras de criptomonedas, canales de YouTube monetizados, colecciones de NFTs o incluso identidades de marca en redes sociales. A diferencia de la propiedad física, estos activos pueden ser más difíciles de evaluar y aún más difíciles de heredar legalmente."
+                },
+                "side_note": {
+                    "en": "Digital inheritance is becoming one of the fastest-growing challenges for notaries and legal systems worldwide.",
+                    "uk": "Цифрова спадщина стає одним із найшвидше зростаючих викликів для нотаріусів та правових систем у всьому світі.",
+                    "es": "La herencia digital se está convirtiendo en uno de los desafíos de más rápido crecimiento para notarios y sistemas legales en todo el mundo."
+                },
+                "key_issues": {
+                    "en": "The inheritance of digital and unconventional assets raises at least two key issues:",
+                    "uk": "Успадкування цифрових та нетрадиційних активів порушує щонайменше дві ключові проблеми:",
+                    "es": "La herencia de activos digitales y no convencionales plantea al menos dos cuestiones clave:"
+                },
+                "key_issues__element1": {
+                    "en": "Legal recognition — many countries still do not have clear frameworks for treating digital assets as part of an estate.",
+                    "uk": "Юридичне визнання — багато країн досі не мають чітких механізмів для включення цифрових активів до складу спадщини.",
+                    "es": "Reconocimiento legal — muchos países aún no tienen marcos claros para tratar los activos digitales como parte de una herencia."
+                },
+                "key_issues__element2": {
+                    "en": "Technical access — even if heirs are legally entitled, without passwords or keys these assets may remain locked forever.",
+                    "uk": "Технічний доступ — навіть якщо спадкоємці мають юридичне право, без паролів або ключів ці активи можуть залишитися заблокованими назавжди.",
+                    "es": "Acceso técnico — incluso si los herederos tienen derecho legal, sin contraseñas o claves estos activos pueden quedar bloqueados para siempre."
+                },
+                "article_text_part3": {
+                    "en": "Imagine inheriting a YouTube channel with millions of subscribers or a TikTok account that generates stable advertising income. These are not just personal pages but media businesses. The same goes for digital wallets: without proper legal and technical preparation, they can vanish into the void after the owner's death.",
+                    "uk": "Уявіть, що ви успадковуєте YouTube-канал із мільйонами підписників або TikTok-акаунт, який стабільно приносить рекламний дохід. Це не просто особисті сторінки — це медіабізнеси. Те саме стосується цифрових гаманців: без належної юридичної та технічної підготовки вони можуть зникнути в небуття після смерті власника.",
+                    "es": "Imagina heredar un canal de YouTube con millones de suscriptores o una cuenta de TikTok que genera ingresos publicitarios estables. No son solo páginas personales, sino negocios mediáticos. Lo mismo ocurre con las billeteras digitales: sin preparación legal y técnica adecuada, pueden desaparecer tras la muerte del propietario."
+                },
+                "context_image": "/images/publication_page/milennials_context.jpg",
+                "context_text": {
+                    "en": "Possible illustration: a symbolic digital safe, a social media dashboard, or a stylized wallet with cryptocurrency icons. These assets may be invisible — but they’re real, valuable, and increasingly permanent.",
+                    "uk": "Можливе зображення: символічний цифровий сейф, панель керування соцмережами або стилізований гаманець із криптоіконками. Ці активи можуть бути невидимими — але вони реальні, цінні й дедалі більш постійні.",
+                    "es": "Ilustración posible: una caja fuerte digital simbólica, un panel de redes sociales o una billetera estilizada con íconos de criptomonedas. Estos activos pueden ser invisibles, pero son reales, valiosos y cada vez más permanentes."
+                },
+                "article_text_part4": {
+                    "en": "Some millennials already include their digital assets in wills. Services are emerging that allow secure transfer of passwords, crypto keys, and account access. Yet, many still ignore this issue, thinking their online presence is temporary — while in reality it can outlive them and hold real value.",
+                    "uk": "Деякі міленіали вже включають цифрові активи до заповітів. З’являються сервіси, які дозволяють безпечно передавати паролі, криптоключі та доступ до акаунтів. Проте багато хто досі ігнорує це питання, вважаючи свою онлайн-присутність тимчасовою — хоча насправді вона може пережити їх і мати реальну цінність.",
+                    "es": "Algunos millennials ya incluyen sus activos digitales en testamentos. Están surgiendo servicios que permiten la transferencia segura de contraseñas, claves criptográficas y acceso a cuentas. Sin embargo, muchos aún ignoran este tema, pensando que su presencia en línea es temporal, cuando en realidad puede sobrevivirles y tener valor real."
+                },
+                "conclusion": {
+                    "en": "So what will the millennial legacy really look like?",
+                    "uk": "То як виглядатиме спадщина міленіалів насправді?",
+                    "es": "Entonces, ¿cómo será realmente el legado millennial?"
+                },
+                "article_text_part5": {
+                    "en": "Most likely, it will be a hybrid: a mixture of traditional real estate and digital property. An apartment or car may stand alongside an Instagram account with sponsorship contracts or a crypto portfolio worth millions.",
+                    "uk": "Найімовірніше, це буде гібрид: поєднання традиційної нерухомості та цифрової власності. Квартира або автомобіль можуть існувати поруч із Instagram-акаунтом зі спонсорськими контрактами або криптопортфелем на мільйони.",
+                    "es": "Lo más probable es que sea un híbrido: una mezcla de bienes raíces tradicionales y propiedad digital. Un apartamento o coche puede coexistir con una cuenta de Instagram con contratos de patrocinio o una cartera de criptomonedas valorada en millones."
+                },
+                "article_text_part6": {
+                    "en": "The main challenge is that the law is still catching up. But one thing is certain: for millennials, inheritance will no longer be just about bricks and land — it will be about data, platforms, and digital ownership.",
+                    "uk": "Головна проблема — законодавство досі наздоганяє реальність. Але одне зрозуміло: для міленіалів спадщина більше не буде лише про цеглу й землю — вона стосуватиметься даних, платформ і цифрової власності.",
+                    "es": "El principal desafío es que la ley aún está poniéndose al día. Pero una cosa es segura: para los millennials, la herencia ya no será solo ladrillos y tierra, sino datos, plataformas y propiedad digital."
+                }
+            },
+            "language_law": {
+                "header_image": "/images/publication_page/language_law.jpg",
+                "title": {
+                    "en": "Language Law: How to Make Your Website Relevant",
+                    "uk": "Мовний закон: як зробити сайт релевантним",
+                    "es": "Ley de idioma: cómo hacer que tu sitio web sea relevante"
+                },
+                "date": {
+                    "en": "August 19",
+                    "uk": "19 серпня",
+                    "es": "19 de agosto"
+                },
+                "article_text_part1": {
+                    "en": "Natalia Kyryk, head of content studio Wordfactory.ua: First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. In today's digital space, language is not just a formality but an essential tool for connecting with your audience.",
+                    "uk": "Наталія Кирик, керівниця контент-студії Wordfactory.ua: По-перше, це красиво! Це аргумент № 1 на користь сайту українською. По-друге, це ефективно. У сучасному цифровому просторі мова — це не формальність, а важливий інструмент зв’язку з аудиторією.",
+                    "es": "Natalia Kyryk, jefa del estudio de contenido Wordfactory.ua: Primero, ¡es hermoso! Este es el argumento número 1 a favor de un sitio en ucraniano. Segundo, es efectivo. En el espacio digital actual, el idioma no es solo una formalidad, sino una herramienta esencial para conectar con tu audiencia."
+                },
+                "article_text_part2": {
+                    "en": "Ukrainian law now requires websites to provide a Ukrainian version, but beyond the legal obligation, there is also a marketing advantage. A site in the national language creates trust, looks professional, and increases user engagement. For companies, this is not only about compliance but also about building credibility.",
+                    "uk": "Закон України тепер вимагає, щоб сайти мали українську версію, але окрім юридичної вимоги є й маркетингова перевага. Сайт національною мовою формує довіру, виглядає професійно та підвищує залученість користувачів. Для компаній це не лише дотримання закону, а й побудова довіри.",
+                    "es": "La ley ucraniana ahora exige que los sitios web cuenten con una versión en ucraniano, pero más allá de la obligación legal, también existe una ventaja de marketing. Un sitio en el idioma nacional genera confianza, luce profesional y aumenta el compromiso de los usuarios. Para las empresas, esto no solo es cumplimiento, sino también construcción de credibilidad."
+                },
+                "side_note": {
+                    "en": "Compliance with language law can open new market opportunities rather than limit them.",
+                    "uk": "Відповідність мовному закону може відкрити нові ринкові можливості, а не обмежити їх.",
+                    "es": "Cumplir con la ley de idioma puede abrir nuevas oportunidades de mercado en lugar de limitarlas."
+                },
+                "key_issues": {
+                    "en": "Why creating a Ukrainian-language website is important can be summarized in two main points:",
+                    "uk": "Чому створення сайту українською важливе, можна узагальнити двома ключовими пунктами:",
+                    "es": "Por qué crear un sitio web en ucraniano es importante puede resumirse en dos puntos principales:"
+                },
+                "key_issues__element1": {
+                    "en": "It expands your reach — Ukrainian-speaking users are more likely to interact with a website they feel comfortable with.",
+                    "uk": "Розширює охоплення — україномовні користувачі частіше взаємодіють із сайтом, у якому почуваються комфортно.",
+                    "es": "Amplía tu alcance: los usuarios que hablan ucraniano son más propensos a interactuar con un sitio web con el que se sienten cómodos."
+                },
+                "key_issues__element2": {
+                    "en": "It strengthens brand identity — using the national language aligns your business with cultural and social expectations.",
+                    "uk": "Зміцнює бренд — використання національної мови відповідає культурним і соціальним очікуванням.",
+                    "es": "Fortalece la identidad de marca: usar el idioma nacional alinea tu negocio con las expectativas culturales y sociales."
+                },
+                "article_text_part3": {
+                    "en": "Many companies treat localization as a burden, but in reality, it can become a powerful business tool. Users feel respected when addressed in their language. Moreover, search engines also prioritize localized content, meaning higher visibility and better ranking results.",
+                    "uk": "Багато компаній розглядають локалізацію як тягар, але насправді вона може стати потужним бізнес-інструментом. Користувачі відчувають повагу, коли до них звертаються їхньою мовою. Крім того, пошукові системи віддають пріоритет локалізованому контенту, що забезпечує вищу видимість та кращі позиції в пошуку.",
+                    "es": "Muchas empresas ven la localización como una carga, pero en realidad puede convertirse en una poderosa herramienta de negocio. Los usuarios se sienten valorados cuando se les habla en su idioma. Además, los motores de búsqueda también priorizan el contenido localizado, lo que se traduce en mayor visibilidad y mejores posiciones en los resultados."
+                },
+                "context_image": "/images/publication_page/language_law_context.jpg",
+                "context_text": {
+                    "en": "On a lighter note, while we think about digital laws, someone nearby is probably baking fresh bread — and that simple aroma can be just as powerful in connecting people as language online.",
+                    "uk": "І між іншим: поки ми думаємо про цифрові закони, десь поруч печуть свіжий хліб — і цей простий аромат може бути таким же потужним способом поєднати людей, як і мова в інтернеті.",
+                    "es": "Y en una nota más ligera: mientras reflexionamos sobre las leyes digitales, en algún lugar se estará horneando pan fresco, y ese simple aroma puede ser tan poderoso para conectar a las personas como el lenguaje en línea."
+                },
+                "article_text_part4": {
+                    "en": "The implementation of the law does not mean replacing other languages. Bilingual or multilingual platforms remain welcome, especially for international businesses. The crucial point is that Ukrainian should be available and easily accessible to users.",
+                    "uk": "Впровадження цього закону не означає виключати інші мови. Білінгвальні або багатомовні платформи залишаються бажаними, особливо для міжнародного бізнесу. Важливо, щоб українська була доступною та легко зрозумілою для користувачів.",
+                    "es": "La implementación de la ley no significa reemplazar otros idiomas. Las plataformas bilingües o multilingües siguen siendo bienvenidas, especialmente para negocios internacionales. Lo crucial es que el ucraniano esté disponible y sea fácilmente accesible para los usuarios."
+                },
+                "conclusion": {
+                    "en": "So how do you make your website relevant under the new rules?",
+                    "uk": "Отже, як зробити сайт релевантним за новими правилами?",
+                    "es": "Entonces, ¿cómo hacer que tu sitio web sea relevante bajo las nuevas normas?"
+                },
+                "article_text_part5": {
+                    "en": "The process starts with proper content planning: translating and adapting existing material, working with native speakers, and making sure that technical elements of the site (menus, navigation, forms) are also localized. It is not enough to translate — you need to adapt tone, style, and message.",
+                    "uk": "Процес починається з правильного планування контенту: переклад і адаптація наявних матеріалів, робота з носіями мови та впевненість, що технічні елементи сайту (меню, навігація, форми) також локалізовані. Перекласти недостатньо — потрібно адаптувати тон, стиль і меседж.",
+                    "es": "El proceso comienza con una planificación adecuada del contenido: traducir y adaptar el material existente, trabajar con hablantes nativos y asegurarse de que los elementos técnicos del sitio (menús, navegación, formularios) también estén localizados. No basta con traducir: hay que adaptar el tono, el estilo y el mensaje."
+                },
+                "article_text_part6": {
+                    "en": "In the end, the language law is not only a challenge but also a chance to modernize digital presence. For those who embrace it, a Ukrainian-language site can become both a legal safeguard and a competitive advantage.",
+                    "uk": "Зрештою, мовний закон — це не лише виклик, але й можливість модернізувати цифрову присутність. Для тих, хто його прийме, сайт українською може стати і правовим захистом, і конкурентною перевагою.",
+                    "es": "Al final, la ley de idioma no es solo un desafío, sino también una oportunidad para modernizar la presencia digital. Para quienes la adopten, un sitio en ucraniano puede convertirse tanto en una salvaguarda legal como en una ventaja competitiva."
+                }
+            },
+            "tuition": {
+                "header_image": "/images/publication_page/tuition.jpg",
+                "title": {
+                    "en": "Reimbursement of the child's tuition fees in kindergarten and school",
+                    "uk": "Відшкодування вартості навчання дітей у дитячому садку та школі",
+                    "es": "Reembolso de las cuotas de matrícula de niños en jardín de infancia y escuela"
+                },
+                "date": {
+                    "en": "February 5, 2018",
+                    "uk": "5 лютого 2018",
+                    "es": "5 de febrero de 2018"
+                },
+                "article_text_part1": {
+                    "en": "What we are talking about: In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official salary have the right to a tax rebate for the cost of their children's education in kindergartens and schools.",
+                    "uk": "Про що йдеться: У червні цього року Верховна Рада внесла зміни до Податкового кодексу України. Відтепер батьки, які отримують офіційну заробітну плату, мають право на податкове відшкодування витрат на навчання дітей у дитячих садках і школах.",
+                    "es": "De qué hablamos: En junio de este año, la Rada Suprema modificó el Código Tributario de Ucrania. A partir de ahora, los padres que reciban un salario oficial tienen derecho a un reembolso fiscal de los gastos de educación de sus hijos en jardines de infancia y escuelas."
+                },
+                "article_text_part2": {
+                    "en": "This change means that families can partially recover the money they spend on tuition. The tax rebate works similarly to other social deductions: parents submit documents proving the payment for educational services and can receive reimbursement through their annual tax declaration.",
+                    "uk": "Ця зміна означає, що сім'ї можуть частково повернути кошти, витрачені на навчання. Податкове відшкодування працює за тим самим принципом, що й інші соціальні відрахування: батьки подають документи, які підтверджують оплату освітніх послуг, і отримують відшкодування через річну податкову декларацію.",
+                    "es": "Este cambio significa que las familias pueden recuperar parcialmente el dinero que gastan en la matrícula. El reembolso fiscal funciona de manera similar a otras deducciones sociales: los padres presentan documentos que demuestren el pago de servicios educativos y pueden recibirlo a través de su declaración anual de impuestos."
+                },
+                "side_note": {
+                    "en": "The tax rebate does not apply automatically. It requires filing the correct paperwork with the State Fiscal Service.",
+                    "uk": "Податкове відшкодування не надається автоматично. Потрібно подати відповідні документи до Державної фіскальної служби.",
+                    "es": "El reembolso fiscal no se aplica automáticamente. Requiere presentar la documentación correcta ante el Servicio Fiscal Estatal."
+                },
+                "key_issues": {
+                    "en": "Key aspects parents should keep in mind:",
+                    "uk": "Ключові моменти, які батькам слід врахувати:",
+                    "es": "Aspectos clave que los padres deben tener en cuenta:"
+                },
+                "key_issues__element1": {
+                    "en": "Only officially paid tuition qualifies — payments must be documented with contracts and receipts.",
+                    "uk": "Підлягають відшкодуванню лише офіційно сплачені внески — платежі мають бути оформлені договорами та квитанціями.",
+                    "es": "Solo califica la matrícula pagada oficialmente: los pagos deben estar documentados con contratos y recibos."
+                },
+                "key_issues__element2": {
+                    "en": "Reimbursement is capped — you can only claim expenses within the limits defined by the Tax Code.",
+                    "uk": "Відшкодування обмежене — можна заявити лише витрати у межах, встановлених Податковим кодексом.",
+                    "es": "El reembolso tiene un tope: solo se pueden reclamar gastos dentro de los límites definidos por el Código Tributario."
+                },
+                "article_text_part3": {
+                    "en": "For many families, this provides real financial relief. Even partial reimbursement can cover additional classes, extracurricular activities, or simply ease the burden of monthly payments for education. At the same time, it encourages parents to pay officially and avoid unregistered cash transactions.",
+                    "uk": "Для багатьох сімей це справжня фінансова підтримка. Навіть часткове відшкодування може покрити додаткові заняття, позашкільні активності або полегшити щомісячне навантаження витрат на освіту. Водночас це стимулює батьків здійснювати офіційні платежі та уникати незареєстрованих готівкових операцій.",
+                    "es": "Para muchas familias, esto representa un alivio financiero real. Incluso un reembolso parcial puede cubrir clases adicionales, actividades extracurriculares o simplemente aliviar la carga de los pagos mensuales por educación. Al mismo tiempo, anima a los padres a pagar de manera oficial y evitar transacciones en efectivo no registradas."
+                },
+                "context_image": "/images/publication_page/tuition_context.jpg",
+                "context_text": {
+                    "en": "Funny enough, while parents calculate tax rebates, kids often worry only about whether they have enough stickers in their notebooks or if today’s lunch will include their favorite dessert.",
+                    "uk": "Дивно, але поки батьки обчислюють податкове відшкодування, діти зазвичай турбуються лише про те, чи вистачить їм наліпок у зошиті або чи буде сьогодні в обіді їх улюблений десерт.",
+                    "es": "Curiosamente, mientras los padres calculan los reembolsos fiscales, los niños a menudo solo se preocupan por si tienen suficientes pegatinas en sus cuadernos o si el almuerzo de hoy incluirá su postre favorito."
+                },
+                "article_text_part4": {
+                    "en": "The system also benefits the state. By motivating legal payments, the government ensures transparency in the education sector and reduces the shadow economy. Schools and kindergartens also gain, as official payments support their development and modernization.",
+                    "uk": "Система також приносить користь державі. Стимулюючи легальні платежі, уряд забезпечує прозорість у сфері освіти та скорочує тіньову економіку. Школи та дитсадки також виграють, адже офіційні платежі підтримують їх розвиток і модернізацію.",
+                    "es": "El sistema también beneficia al Estado. Al promover pagos legales, el gobierno asegura transparencia en el sector educativo y reduce la economía informal. Las escuelas y jardines de infancia también se benefician, ya que los pagos oficiales respaldan su desarrollo y modernización."
+                },
+                "conclusion": {
+                    "en": "The reimbursement of tuition fees is more than just a financial instrument.",
+                    "uk": "Відшкодування витрат на навчання — це не просто фінансовий інструмент.",
+                    "es": "El reembolso de las tasas de matrícula es más que un instrumento financiero."
+                },
+                "article_text_part5": {
+                    "en": "It is a tool that helps families invest in education, supports transparency in the system, and encourages parents to trust official channels.",
+                    "uk": "Це інструмент, який допомагає сім’ям інвестувати в освіту, сприяє прозорості системи та заохочує батьків довіряти офіційним каналам.",
+                    "es": "Es una herramienta que ayuda a las familias a invertir en educación, respalda la transparencia del sistema y anima a los padres a confiar en los canales oficiales."
+                },
+                "article_text_part6": {
+                    "en": "Ultimately, this reform aligns the interests of parents, schools, and the state — all around the shared goal of making education more accessible and sustainable.",
+                    "uk": "У підсумку ця реформа узгоджує інтереси батьків, шкіл і держави — усіх навколо спільної мети зробити освіту більш доступною та стійкою.",
+                    "es": "En última instancia, esta reforma alinea los intereses de padres, escuelas y el Estado, todos en torno al objetivo compartido de hacer la educación más accesible y sostenible."
+                }
+            },
+            "currency_control": {
+                "header_image": "/images/publication_page/currency_control.jpg",
+                "title": {
+                    "en": "Currency control is dead, long live currency control!",
+                    "uk": "Валютний контроль мертвий, хай живе валютний контроль!",
+                    "es": "¡El control de cambios ha muerto, viva el control de cambios!"
+                },
+                "date": {
+                    "en": "June 14, 2018",
+                    "uk": "14 червня 2018",
+                    "es": "14 de junio de 2018"
+                },
+                "article_text_part1": {
+                    "en": "Experts hold conferences, round tables and other events on 'liberalization of currency legislation.' Lawyers-experts-novelists rub their fingers about 'ctrl + c / ctrl + v'.",
+                    "uk": "Експерти проводять конференції, круглі столи та інші заходи з «лібералізації валютного законодавства». Юристи-експерти-новелісти потирають руки, уявляючи «ctrl + c / ctrl + v».",
+                    "es": "Expertos organizan conferencias, mesas redondas y otros eventos sobre la 'liberalización de la legislación cambiaria'. Abogados-expertos-novelistas se frotan las manos con 'ctrl + c / ctrl + v'."
+                },
+                "article_text_part2": {
+                    "en": "For years, the system of currency regulation in Ukraine was criticized as outdated and overly restrictive. Every foreign transfer, every loan agreement, and even the simplest transactions abroad required approvals and documentation that often discouraged investors and entrepreneurs. The idea of 'currency freedom' seemed distant.",
+                    "uk": "Протягом років систему валютного регулювання в Україні критикували за застарілість і надмірну жорсткість. Кожен іноземний переказ, кожна кредитна угода та навіть найпростіші операції за кордоном вимагали погоджень і документації, що часто відштовхувало інвесторів і підприємців. Ідея «валютної свободи» здавалася недосяжною.",
+                    "es": "Durante años, el sistema de regulación cambiaria en Ucrania fue criticado por ser obsoleto y excesivamente restrictivo. Cada transferencia al extranjero, cada contrato de préstamo e incluso las transacciones más sencillas requerían aprobaciones y documentación que a menudo desalentaban a inversores y emprendedores. La idea de la 'libertad cambiaria' parecía lejana."
+                },
+                "side_note": {
+                    "en": "The shift from strict regulation to controlled flexibility marks a new era.",
+                    "uk": "Перехід від жорсткого регулювання до керованої гнучкості відкриває нову еру.",
+                    "es": "El paso de una regulación estricta a una flexibilidad controlada marca una nueva era."
+                },
+                "key_issues": {
+                    "en": "Main aspects of the reform can be summarized as follows:",
+                    "uk": "Основні аспекти реформи можна підсумувати так:",
+                    "es": "Los aspectos principales de la reforma se pueden resumir de la siguiente manera:"
+                },
+                "key_issues__element1": {
+                    "en": "Greater freedom for businesses and individuals to conduct cross-border transactions.",
+                    "uk": "Більше свободи для бізнесу та приватних осіб у здійсненні транскордонних операцій.",
+                    "es": "Mayor libertad para empresas e individuos para realizar transacciones transfronterizas."
+                },
+                "key_issues__element2": {
+                    "en": "Introduction of risk-based supervision instead of total restrictions on operations.",
+                    "uk": "Впровадження нагляду на основі оцінки ризиків замість тотальних обмежень операцій.",
+                    "es": "Introducción de supervisión basada en riesgos en lugar de restricciones totales a las operaciones."
+                },
+                "article_text_part3": {
+                    "en": "The new law does not abolish oversight but changes its philosophy. Instead of treating every currency transaction as suspicious, the system now focuses on monitoring risks and ensuring transparency. This significantly reduces bureaucracy while still protecting against money laundering and capital flight.",
+                    "uk": "Новий закон не скасовує контроль, а змінює його філософію. Замість того щоб трактувати кожну валютну операцію як підозрілу, система зосереджена на моніторингу ризиків та забезпеченні прозорості. Це значно зменшує бюрократію, водночас захищаючи від відмивання грошей і втечі капіталу.",
+                    "es": "La nueva ley no elimina la supervisión, sino que cambia su filosofía. En lugar de considerar cada operación cambiaria como sospechosa, el sistema se centra en monitorear riesgos y garantizar la transparencia. Esto reduce significativamente la burocracia, sin dejar de proteger contra el lavado de dinero y la fuga de capitales."
+                },
+                "context_image": "/images/publication_page/currency_control_context.jpg",
+                "context_text": {
+                    "en": "Every coin tells a story of trust, value, and change.",
+                    "uk": "Кожна монета розповідає історію довіри, цінності та змін.",
+                    "es": "Cada moneda cuenta una historia de confianza, valor y cambio."
+                },
+                "article_text_part4": {
+                    "en": "For ordinary citizens, this means easier access to foreign currency, simpler rules for opening accounts abroad, and fewer obstacles when investing or studying outside Ukraine. For businesses, it creates an environment more consistent with global financial practices.",
+                    "uk": "Для звичайних громадян це означає легший доступ до іноземної валюти, спрощені правила відкриття рахунків за кордоном та менше перешкод при інвестуванні чи навчанні за межами України. Для бізнесу це створює умови, більше відповідні світовим фінансовим практикам.",
+                    "es": "Para los ciudadanos comunes, esto significa un acceso más fácil a divisas, reglas más simples para abrir cuentas en el extranjero y menos obstáculos al invertir o estudiar fuera de Ucrania. Para las empresas, crea un entorno más acorde con las prácticas financieras globales."
+                },
+                "conclusion": {
+                    "en": "Currency control has transformed, not disappeared.",
+                    "uk": "Валютний контроль трансформувався, але не зник.",
+                    "es": "El control de cambios se ha transformado, no ha desaparecido."
+                },
+                "article_text_part5": {
+                    "en": "It is now based on the principle 'everything is allowed unless expressly forbidden.' This reversal in logic is designed to foster economic growth and improve Ukraine’s position in international markets.",
+                    "uk": "Тепер він базується на принципі 'дозволено все, що прямо не заборонено'. Це кардинальне зміщення логіки покликане стимулювати економічне зростання та покращити позиції України на міжнародних ринках.",
+                    "es": "Ahora se basa en el principio 'todo está permitido a menos que esté expresamente prohibido'. Este cambio de lógica está diseñado para fomentar el crecimiento económico y mejorar la posición de Ucrania en los mercados internacionales."
+                },
+                "article_text_part6": {
+                    "en": "In other words, the old system of prohibitions is gone, but a new model of oversight — more modern, transparent, and flexible — has taken its place. Currency control is not dead; it has simply evolved.",
+                    "uk": "Іншими словами, стару систему заборон ліквідовано, натомість з’явилася нова модель контролю — сучасніша, прозоріша та гнучкіша. Валютний контроль не мертвий; він просто еволюціонував.",
+                    "es": "En otras palabras, el viejo sistema de prohibiciones ha desaparecido, pero ha sido reemplazado por un nuevo modelo de supervisión: más moderno, transparente y flexible. El control de cambios no está muerto; simplemente ha evolucionado."
+                }
+            },
+            "boeing_failure": {
+                "header_image": "/images/publication_page/boeing_failure.jpg",
+                "title": {
+                    "en": "Boeing Starliner setback: astronauts remain on ISS until 2025",
+                    "uk": "Проблеми Boeing Starliner: астронавти залишаються на МКС до 2025 року",
+                    "es": "Retraso del Boeing Starliner: los astronautas permanecerán en la ISS hasta 2025"
+                },
+                "date": {
+                    "en": "October 12, 2024",
+                    "uk": "12 жовтня 2024",
+                    "es": "12 de octubre de 2024"
+                },
+                "article_text_part1": {
+                    "en": "NASA confirmed that Sunita Williams and Butch Wilmore will stay aboard the ISS until early 2025 due to thruster malfunctions and helium leaks on Boeing's Starliner capsule.",
+                    "uk": "NASA підтвердила, що Суніта Вільямс та Бутч Вілмор залишаться на МКС до початку 2025 року через несправності рушійної системи та витоки гелію в капсулі Starliner компанії Boeing.",
+                    "es": "La NASA confirmó que Sunita Williams y Butch Wilmore permanecerán a bordo de la ISS hasta principios de 2025 debido a fallos en los propulsores y fugas de helio en la cápsula Starliner de Boeing."
+                },
+                "article_text_part2": {
+                    "en": "The decision reflects NASA’s cautious approach to crew safety following repeated technical challenges. Boeing’s Starliner, once expected to be a cornerstone of America’s crewed spaceflight program, has faced multiple delays and engineering hurdles since its first test flights.",
+                    "uk": "Це рішення відображає обережний підхід NASA до безпеки екіпажу після численних технічних проблем. Капсула Starliner від Boeing, яка колись вважалася наріжним каменем американської пілотованої космічної програми, зіткнулася з багатьма затримками та інженерними труднощами з моменту перших випробувальних польотів.",
+                    "es": "La decisión refleja el enfoque cauteloso de la NASA respecto a la seguridad de la tripulación tras repetidos desafíos técnicos. El Starliner de Boeing, que se esperaba como piedra angular del programa de vuelos tripulados de EE. UU., ha sufrido múltiples retrasos y obstáculos de ingeniería desde sus primeras pruebas de vuelo."
+                },
+                "side_note": {
+                    "en": "Every additional month on the ISS tests both human resilience and spacecraft reliability.",
+                    "uk": "Кожний додатковий місяць на МКС випробовує як стійкість людей, так і надійність космічного корабля.",
+                    "es": "Cada mes adicional en la ISS pone a prueba tanto la resistencia humana como la fiabilidad de la nave."
+                },
+                "key_issues": {
+                    "en": "The main implications of the Starliner delay include:",
+                    "uk": "Основні наслідки затримки Starliner включають:",
+                    "es": "Las principales implicaciones del retraso del Starliner incluyen:"
+                },
+                "key_issues__element1": {
+                    "en": "Extended reliance on SpaceX’s Crew Dragon for crew transport to and from the ISS.",
+                    "uk": "Подовжена залежність від Crew Dragon компанії SpaceX для доставки екіпажу на МКС і назад.",
+                    "es": "Dependencia prolongada de Crew Dragon de SpaceX para el transporte de la tripulación hacia y desde la ISS."
+                },
+                "key_issues__element2": {
+                    "en": "Rising pressure on Boeing to deliver a safe and reliable spacecraft after years of setbacks.",
+                    "uk": "Зростаючий тиск на Boeing з метою забезпечити безпечний і надійний корабель після багаторічних невдач.",
+                    "es": "Aumento de la presión sobre Boeing para entregar una nave segura y fiable tras años de contratiempos."
+                },
+                "article_text_part3": {
+                    "en": "While NASA maintains confidence in the eventual success of the program, the agency has made clear that astronaut safety remains paramount. Engineers continue to investigate the helium leak issues and test potential redesigns for the thruster system.",
+                    "uk": "NASA залишається впевненою в остаточному успіху програми, але чітко заявляє, що безпека астронавтів стоїть на першому місці. Інженери продовжують вивчати витоки гелію та випробовують можливі варіанти вдосконалення системи рушіїв.",
+                    "es": "Aunque la NASA mantiene la confianza en el éxito final del programa, la agencia ha dejado claro que la seguridad de los astronautas sigue siendo primordial. Los ingenieros continúan investigando las fugas de helio y probando posibles rediseños del sistema de propulsión."
+                },
+                "context_image": "/images/publication_page/boeing_failure.jpg",
+                "context_text": {
+                    "en": "For now, life aboard the ISS continues with science, maintenance, and waiting.",
+                    "uk": "Наразі життя на борту МКС продовжується: наукові експерименти, технічне обслуговування та очікування.",
+                    "es": "Por ahora, la vida a bordo de la ISS continúa con ciencia, mantenimiento y espera."
+                },
+                "article_text_part4": {
+                    "en": "For the astronauts themselves, the delay brings both challenges and opportunities: longer separation from their families, but also a unique chance to contribute more deeply to ongoing research and station operations.",
+                    "uk": "Для самих астронавтів затримка приносить як виклики, так і можливості: триваліша розлука з рідними, але й унікальний шанс більше долучитися до поточних досліджень та роботи станції.",
+                    "es": "Para los propios astronautas, el retraso implica tanto desafíos como oportunidades: mayor separación de sus familias, pero también una oportunidad única de contribuir más profundamente en la investigación y las operaciones de la estación."
+                },
+                "conclusion": {
+                    "en": "The setback underscores the difficulties of modern space exploration.",
+                    "uk": "Ця невдача підкреслює складнощі сучасних космічних досліджень.",
+                    "es": "Este revés subraya las dificultades de la exploración espacial moderna."
+                },
+                "article_text_part5": {
+                    "en": "NASA’s balanced reliance on multiple providers ensures that the space station remains staffed, but the delay is a stark reminder of how unforgiving the field of aerospace engineering can be.",
+                    "uk": "Збалансована залежність NASA від кількох постачальників гарантує укомплектованість станції, але затримка яскраво нагадує, наскільки невблаганною може бути аерокосмічна інженерія.",
+                    "es": "La dependencia equilibrada de la NASA en múltiples proveedores asegura que la estación espacial siga tripulada, pero el retraso es un recordatorio contundente de lo implacable que puede ser la ingeniería aeroespacial."
+                },
+                "article_text_part6": {
+                    "en": "As the Starliner program continues to move forward, its success or failure will shape not only Boeing’s role in human spaceflight but also the future of commercial space partnerships.",
+                    "uk": "Поки програма Starliner рухається вперед, її успіх чи невдача визначать не лише роль Boeing у пілотованих польотах, а й майбутнє комерційних космічних партнерств.",
+                    "es": "A medida que el programa Starliner avanza, su éxito o fracaso determinará no solo el papel de Boeing en los vuelos tripulados, sino también el futuro de las asociaciones comerciales espaciales."
+                }
+            },
+            "bitcoin": {
+                "header_image": "/images/publication_page/bitcoin.jpg",
+                "title": {
+                    "en": "Bitcoin surpasses $100,000 for the first time",
+                    "uk": "Біткоїн вперше перевищив 100 000 доларів",
+                    "es": "Bitcoin supera los 100 000 dólares por primera vez"
+                },
+                "date": {
+                    "en": "December 5, 2024",
+                    "uk": "5 грудня 2024",
+                    "es": "5 de diciembre de 2024"
+                },
+                "article_text_part1": {
+                    "en": "The cryptocurrency market hit a historic milestone as Bitcoin's value crossed $100,000, driven by institutional adoption and global economic uncertainty.",
+                    "uk": "Ринок криптовалют досяг історичного рубежу: вартість біткоїна перевищила 100 000 доларів на тлі інституційного впровадження та глобальної економічної невизначеності.",
+                    "es": "El mercado de criptomonedas alcanzó un hito histórico al superar el valor de Bitcoin los 100 000 dólares, impulsado por la adopción institucional y la incertidumbre económica global."
+                },
+                "article_text_part2": {
+                    "en": "Analysts point to growing demand from hedge funds, pension funds, and even central banks exploring digital reserves as a key catalyst behind Bitcoin’s rapid growth.",
+                    "uk": "Аналітики вказують на зростаючий попит із боку хедж-фондів, пенсійних фондів та навіть центральних банків, які досліджують цифрові резерви, як ключовий каталізатор стрімкого зростання біткоїна.",
+                    "es": "Los analistas señalan que la creciente demanda de fondos de cobertura, fondos de pensiones e incluso bancos centrales que exploran reservas digitales es el catalizador clave detrás del rápido crecimiento de Bitcoin."
+                },
+                "side_note": {
+                    "en": "Bitcoin’s breakthrough signals a new era in digital finance worldwide.",
+                    "uk": "Прорив біткоїна сигналізує про нову еру цифрових фінансів у світі.",
+                    "es": "El avance de Bitcoin señala una nueva era en las finanzas digitales a nivel mundial."
+                },
+                "key_issues": {
+                    "en": "The milestone raises several important questions for investors and regulators:",
+                    "uk": "Цей рубіж піднімає кілька важливих питань для інвесторів і регуляторів:",
+                    "es": "Este hito plantea varias preguntas importantes para inversores y reguladores:"
+                },
+                "key_issues__element1": {
+                    "en": "How sustainable is Bitcoin’s price momentum amid global economic volatility?",
+                    "uk": "Наскільки стійким є ціновий імпульс біткоїна на тлі глобальної економічної нестабільності?",
+                    "es": "¿Qué tan sostenible es el impulso del precio de Bitcoin en medio de la volatilidad económica global?"
+                },
+                "key_issues__element2": {
+                    "en": "Will increased regulation follow as governments seek to manage risks?",
+                    "uk": "Чи посилиться регулювання, коли уряди шукатимуть способи управління ризиками?",
+                    "es": "¿Seguirá una mayor regulación a medida que los gobiernos busquen gestionar los riesgos?"
+                },
+                "article_text_part3": {
+                    "en": "Despite optimism, skeptics caution that Bitcoin remains highly volatile, with rapid swings still possible. Many also highlight environmental concerns tied to energy-intensive mining operations.",
+                    "uk": "Незважаючи на оптимізм, скептики застерігають, що біткоїн залишається надзвичайно волатильним і різкі коливання все ще можливі. Багато хто також наголошує на екологічних ризиках, пов’язаних із енергоємним майнінгом.",
+                    "es": "A pesar del optimismo, los escépticos advierten que Bitcoin sigue siendo altamente volátil, con oscilaciones rápidas aún posibles. Muchos también destacan las preocupaciones medioambientales vinculadas a las operaciones de minería intensivas en energía."
+                },
+                "context_image": "/images/publication_page/bitcoin_context.jpg",
+                "context_text": {
+                    "en": "For traders, the milestone feels both surreal and dangerously exciting.",
+                    "uk": "Для трейдерів цей рубіж здається і нереальним, і небезпечно захопливим водночас.",
+                    "es": "Para los traders, este hito se siente tanto irreal como peligrosamente emocionante."
+                },
+                "article_text_part4": {
+                    "en": "Meanwhile, traditional financial institutions continue to expand their crypto services, offering custody solutions, futures trading, and integration with everyday banking products.",
+                    "uk": "Тим часом традиційні фінансові установи розширюють свої криптопослуги, пропонуючи рішення з кастоді, торгівлю ф’ючерсами та інтеграцію з повсякденними банківськими продуктами.",
+                    "es": "Mientras tanto, las instituciones financieras tradicionales continúan ampliando sus servicios de criptomonedas, ofreciendo soluciones de custodia, comercio de futuros e integración con productos bancarios cotidianos."
+                },
+                "conclusion": {
+                    "en": "Bitcoin’s surge above $100,000 is more than a headline — it’s a turning point.",
+                    "uk": "Підйом біткоїна вище 100 000 доларів — це більше ніж заголовок; це переломний момент.",
+                    "es": "El auge de Bitcoin por encima de los 100 000 dólares es más que un titular; es un punto de inflexión."
+                },
+                "article_text_part5": {
+                    "en": "It represents the growing entanglement of digital assets with mainstream finance and forces global markets to treat cryptocurrency as a permanent fixture rather than a passing trend.",
+                    "uk": "Це свідчить про зростаючу інтеграцію цифрових активів із традиційними фінансами та змушує світові ринки розглядати криптовалюту як довгостроковий інструмент, а не короткочасний тренд.",
+                    "es": "Representa la creciente interconexión de los activos digitales con las finanzas convencionales y obliga a los mercados globales a tratar las criptomonedas como un elemento permanente en lugar de una tendencia pasajera."
+                },
+                "article_text_part6": {
+                    "en": "What happens next may redefine the future of money, trust, and the global economy itself.",
+                    "uk": "Те, що станеться далі, може переосмислити майбутнє грошей, довіри та самої світової економіки.",
+                    "es": "Lo que suceda a continuación podría redefinir el futuro del dinero, la confianza y la economía global en sí misma."
+                }
+            },
+            "olympics": {
+                "header_image": "/images/publication_page/olympics.jpg",
+                "title": {
+                    "en": "Paris 2024 Olympics conclude with record-breaking performances",
+                    "uk": "Олімпіада в Парижі-2024 завершилася рекордними досягненнями",
+                    "es": "Los Juegos Olímpicos de París 2024 concluyen con actuaciones de récord"
+                },
+                "date": {
+                    "en": "August 11, 2024",
+                    "uk": "11 серпня 2024",
+                    "es": "11 de agosto de 2024"
+                },
+                "article_text_part1": {
+                    "en": "The Summer Olympics in Paris ended with the USA topping the medal table, while Ukraine celebrated its best performance in history with multiple golds in gymnastics and boxing.",
+                    "uk": "Літні Олімпійські ігри в Парижі завершилися лідерством США в медальному заліку, а Україна відсвяткувала найуспішніший виступ в історії, здобувши кілька золотих медалей у гімнастиці та боксі.",
+                    "es": "Los Juegos Olímpicos de verano en París finalizaron con Estados Unidos liderando el medallero, mientras Ucrania celebró su mejor actuación histórica con varias medallas de oro en gimnasia y boxeo."
+                },
+                "article_text_part2": {
+                    "en": "The Games also highlighted incredible achievements from athletes across the globe, with world records set in athletics, swimming, and cycling, showcasing the true spirit of competition.",
+                    "uk": "Ігри також продемонстрували неймовірні здобутки спортсменів з усього світу: встановлено світові рекорди в легкій атлетиці, плаванні та велоспорті, що втілило справжній дух змагань.",
+                    "es": "Los Juegos también destacaron logros increíbles de atletas de todo el mundo, con récords mundiales en atletismo, natación y ciclismo, mostrando el verdadero espíritu de la competición."
+                },
+                "side_note": {
+                    "en": "Ukraine’s victories were celebrated nationwide as a symbol of resilience and pride.",
+                    "uk": "Перемоги України святкували по всій країні як символ стійкості та гордості.",
+                    "es": "Las victorias de Ucrania se celebraron en todo el país como símbolo de resiliencia y orgullo."
+                },
+                "key_issues": {
+                    "en": "The Paris 2024 Olympics left several lasting impressions for the sports world:",
+                    "uk": "Олімпіада-2024 у Парижі залишила кілька важливих уроків для світу спорту:",
+                    "es": "Los Juegos Olímpicos de París 2024 dejaron varias lecciones duraderas para el mundo deportivo:"
+                },
+                "key_issues__element1": {
+                    "en": "A renewed focus on mental health and athlete well-being during competitions.",
+                    "uk": "Посилений акцент на психічному здоров’ї та добробуті спортсменів під час змагань.",
+                    "es": "Un renovado enfoque en la salud mental y el bienestar de los atletas durante las competiciones."
+                },
+                "key_issues__element2": {
+                    "en": "The increasing role of technology and sustainability in organizing global sporting events.",
+                    "uk": "Зростаюча роль технологій і сталого розвитку в організації міжнародних спортивних заходів.",
+                    "es": "El papel creciente de la tecnología y la sostenibilidad en la organización de eventos deportivos globales."
+                },
+                "article_text_part3": {
+                    "en": "Beyond medals, the Paris Games emphasized unity and cultural celebration, with millions of spectators inspired by the stories of perseverance and triumph.",
+                    "uk": "Окрім медалей, Паризькі Ігри підкреслили єдність і культурне святкування, надихнувши мільйони глядачів історіями стійкості та перемоги.",
+                    "es": "Más allá de las medallas, los Juegos de París enfatizaron la unidad y la celebración cultural, inspirando a millones de espectadores con historias de perseverancia y triunfo."
+                },
+                "context_image": "/images/publication_page/olympics_context.jpg",
+                "context_text": {
+                    "en": "Athletes embraced, flags waved, and stadiums roared with unforgettable emotion.",
+                    "uk": "Спортсмени обіймалися, майоріли прапори, а стадіони ревіли від незабутніх емоцій.",
+                    "es": "Los atletas se abrazaron, ondearon las banderas y los estadios rugieron con emociones inolvidables."
+                },
+                "article_text_part4": {
+                    "en": "For Ukraine, these Games marked a historic breakthrough on the world stage, reinforcing its position as a rising power in international sport.",
+                    "uk": "Для України ці Ігри стали історичним проривом на світовій арені, підтвердивши її статус нової сили в міжнародному спорті.",
+                    "es": "Para Ucrania, estos Juegos representaron un avance histórico en el escenario mundial, reforzando su posición como potencia emergente en el deporte internacional."
+                },
+                "conclusion": {
+                    "en": "Paris 2024 will be remembered not only for its records but for the inspiration it brought to millions around the globe.",
+                    "uk": "Париж-2024 запам’ятається не лише рекордами, а й натхненням, яке він подарував мільйонам по всьому світу.",
+                    "es": "París 2024 será recordado no solo por sus récords, sino por la inspiración que brindó a millones de personas en todo el mundo."
+                },
+                "article_text_part5": {
+                    "en": "From gymnasts soaring to boxers prevailing, every victory carried the weight of national pride and personal sacrifice.",
+                    "uk": "Від гімнастів, які здіймалися в повітря, до боксерів, що перемагали, кожна звитяга несла в собі вагу національної гордості й особистих жертв.",
+                    "es": "Desde gimnastas elevándose hasta boxeadores triunfando, cada victoria cargó con el peso del orgullo nacional y el sacrificio personal."
+                },
+                "article_text_part6": {
+                    "en": "The Olympic flame may be extinguished in Paris, but the legacy of 2024 burns brightly for generations to come.",
+                    "uk": "Олімпійський вогонь може згаснути в Парижі, але спадщина 2024 року палає яскраво для майбутніх поколінь.",
+                    "es": "La llama olímpica puede extinguirse en París, pero el legado de 2024 arde con fuerza para las generaciones venideras."
+                }
+            },
+            "cancer_fight": {
+                "header_image": "/images/publication_page/cancer_fight.jpg",
+                "title": {
+                    "en": "King Charles III and Princess Kate complete cancer treatments",
+                    "uk": "Король Чарльз III та принцеса Кейт завершили лікування від раку",
+                    "es": "El rey Carlos III y la princesa Kate completan sus tratamientos contra el cáncer"
+                },
+                "date": {
+                    "en": "September 28, 2024",
+                    "uk": "28 вересня 2024",
+                    "es": "28 de septiembre de 2024"
+                },
+                "article_text_part1": {
+                    "en": "After months of chemotherapy, both King Charles III and Princess Kate announced they had completed treatment and resumed public duties, sparking hope among supporters.",
+                    "uk": "Після місяців хіміотерапії король Чарльз III та принцеса Кейт оголосили, що завершили лікування і відновили виконання публічних обов’язків, вселяючи надію в їх прихильників.",
+                    "es": "Tras meses de quimioterapia, tanto el rey Carlos III como la princesa Kate anunciaron que habían completado el tratamiento y reanudado sus deberes públicos, despertando esperanza entre sus seguidores."
+                },
+                "article_text_part2": {
+                    "en": "Their joint recovery has been seen as a symbol of strength and resilience, with the royal family receiving widespread messages of encouragement and relief.",
+                    "uk": "Їхнє спільне одужання було сприйнято як символ сили та стійкості, а королівська родина отримала безліч повідомлень із словами підтримки та полегшення.",
+                    "es": "Su recuperación conjunta ha sido vista como un símbolo de fortaleza y resiliencia, y la familia real ha recibido numerosos mensajes de aliento y alivio."
+                },
+                "side_note": {
+                    "en": "Public appearances were marked by standing ovations and emotional applause.",
+                    "uk": "Публічні виступи супроводжувалися оваціями стоячи та щирими оплесками.",
+                    "es": "Las apariciones públicas estuvieron marcadas por ovaciones de pie y aplausos emocionados."
+                },
+                "key_issues": {
+                    "en": "The news raises several important reflections for both the monarchy and public health:",
+                    "uk": "Ця новина породжує кілька важливих роздумів як для монархії, так і для сфери охорони здоров’я:",
+                    "es": "La noticia plantea varias reflexiones importantes tanto para la monarquía como para la salud pública:"
+                },
+                "key_issues__element1": {
+                    "en": "The role of transparency in royal health disclosures and public trust.",
+                    "uk": "Роль прозорості у повідомленнях про здоров’я членів королівської сім’ї та довіри громадськості.",
+                    "es": "El papel de la transparencia en las divulgaciones de salud reales y la confianza pública."
+                },
+                "key_issues__element2": {
+                    "en": "How high-profile recoveries can inspire awareness and support for cancer research.",
+                    "uk": "Як відомі випадки одужання можуть стимулювати підвищення обізнаності та підтримку досліджень раку.",
+                    "es": "Cómo las recuperaciones de alto perfil pueden inspirar concienciación y apoyo a la investigación contra el cáncer."
+                },
+                "article_text_part3": {
+                    "en": "Observers noted that their return to duty also carries political significance, reinforcing the continuity and stability of the monarchy during challenging times.",
+                    "uk": "Спостерігачі зазначили, що їх повернення до обов’язків також має політичне значення, посилюючи неперервність і стабільність монархії в непрості часи.",
+                    "es": "Los observadores señalaron que su retorno al servicio también tiene un significado político, reforzando la continuidad y estabilidad de la monarquía en tiempos difíciles."
+                },
+                "context_image": "/images/publication_page/cancer_fight_context.jpg",
+                "context_text": {
+                    "en": "Supporters worldwide expressed joy, relief, and heartfelt admiration together.",
+                    "uk": "Прихильники по всьому світу разом виражали радість, полегшення та щире захоплення.",
+                    "es": "Los seguidores de todo el mundo expresaron juntos alegría, alivio y sincera admiración."
+                },
+                "article_text_part4": {
+                    "en": "Cancer charities have already reported increased donations and public engagement following the announcement, showing the tangible impact of the royals’ personal journey.",
+                    "uk": "Благодійні організації з боротьби з раком уже повідомляють про зростання пожертв і зацікавленості громадськості після оголошення, що демонструє відчутний вплив особистого шляху монархів.",
+                    "es": "Las organizaciones benéficas contra el cáncer ya han informado de un aumento de donaciones y participación pública tras el anuncio, mostrando el impacto tangible del trayecto personal de los miembros de la realeza."
+                },
+                "conclusion": {
+                    "en": "The successful recovery of King Charles III and Princess Kate stands as a beacon of hope, resilience, and the power of shared struggle.",
+                    "uk": "Успішне одужання короля Чарльза III та принцеси Кейт є маяком надії, стійкості та сили спільної боротьби.",
+                    "es": "La exitosa recuperación del rey Carlos III y la princesa Kate se erige como un faro de esperanza, resiliencia y el poder de la lucha compartida."
+                },
+                "article_text_part5": {
+                    "en": "Their story highlights not only medical progress but also the profound influence of public figures in shaping collective spirit.",
+                    "uk": "Їхня історія підкреслює не лише медичний прогрес, а й глибокий вплив публічних осіб на формування суспільного духу.",
+                    "es": "Su historia destaca no solo el progreso médico sino también la profunda influencia de las figuras públicas en la formación del espíritu colectivo."
+                },
+                "article_text_part6": {
+                    "en": "As the monarchy moves forward, this chapter will remain a reminder of courage, humanity, and unity in adversity.",
+                    "uk": "Коли монархія рухається вперед, ця сторінка залишиться нагадуванням про мужність, людяність і єдність в умовах випробувань.",
+                    "es": "A medida que la monarquía avanza, este capítulo quedará como recordatorio de valentía, humanidad y unidad ante la adversidad."
+                }
+            },
+            "eu_ai": {
+                "header_image": "/images/publication_page/eu_ai.jpg",
+                "title": {
+                    "en": "EU enforces first-ever AI regulations",
+                    "uk": "ЄС запроваджує перші в історії регулювання штучного інтелекту",
+                    "es": "La UE aplica las primeras regulaciones de IA de la historia"
+                },
+                "date": {
+                    "en": "November 1, 2024",
+                    "uk": "1 листопада 2024",
+                    "es": "1 de noviembre de 2024"
+                },
+                "article_text_part1": {
+                    "en": "The European Union's groundbreaking AI Act came into force, setting strict rules for transparency, safety, and ethical use of artificial intelligence across member states.",
+                    "uk": "Новаторський закон про ШІ Європейського Союзу набув чинності, встановивши суворі правила прозорості, безпеки та етичного використання штучного інтелекту у всіх державах-членах.",
+                    "es": "La pionera Ley de IA de la Unión Europea entró en vigor, estableciendo normas estrictas para la transparencia, la seguridad y el uso ético de la inteligencia artificial en todos los Estados miembros."
+                },
+                "article_text_part2": {
+                    "en": "This legislation marks the first comprehensive regulatory framework for AI worldwide, aiming to balance innovation with human rights protections and public accountability.",
+                    "uk": "Це законодавство стало першим у світі всеохопним регуляторним механізмом для ШІ, метою якого є збалансувати інновації із захистом прав людини та підзвітністю перед громадськістю.",
+                    "es": "Esta legislación marca el primer marco regulatorio integral de IA en el mundo, con el objetivo de equilibrar la innovación con la protección de los derechos humanos y la rendición de cuentas pública."
+                },
+                "side_note": {
+                    "en": "Companies face significant penalties for non-compliance, including fines up to 6% of global revenue.",
+                    "uk": "Компанії за невиконання вимог ризикують суттєвими штрафами — до 6% від їхнього світового доходу.",
+                    "es": "Las empresas se enfrentan a sanciones significativas por incumplimiento, incluidas multas de hasta el 6% de sus ingresos globales."
+                },
+                "key_issues": {
+                    "en": "The act raises several critical points for governments, businesses, and citizens:",
+                    "uk": "Закон висуває кілька важливих питань для урядів, компаній та громадян:",
+                    "es": "La ley plantea varios puntos críticos para gobiernos, empresas y ciudadanos:"
+                },
+                "key_issues__element1": {
+                    "en": "How regulations will impact startups and innovation within the European tech sector.",
+                    "uk": "Як регулювання вплине на стартапи та інновації в європейському технологічному секторі.",
+                    "es": "Cómo afectarán las regulaciones a las startups y a la innovación dentro del sector tecnológico europeo."
+                },
+                "key_issues__element2": {
+                    "en": "The global ripple effect of EU leadership in setting AI standards.",
+                    "uk": "Глобальні наслідки лідерства ЄС у встановленні стандартів ШІ.",
+                    "es": "El efecto global del liderazgo de la UE en el establecimiento de estándares de IA."
+                },
+                "article_text_part3": {
+                    "en": "Industry experts highlight that the AI Act could become a blueprint for other nations, similar to how the GDPR influenced global data privacy laws.",
+                    "uk": "Галузеві експерти відзначають, що Закон про ШІ може стати шаблоном для інших країн, подібно до того, як GDPR вплинув на глобальні закони про захист даних.",
+                    "es": "Los expertos de la industria destacan que la Ley de IA podría convertirse en un modelo para otras naciones, similar a cómo el GDPR influyó en las leyes mundiales de privacidad de datos."
+                },
+                "context_image": "/images/publication_page/eu_ai_context.jpg",
+                "context_text": {
+                    "en": "Debates intensify as businesses adapt to a new regulatory era.",
+                    "uk": "Дискусії загострюються, поки компанії пристосовуються до нової ери регулювання.",
+                    "es": "Los debates se intensifican mientras las empresas se adaptan a una nueva era regulatoria."
+                },
+                "article_text_part4": {
+                    "en": "Civil rights organizations welcomed the act as a safeguard against misuse of AI in surveillance, employment, and law enforcement.",
+                    "uk": "Організації з прав людини оцінили закон як засіб захисту від зловживань ШІ у сфері спостереження, працевлаштування та правоохоронних органів.",
+                    "es": "Las organizaciones de derechos civiles acogieron la ley como un mecanismo de protección contra el uso indebido de la IA en la vigilancia, el empleo y la aplicación de la ley."
+                },
+                "conclusion": {
+                    "en": "The EU’s bold step may shape not only its digital future but also the worldwide trajectory of artificial intelligence governance.",
+                    "uk": "Рішучий крок ЄС може визначити не лише його цифрове майбутнє, а й глобальну траєкторію управління штучним інтелектом.",
+                    "es": "El audaz paso de la UE puede moldear no solo su futuro digital, sino también la trayectoria mundial de la gobernanza de la inteligencia artificial."
+                },
+                "article_text_part5": {
+                    "en": "As adoption grows, compliance with ethical frameworks will be as important as technological progress itself.",
+                    "uk": "Зі збільшенням рівня впровадження дотримання етичних принципів буде так само важливим, як і технологічний прогрес.",
+                    "es": "A medida que crece la adopción, el cumplimiento de los marcos éticos será tan importante como el propio progreso tecnológico."
+                },
+                "article_text_part6": {
+                    "en": "Global observers now watch closely to see how effectively Europe enforces these landmark rules.",
+                    "uk": "Глобальні спостерігачі тепер уважно стежать за тим, наскільки ефективно Європа виконуватиме ці знакові правила.",
+                    "es": "Los observadores globales ahora observan de cerca cómo Europa hará cumplir de manera efectiva estas normas históricas."
+                }
+            },
+            "ukrainian_success": {
+                "header_image": "/images/publication_page/ukrainian_success.jpg",
+                "title": {
+                    "en": "Ukrainian strike destroys major Russian Black Sea Fleet ship in Sevastopol",
+                    "uk": "Удар України знищив великий корабель Чорноморського флоту РФ у Севастополі",
+                    "es": "Ataque ucraniano destruye un importante buque de la Flota del Mar Negro rusa en Sebastopol"
+                },
+                "date": {
+                    "en": "October 15, 2024",
+                    "uk": "15 жовтня 2024",
+                    "es": "15 de octubre de 2024"
+                },
+                "article_text_part1": {
+                    "en": "Ukraine's Armed Forces confirmed the destruction of the Russian landing ship 'Novocherkassk' during a precision missile strike on Sevastopol, dealing a significant blow to Russia's naval capabilities in the Black Sea.",
+                    "uk": "Збройні сили України підтвердили знищення російського десантного корабля «Новочеркаськ» під час високоточого ракетного удару по Севастополю, завдавши суттєвого удару морським можливостям Росії в Чорному морі.",
+                    "es": "Las Fuerzas Armadas de Ucrania confirmaron la destrucción del buque de desembarco ruso «Novocherkassk» durante un ataque de misiles de precisión en Sebastopol, asestando un golpe significativo a las capacidades navales de Rusia en el Mar Negro."
+                },
+                "article_text_part2": {
+                    "en": "The strike is part of Kyiv’s broader campaign to weaken Russia’s logistical and military dominance in occupied Crimea.",
+                    "uk": "Цей удар є частиною ширшої кампанії Києва з ослаблення логістичного та військового домінування Росії на окупованому Кримському півострові.",
+                    "es": "El ataque forma parte de la campaña de Kyiv para debilitar el dominio logístico y militar de Rusia en la Crimea ocupada."
+                },
+                "side_note": {
+                    "en": "Satellite images showed heavy fire and secondary explosions following the impact.",
+                    "uk": "Супутникові знімки показали сильний вогонь та вторинні вибухи після влучання.",
+                    "es": "Las imágenes satelitales mostraron intensos incendios y explosiones secundarias tras el impacto."
+                },
+                "key_issues": {
+                    "en": "Military analysts highlight several key implications of this successful strike:",
+                    "uk": "Військові аналітики відзначають кілька ключових наслідків цього успішного удару:",
+                    "es": "Los analistas militares destacan varias implicaciones clave de este exitoso ataque:"
+                },
+                "key_issues__element1": {
+                    "en": "Further reduction of Russia’s amphibious assault capabilities in the Black Sea.",
+                    "uk": "Подальше скорочення амфібійних можливостей Росії в Чорному морі.",
+                    "es": "Nueva reducción de las capacidades de asalto anfibio de Rusia en el Mar Negro."
+                },
+                "key_issues__element2": {
+                    "en": "A morale boost for Ukraine as it continues its southern counteroffensive.",
+                    "uk": "Моральне піднесення для України в процесі продовження південного контрнаступу.",
+                    "es": "Un impulso moral para Ucrania mientras continúa su contraofensiva en el sur."
+                },
+                "article_text_part3": {
+                    "en": "This is not the first high-value Russian naval loss, but the destruction of 'Novocherkassk' underscores Ukraine’s increasing ability to target strategic assets in occupied Crimea.",
+                    "uk": "Це не перша втрата цінного російського корабля, але знищення «Новочеркаська» підкреслює зростаючу здатність України уражати стратегічні об’єкти на окупованому півострові Крим.",
+                    "es": "No es la primera pérdida naval rusa de alto valor, pero la destrucción del «Novocherkassk» subraya la creciente capacidad de Ucrania para atacar activos estratégicos en la Crimea ocupada."
+                },
+                "context_image": "/images/publication_page/ukrainian_success_context.jpg",
+                "context_text": {
+                    "en": "Observers note rising pressure on Russia’s fleet after repeated Ukrainian strikes.",
+                    "uk": "Спостерігачі відзначають зростаючий тиск на флот Росії після повторних ударів України.",
+                    "es": "Los observadores señalan una creciente presión sobre la flota rusa tras los repetidos ataques ucranianos."
+                },
+                "article_text_part4": {
+                    "en": "Western partners praised Ukraine’s precision strike capabilities, while Moscow downplayed the incident, claiming the ship was 'damaged, not destroyed.'",
+                    "uk": "Західні партнери похвалили здатність України до точкових ударів, тоді як Москва применшила інцидент, стверджуючи, що корабель був «пошкоджений, а не знищений».",
+                    "es": "Los socios occidentales elogiaron las capacidades de ataque de precisión de Ucrania, mientras que Moscú restó importancia al incidente, afirmando que el buque fue «dañado, no destruido»."
+                },
+                "conclusion": {
+                    "en": "The attack illustrates the shifting balance of power in the Black Sea, where Ukraine continues to erode Russia’s once-dominant naval presence.",
+                    "uk": "Удар ілюструє зміну балансу сил у Чорному морі, де Україна продовжує руйнувати колись домінуючу російську присутність.",
+                    "es": "El ataque ilustra el cambio en el equilibrio de poder en el Mar Negro, donde Ucrania sigue erosionando la presencia naval que una vez dominó Rusia."
+                },
+                "article_text_part5": {
+                    "en": "Such operations also serve as strategic messaging, reinforcing Ukraine’s resolve and military effectiveness.",
+                    "uk": "Такі операції також слугують стратегічним посланням, підкріплюючи рішучість і військову ефективність України.",
+                    "es": "Estas operaciones también sirven como mensaje estratégico, reforzando la determinación y la eficacia militar de Ucrania."
+                },
+                "article_text_part6": {
+                    "en": "As winter approaches, further strikes on Russian infrastructure and supply lines are expected to intensify.",
+                    "uk": "З наближенням зими очікується загострення ударів по інфраструктурі та лініях постачання Росії.",
+                    "es": "A medida que se acerca el invierno, se espera que se intensifiquen más ataques a la infraestructura y líneas de suministro rusas."
+                }
+            }
+        },
+        "contact": {
+            "page_title": {
+                "en": "contact",
+                "uk": "контакти",
+                "es": "contacto"
+            },
+            "facebook": {
+                "en": "our page on facebook",
+                "uk": "наша сторінка у facebook",
+                "es": "nuestra página en facebook"
+            }
+        },
+        "team": {
+            "page_title": {
+                "en": "team",
+                "uk": "команда",
+                "es": "equipo"
+            },
+            "team_page__title": {
+                "en": "We are used to taking responsibility and always guarantee honest, timely assistance, even in situations where most are powerless.",
+                "uk": "Ми звикли брати на себе відповідальність і завжди гарантуємо чесну та своєчасну допомогу, навіть у ситуаціях, де більшість безсилі.",
+                "es": "Estamos acostumbrados a asumir la responsabilidad y siempre garantizamos una asistencia honesta y oportuna, incluso en situaciones donde la mayoría es impotente."
+            },
+            "member1_name": {
+                "en": "Olexander Olexandrovsky",
+                "uk": "Олександр Олександровський",
+                "es": "Olexander Oexandrovsky"
+            },
+            "member1_position": {
+                "en": "Managing partner",
+                "uk": "Керуючий партнер",
+                "es": "Socio director"
+            },
+            "member2_name": {
+                "en": "Evgeny Patrikov",
+                "uk": "Євген Патріков",
+                "es": "Evgeny Patrikov"
+            },
+            "member2_position": {
+                "en": "Equity partner, Attorney-at-law",
+                "uk": "Партнер з часткою, адвокат",
+                "es": "Socio con participación, abogado"
+            },
+            "member3_name": {
+                "en": "Vladislav Melnik",
+                "uk": "Владислав Мельник",
+                "es": "Vladislav Melnik"
+            },
+            "member3_position": {
+                "en": "Associate",
+                "uk": "Юрист",
+                "es": "Asociado"
+            },
+            "member4_name": {
+                "en": "Sergiy Binn",
+                "uk": "Сергій Бінн",
+                "es": "Sergiy Binn"
+            },
+            "member4_position": {
+                "en": "Associate",
+                "uk": "Юрист",
+                "es": "Asociado"
+            },
+            "member5_name": {
+                "en": "Oksana Kobzar",
+                "uk": "Оксана Кобзар",
+                "es": "Oksana Kobzar"
+            },
+            "member5_position": {
+                "en": "Equity partner, Attorney-at-law",
+                "uk": "Партнер з часткою, адвокат",
+                "es": "Socio con participación, abogado"
+            },
+            "member6_name": {
+                "en": "Julia Wovk",
+                "uk": "Юлія Вовк",
+                "es": "Julia Wovk"
+            },
+            "member6_position": {
+                "en": "Associate, Attorney-at-law",
+                "uk": "Юрист, адвокат",
+                "es": "Asociada, abogada"
+            }
+        },
+        "team_entry": {
+            "olexander_olexandrovsky": {
+                "photo": "/images/team/olexander_olexandrovsky.jpg",
+                "name": {
+                    "en": "Olexander Olexandrovsky",
+                    "uk": "Олександр Олександровський",
+                    "es": "Olexander Oexandrovsky"
+                },
+                "role": {
+                    "en": "Managing partner",
+                    "uk": "Керуючий партнер",
+                    "es": "Socio director"
+                },
+                "email_link": "mailto:olexander@forstudy.space",
+                "email_text": "olexander@forstudy.space",
+                "linked_in": "https://www.linkedin.com/in/olexander-olexandrovsky",
+                "bio_part1": {
+                    "en": "Olexander is the managing partner of the firm and coordinates the strategic development of its key practices. He advises clients on corporate governance, investment structuring and cross-border transactions.",
+                    "uk": "Олександр є керуючим партнером фірми та координує стратегічний розвиток її ключових практик. Він консультує клієнтів з питань корпоративного управління, структурування інвестицій та транскордонних угод.",
+                    "es": "Olexander es el socio director de la firma y coordina el desarrollo estratégico de sus principales prácticas. Asesora a los clientes en materia de gobierno corporativo, estructuración de inversiones y transacciones transfronterizas."
+                },
+                "bio_part2": {
+                    "en": "He represents the interests of international corporations, investment funds, and private clients in Ukraine and abroad. Olexander also actively develops the firm’s pro bono projects and supports initiatives in legal education.",
+                    "uk": "Він представляє інтереси міжнародних корпорацій, інвестиційних фондів та приватних клієнтів в Україні та за кордоном. Олександр також активно розвиває pro bono проєкти фірми та підтримує ініціативи у сфері юридичної освіти.",
+                    "es": "Representa los intereses de corporaciones internacionales, fondos de inversión y clientes privados en Ucrania y en el extranjero. Olexander también desarrolla activamente los proyectos pro bono de la firma y apoya iniciativas en educación jurídica."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "Taras Shevchenko National University of Kyiv, Master of Law.",
+                    "uk": "Київський національний університет імені Тараса Шевченка, магістр права.",
+                    "es": "Universidad Nacional Taras Shevchenko de Kiev, Máster en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Over 15 years of professional experience in corporate law, mergers and acquisitions, and dispute resolution. He has represented clients before Ukrainian courts, international arbitration institutions, and regulatory authorities.",
+                    "uk": "Понад 15 років професійного досвіду у сфері корпоративного права, злиттів та поглинань, а також вирішення спорів. Представляв інтереси клієнтів у судах України, міжнародних арбітражних інституціях та перед регуляторними органами.",
+                    "es": "Más de 15 años de experiencia profesional en derecho corporativo, fusiones y adquisiciones y resolución de disputas. Ha representado a clientes ante tribunales ucranianos, instituciones de arbitraje internacional y autoridades reguladoras."
+                }
+            },
+            "evgeny_patrikov": {
+                "photo": "/images/team/evgeny_patrikov.jpg",
+                "name": {
+                    "en": "Evgeny Patrikov",
+                    "uk": "Євген Патріков",
+                    "es": "Evgeny Patrikov"
+                },
+                "role": {
+                    "en": "Equity partner, Attorney-at-law",
+                    "uk": "Партнер з часткою, адвокат",
+                    "es": "Socio con participación, abogado"
+                },
+                "email_link": "mailto:patrikov@forstudy.space",
+                "email_text": "patrikov@forstudy.space",
+                "linked_in": "https://www.linkedin.com/in/evgeny-patrikov",
+                "bio_part1": {
+                    "en": "Evgeny is an equity partner of the firm specializing in commercial litigation and arbitration. He advises clients on contractual disputes, debt recovery, and corporate conflicts, providing comprehensive legal strategies both in Ukraine and internationally.",
+                    "uk": "Євген є партнером з часткою фірми, що спеціалізується на комерційних спорах та арбітражі. Він консультує клієнтів щодо договірних спорів, стягнення заборгованості та корпоративних конфліктів, пропонуючи комплексні юридичні стратегії як в Україні, так і за її межами.",
+                    "es": "Evgeny es socio con participación de la firma especializado en litigios comerciales y arbitraje. Asesora a los clientes en disputas contractuales, recuperación de deudas y conflictos corporativos, ofreciendo estrategias legales integrales en Ucrania e internacionalmente."
+                },
+                "bio_part2": {
+                    "en": "He represents the interests of Ukrainian and foreign companies in state courts, international arbitration institutions, and during negotiations with counterparties. Evgeny is known for his pragmatic approach and ability to resolve complex disputes efficiently.",
+                    "uk": "Він представляє інтереси українських та іноземних компаній у державних судах, міжнародних арбітражних інституціях, а також під час переговорів із контрагентами. Євген відомий своїм прагматичним підходом та здатністю ефективно вирішувати складні спори.",
+                    "es": "Representa los intereses de empresas ucranianas y extranjeras en tribunales estatales, instituciones de arbitraje internacional y durante negociaciones con contrapartes. Evgeny es conocido por su enfoque pragmático y su capacidad para resolver disputas complejas de manera eficiente."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "National University 'Odessa Law Academy', Master of Law.",
+                    "uk": "Національний університет «Одеська юридична академія», магістр права.",
+                    "es": "Universidad Nacional 'Academia de Derecho de Odesa', Máster en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Over 12 years of professional experience in commercial and corporate law. He has successfully represented clients in arbitration proceedings such as ICAC at the Ukrainian CCI, as well as in contractual and investment disputes before Ukrainian courts.",
+                    "uk": "Понад 12 років професійного досвіду у сфері комерційного та корпоративного права. Успішно представляв клієнтів у арбітражних провадженнях при МКАС при ТПП України, а також у договірних та інвестиційних спорах у судах України.",
+                    "es": "Más de 12 años de experiencia profesional en derecho comercial y corporativo. Ha representado con éxito a clientes en procedimientos de arbitraje como el ICAC en la Cámara de Comercio e Industria de Ucrania, así como en disputas contractuales y de inversión ante tribunales ucranianos."
+                }
+            },
+            "vladislav_melnik": {
+                "photo": "/images/team/vladislav_melnik.jpg",
+                "name": {
+                    "en": "Vladislav Melnik",
+                    "uk": "Владислав Мельник",
+                    "es": "Vladislav Melnik"
+                },
+                "role": {
+                    "en": "Associate",
+                    "uk": "Юрист",
+                    "es": "Asociado"
+                },
+                "email_link": "mailto:melnik@forstudy.space",
+                "email_text": "melnik@forstudy.space",
+                "linked_in": "https://www.linkedin.com/in/vladislav-melnik",
+                "bio_part1": {
+                    "en": "Vladislav is an associate of the firm, focusing on corporate and commercial law. He supports senior partners in preparing legal opinions, drafting contracts, and handling procedural documents for court and arbitration cases.",
+                    "uk": "Владислав є юристом фірми, що спеціалізується на корпоративному та комерційному праві. Він допомагає старшим партнерам у підготовці юридичних висновків, розробці договорів та процесуальних документів для судових і арбітражних справ.",
+                    "es": "Vladislav es asociado de la firma, centrado en derecho corporativo y comercial. Apoya a los socios principales en la preparación de dictámenes jurídicos, redacción de contratos y gestión de documentos procesales para casos judiciales y de arbitraje."
+                },
+                "bio_part2": {
+                    "en": "He works with both Ukrainian and foreign clients, ensuring compliance with local legislation and supporting cross-border projects. Vladislav is known for his attention to detail and analytical approach.",
+                    "uk": "Працює з українськими та іноземними клієнтами, забезпечуючи відповідність місцевому законодавству та супровід транскордонних проєктів. Владислава вирізняє увага до деталей та аналітичний підхід.",
+                    "es": "Trabaja con clientes ucranianos y extranjeros, garantizando el cumplimiento de la legislación local y apoyando proyectos transfronterizos. Vladislav se distingue por su atención al detalle y su enfoque analítico."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "Yaroslav Mudryi National Law University, Bachelor of Law.",
+                    "uk": "Національний юридичний університет імені Ярослава Мудрого, бакалавр права.",
+                    "es": "Universidad Nacional de Derecho Yaroslav Mudryi, Grado en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Vladislav has several years of experience in contract law, dispute resolution and regulatory compliance. He has been involved in cases before Ukrainian commercial courts and assisted in international arbitration matters.",
+                    "uk": "Має кількарічний досвід у сфері договірного права, вирішення спорів та регуляторного комплаєнсу. Брав участь у справах у господарських судах України та допомагав у міжнародних арбітражних процесах.",
+                    "es": "Cuenta con varios años de experiencia en derecho contractual, resolución de disputas y cumplimiento normativo. Ha participado en casos ante tribunales comerciales ucranianos y ha asistido en asuntos de arbitraje internacional."
+                }
+            },
+            "sergiy_binn": {
+                "photo": "/images/team/sergiy_binn.jpg",
+                "name": {
+                    "en": "Sergiy Binn",
+                    "uk": "Сергій Бінн",
+                    "es": "Sergiy Binn"
+                },
+                "role": {
+                    "en": "Associate",
+                    "uk": "Юрист",
+                    "es": "Asociado"
+                },
+                "email_link": "mailto:binn@forstudy.space",
+                "email_text": "binn@forstudy.space",
+                "linked_in": "https://www.linkedin.com/in/sergiy-binn",
+                "bio_part1": {
+                    "en": "Sergiy is an associate focusing on labor and tax law. He assists clients with compliance issues, drafting internal policies, and representing them in disputes with state authorities.",
+                    "uk": "Сергій є юристом, що спеціалізується на трудовому та податковому праві. Допомагає клієнтам у питаннях комплаєнсу, підготовці внутрішніх політик та представляє їх у спорах з державними органами.",
+                    "es": "Sergiy es asociado especializado en derecho laboral y fiscal. Asiste a los clientes con cuestiones de cumplimiento, elaboración de políticas internas y representación en disputas con las autoridades estatales."
+                },
+                "bio_part2": {
+                    "en": "He works closely with corporate clients to minimize legal risks and ensure adherence to Ukrainian and international regulations. Sergiy is valued for his structured approach and practical solutions.",
+                    "uk": "Тісно співпрацює з корпоративними клієнтами для мінімізації юридичних ризиків та забезпечення дотримання українських і міжнародних норм. Сергія вирізняє структурований підхід та практичні рішення.",
+                    "es": "Trabaja en estrecha colaboración con clientes corporativos para minimizar riesgos legales y garantizar el cumplimiento de la normativa ucraniana e internacional. Sergiy se distingue por su enfoque estructurado y soluciones prácticas."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "Kyiv-Mohyla Academy, Bachelor of Law.",
+                    "uk": "Національний університет «Києво-Могилянська академія», бакалавр права.",
+                    "es": "Academia de Kyiv-Mohyla, Grado en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Sergiy has experience in advising clients on labor disputes, regulatory compliance, and tax-related matters. He has participated in court proceedings on employment and tax issues and supports clients during inspections by authorities.",
+                    "uk": "Має досвід консультування клієнтів щодо трудових спорів, регуляторного комплаєнсу та податкових питань. Брав участь у судових процесах із трудових і податкових спорів та супроводжує клієнтів під час перевірок контролюючих органів.",
+                    "es": "Tiene experiencia en asesorar a clientes sobre disputas laborales, cumplimiento normativo y cuestiones fiscales. Ha participado en procesos judiciales relacionados con asuntos laborales y fiscales, y apoya a los clientes durante inspecciones de las autoridades."
+                }
+            },
+            "oksana_kobzar": {
+                "photo": "/images/team/oksana_kobzar.jpg",
+                "name": {
+                    "en": "Oksana Kobzar",
+                    "uk": "Оксана Кобзар",
+                    "es": "Oksana Kobzar"
+                },
+                "role": {
+                    "en": "Equity partner, Attorney-at-law",
+                    "uk": "Партнер з часткою, адвокат",
+                    "es": "Socia con participación, abogada"
+                },
+                "email_link": "mailto:kobzar@forstudy.space",
+                "email_text": "kobzar@forstudy.space",
+                "linked_in": "https://ua.linkedin.com/in/oksana-shakhmatova-484a01222",
+                "bio_part1": {
+                    "en": "Oksana heads the practice of international trade and shipping. He specializes in resolving disputes related to the purchase and sale of raw materials and transportation of goods by sea.",
+                    "uk": "Оксана очолює практику міжнародної торгівлі та судноплавства. Спеціалізується на вирішенні спорів, пов’язаних із купівлею-продажем сировини та перевезенням вантажів морем.",
+                    "es": "Oksana dirige la práctica de comercio internacional y transporte marítimo. Se especializa en la resolución de disputas relacionadas con la compraventa de materias primas y el transporte de mercancías por mar."
+                },
+                "bio_part2": {
+                    "en": "Desis represents the interests of shipowners, freight forwarders, cargo owners, shipping agents, container lines, as well as international banks and P&I clubs.",
+                    "uk": "Представляє інтереси судновласників, експедиторів, вантажовласників, суднових агентів, контейнерних ліній, а також міжнародних банків і клубів P&I.",
+                    "es": "Representa los intereses de armadores, transitarios, cargadores, agentes marítimos, líneas de contenedores, así como de bancos internacionales y clubes P&I."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "National University 'Odessa Law Academy', Master of Law.",
+                    "uk": "Національний університет «Одеська юридична академія», магістр права.",
+                    "es": "Universidad Nacional 'Academia Jurídica de Odesa', Máster en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Her professional experience includes resolving disputes under English law and representing interests in foreign commercial arbitrations such as GAFTA, FOSFA and LMAA. Danilo also represents the interests of clients in the state courts of Ukraine on similar disputes, as well as in the ICAC and IAC at the CCI of Ukraine",
+                    "uk": "Її професійний досвід включає вирішення спорів за англійським правом та представництво інтересів у міжнародних комерційних арбітражах, таких як GAFTA, FOSFA та LMAA. Також представляє інтереси клієнтів у державних судах України у подібних спорах, а також в МКАС та МАК при ТПП України.",
+                    "es": "Su experiencia profesional incluye la resolución de disputas bajo el derecho inglés y la representación de intereses en arbitrajes comerciales internacionales como GAFTA, FOSFA y LMAA. También representa los intereses de los clientes en los tribunales estatales de Ucrania en disputas similares, así como en la CCI de Ucrania (ICAC e IAC)."
+                }
+            },
+            "julia_wovk": {
+                "photo": "/images/team/julia_wovk.jpg",
+                "name": {
+                    "en": "Julia Wovk",
+                    "uk": "Юлія Вовк",
+                    "es": "Julia Wovk"
+                },
+                "role": {
+                    "en": "Associate, Attorney-at-law",
+                    "uk": "Юрист, адвокат",
+                    "es": "Asociada, abogada"
+                },
+                "email_link": "mailto:wovk@forstudy.space",
+                "email_text": "wovk@forstudy.space",
+                "linked_in": "https://www.linkedin.com/in/julia-wovk",
+                "bio_part1": {
+                    "en": "Julia is an associate and attorney-at-law specializing in intellectual property and IT law. She advises startups, technology companies, and creative businesses on licensing, software agreements, and protection of intellectual property rights.",
+                    "uk": "Юлія є юристом та адвокатом, що спеціалізується на інтелектуальній власності та IT-праві. Консультує стартапи, технологічні компанії та креативні бізнеси з питань ліцензування, договорів на програмне забезпечення та захисту прав інтелектуальної власності.",
+                    "es": "Julia es asociada y abogada especializada en propiedad intelectual y derecho de TI. Asesora a startups, empresas tecnológicas y negocios creativos sobre licencias, contratos de software y protección de derechos de propiedad intelectual."
+                },
+                "bio_part2": {
+                    "en": "She has experience in representing clients in disputes related to copyright infringement, unfair competition, and domain name protection. Julia is actively engaged in supporting the IT sector and provides legal workshops for young entrepreneurs.",
+                    "uk": "Має досвід представництва клієнтів у спорах, пов’язаних із порушенням авторських прав, недобросовісною конкуренцією та захистом доменних імен. Активно залучена до підтримки IT-сектору та проводить правові воркшопи для молодих підприємців.",
+                    "es": "Tiene experiencia en la representación de clientes en disputas relacionadas con infracciones de derechos de autor, competencia desleal y protección de nombres de dominio. Julia participa activamente en el apoyo al sector tecnológico y organiza talleres jurídicos para jóvenes emprendedores."
+                },
+                "education_title": {
+                    "en": "education",
+                    "uk": "освіта",
+                    "es": "educación"
+                },
+                "education_text": {
+                    "en": "National University 'Kyiv-Mohyla Academy', Master of Law.",
+                    "uk": "Національний університет «Києво-Могилянська академія», магістр права.",
+                    "es": "Universidad Nacional 'Academia de Kyiv-Mohyla', Máster en Derecho."
+                },
+                "experience_title": {
+                    "en": "experience",
+                    "uk": "досвід",
+                    "es": "experiencia"
+                },
+                "experience_text": {
+                    "en": "Julia has several years of experience in intellectual property, IT, and commercial law. She has represented clients before Ukrainian courts in IP disputes and supported international companies in structuring IT-related contracts.",
+                    "uk": "Має кількарічний досвід у сфері інтелектуальної власності, IT та комерційного права. Представляла клієнтів у судах України у спорах з питань ІВ та супроводжувала міжнародні компанії у структуруванні договорів, пов’язаних з IT.",
+                    "es": "Cuenta con varios años de experiencia en propiedad intelectual, TI y derecho comercial. Ha representado a clientes ante tribunales ucranianos en disputas de PI y ha apoyado a empresas internacionales en la estructuración de contratos relacionados con TI."
+                }
+            }
+        },
+        "about_us": {
+            "page_title": {
+                "en": "about us",
+                "uk": "про нас",
+                "es": "sobre nosotros"
+            },
+            "innovation_title": {
+                "en": "We turn over the idea of legal services",
+                "uk": "Ми перевертаємо уявлення про юридичні послуги",
+                "es": "Revolucionamos la idea de los servicios legales"
+            },
+            "innovation_text_part1": {
+                "en": "Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve the adoption of a number of decisions that are important for the industry. Many people form the practice of applying the law of the sea in Ukraine.",
+                "uk": "Акумулюючи багаторічний досвід та практику, юристи компанії супроводжують складні проекти та досягають ухвалення рішень, важливих для галузі. Багато хто формує практику застосування морського права в Україні.",
+                "es": "Consolidando muchos años de experiencia y práctica, los abogados de la empresa acompañan proyectos complejos y logran la adopción de varias decisiones importantes para la industria. Muchas personas forman la práctica de aplicar el derecho marítimo en Ucrania."
+            },
+            "innovation_text_part2": {
+                "en": "HLEGAL is a reliable business partner, confirmed by stable cooperation with international law firms, the trust of large Ukrainian and international companies, and the recognition of professional ratings.",
+                "uk": "HLEGAL — надійний бізнес-партнер, що підтверджується стабільною співпрацею з міжнародними юридичними фірмами, довірою великих українських та міжнародних компаній і визнанням професійних рейтингів.",
+                "es": "HLEGAL es un socio comercial confiable, confirmado por la cooperación estable con bufetes de abogados internacionales, la confianza de grandes empresas ucranianas e internacionales y el reconocimiento en clasificaciones profesionales."
+            },
+            "experience": {
+                "en": "years of relevant experience",
+                "uk": "років релевантного досвіду",
+                "es": "años de experiencia relevante"
+            },
+            "clients_active": {
+                "en": "active clients who entrust us with their orders on a monthly basis",
+                "uk": "активних клієнтів, які щомісяця довіряють нам свої замовлення",
+                "es": "clientes activos que nos confían sus encargos cada mes"
+            },
+            "probono_hours": {
+                "en": "hours of pro bono work annually",
+                "uk": "годин pro bono роботи щороку",
+                "es": "horas de trabajo pro bono al año"
+            },
+            "image_text": {
+                "en": "team",
+                "uk": "команда",
+                "es": "equipo"
+            },
+            "quality_text_part1": {
+                "en": "The historically unchanged legal profession has begun to reformat in recent years. Clients are feeling this, but law firms are still resisting evolution. Clients need convenience, simplicity, transparent payment. Google, IBM WatsOn, Symantec Clearwell prove that the technological revolution in legal services has begun and is imminent.",
+                "uk": "Юридична професія, яка історично залишалася незмінною, останніми роками почала трансформуватися. Клієнти це відчувають, але юридичні фірми все ще чинять опір еволюції. Клієнтам потрібні зручність, простота, прозора оплата. Google, IBM Watson, Symantec Clearwell доводять, що технологічна революція у сфері юридичних послуг уже почалася і є неминучою.",
+                "es": "La profesión jurídica, históricamente inmutable, ha comenzado a transformarse en los últimos años. Los clientes lo perciben, pero los bufetes de abogados aún resisten la evolución. Los clientes necesitan comodidad, sencillez y pago transparente. Google, IBM Watson y Symantec Clearwell demuestran que la revolución tecnológica en los servicios legales ya ha comenzado y es inminente."
+            },
+            "quality_text_part2": {
+                "en": "Quality is what we care about the most.",
+                "uk": "Якість — це те, про що ми дбаємо найбільше.",
+                "es": "La calidad es lo que más nos importa."
+            },
+            "quality_text_part3": {
+                "en": "It's simple. If you are unhappy with our work, we will refund your money. We trust our clients. And we want our clients to trust us too.",
+                "uk": "Це просто. Якщо ви незадоволені нашою роботою, ми повернемо вам гроші. Ми довіряємо своїм клієнтам. І хочемо, щоб клієнти довіряли нам також.",
+                "es": "Es simple. Si no está satisfecho con nuestro trabajo, le devolveremos su dinero. Confiamos en nuestros clientes. Y queremos que nuestros clientes también confíen en nosotros."
+            },
+            "quality_title": {
+                "en": "Quality is what we care about the most.",
+                "uk": "Якість — це те, про що ми дбаємо найбільше.",
+                "es": "La calidad es lo que más nos importa."
+            },
+            "slider_title": {
+                "en": "achievements",
+                "uk": "досягнення",
+                "es": "logros"
+            }
         }
-
     }
 }

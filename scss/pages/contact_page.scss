@@ -1,0 +1,102 @@
+@use '../common/breakpoints' as *;
+@use '../common/common' as *;
+@use '../common/fonts' as *;
+@use '../common/mixins' as *;
+@use '../common/variables' as *;
+
+
+@use '../components/header';
+@use '../components/form.scss';
+@use '../components/footer';
+
+.contact {
+    padding: 60px 280px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        hr {
+            width: 100%;
+            background-color: $grey-separator;
+            height: 4px;
+            border: 0;
+        }
+
+        .address {
+            font-size: 21px;
+            line-height: 30px;
+            color: $main-alt;
+        }
+
+        .phone_number {
+            font-size: 21px;
+            line-height: 30px;
+            color: $main-alt;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .email {
+            font-size: 21px;
+            line-height: 30px;
+
+        }
+
+        .facebook_link {
+            @include ease-color-change;
+            display: flex;
+            align-items: center;
+
+            .image_block {
+                width: 38px;
+                height: 38px;
+                @extend %image-change-on-hover;
+            }
+
+            p {
+                padding-left: 10px;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            &:hover {
+                color: $accent;
+
+                .hover-img {
+                    opacity: 1;
+                }
+
+                .default-img {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+
+
+    @include breakpoint('desktop-hd') {
+        padding: 60px 180px;
+    }
+
+    @include breakpoint('desktop-sd') {
+        padding: 60px;
+    }
+
+    @include breakpoint('tablet-hd') {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    @include breakpoint('tablet-sd') {
+        padding: 30px;
+        gap: 30px;
+    }
+}

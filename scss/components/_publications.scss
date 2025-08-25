@@ -4,6 +4,63 @@
 @use '../common/mixins' as *;
 @use '../common/variables' as *;
 
+
+@mixin publications_list__item {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .text_box {
+        padding: 30px;
+
+        &__title {
+            @extend %h4-regular;
+            color: $active-regular;
+            margin-bottom: 15px;
+
+            a {
+                @include ease-color-change;
+
+                &:hover {
+                    color: $accent;
+                }
+            }
+        }
+
+        &__date {
+            font-size: 12px;
+            font-weight: $bold;
+            letter-spacing: 1px;
+            line-height: 15px;
+            color: $grey-text;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        hr {
+            height: 4px;
+            background-color: $grey-separator;
+            border: 0;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        &__text {
+            @extend %paragraph-small;
+        }
+    }
+}
+
+
 .publications {
     background: $grey-bg;
     padding: 30px 160px;
@@ -37,49 +94,7 @@
         gap: 30px;
 
         &__element {
-            width: 100%;
-            height: 100%;
-            border-radius: 8px;
-            overflow: hidden;
-            background-color: white;
-
-            img {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-            }
-
-            .text_box {
-                padding: 30px;
-
-                &__title {
-                    @extend %h4-regular;
-                    color: $active-regular;
-                    margin-bottom: 15px;
-                }
-
-                &__date {
-                    font-size: 12px;
-                    font-weight: $bold;
-                    letter-spacing: 1px;
-                    line-height: 15px;
-                    color: $grey-text;
-                    text-transform: uppercase;
-                    margin-bottom: 15px;
-                }
-
-                hr {
-                    height: 4px;
-                    background-color: $grey-separator;
-                    border: 0;
-                    margin: 0;
-                    margin-bottom: 15px;
-                }
-
-                &__text {
-                    @extend %paragraph-small;
-                }
-            }
+            @include publications_list__item;
         }
     }
 
@@ -106,7 +121,7 @@
             width: 100%;
             height: auto;
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 514px 388px;
+            grid-template-rows: auto auto;
             gap: 30px;
 
             &>:last-child {

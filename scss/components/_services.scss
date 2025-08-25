@@ -55,9 +55,14 @@
 
                 margin-bottom: 15px;
 
-                a:hover{
-                    color: $accent;
+                a {
+                    @include ease-color-change;
+
+                    &:hover {
+                        color: $accent;
+                    }
                 }
+
             }
 
             p {

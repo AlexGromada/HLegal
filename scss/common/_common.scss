@@ -29,7 +29,7 @@ ul li::marker{
 
 
 %dot-separator {
-    //places dots after each element of the block except the last one
+    //places dots after element
     content: '';
     display: inline-block;
     margin-left: 8px;
@@ -44,6 +44,7 @@ ul li::marker{
 
 %image-change-on-hover {
     display: block;
+    position: relative;
 
     img {
         position: absolute;
