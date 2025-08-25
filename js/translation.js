@@ -1,7 +1,7 @@
 if (!localStorage.getItem("currentLang")) localStorage.setItem("currentLang", "en");
 let currentLang = localStorage.getItem("currentLang");
 
-let translation; // глобальна змінна для всіх функцій
+let translation;
 
 fetch('../data/translation.json')
     .then(res => res.json())

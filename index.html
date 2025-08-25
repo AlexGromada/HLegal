@@ -108,7 +108,8 @@
 
                     <div class="services_list__element">
                         <img src="./images/services_icons/support.svg" alt="support" />
-                        <h3><a href="pages/service_entry.html?id=legal_support" data-translate="service_legal_support"></a>
+                        <h3><a href="pages/service_entry.html?id=legal_support"
+                                data-translate="service_legal_support"></a>
                         </h3>
                         <p data-translate="service_legal_support_text"></p>
                     </div>
@@ -153,7 +154,8 @@
             <div class="slider_content">
                 <img src="./images/team/olexander_olexandrovsky.jpg" alt="Alexander Alexandrovsky" />
                 <div class="text_box">
-                    <h3 class="text_box__link"><a href="pages/team_page.html" data-translate="slider_team_link"></a></h3>
+                    <h3 class="text_box__link"><a href="pages/team_page.html" data-translate="slider_team_link"></a>
+                    </h3>
                     <h2 class="text_box__title" data-translate="slider_title"></h2>
                     <h4 class="text_box__name" data-translate="slider_name"></h4>
                     <p class="text_box__role" data-translate="slider_role"></p>
@@ -224,7 +226,8 @@
                     <img data-translate="publication_3_image" alt="Millennial Testament" />
                     <div class="text_box">
                         <h4 class="text_box__title">
-                            <a href="pages/publication_entry.html?id=millennials" data-translate="publication_3_title"></a>
+                            <a href="pages/publication_entry.html?id=millennials"
+                                data-translate="publication_3_title"></a>
                         </h4>
                         <p class="text_box__date" data-translate="publication_3_date"></p>
                         <hr />
@@ -266,9 +269,12 @@
         const pageName = "homepage";
         const componentsList = ["header", "partners", "publications", "services", "footer"]
 
-        fetch('/HLegal/data/translation.json')
+        fetch('data/translation.json')
             .then(res => res.json())
-            .then(() => refreshTranslationsAndSetupClicks())
+            .then(json => {
+                translation = json;
+                refreshTranslationsAndSetupClicks();
+            })
 
         function refreshTranslationsAndSetupClicks() {
             const content = translation.pages[pageName];
