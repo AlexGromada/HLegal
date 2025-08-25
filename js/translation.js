@@ -3,7 +3,7 @@ let currentLang = localStorage.getItem("currentLang");
 
 let translation; // глобальна змінна для всіх функцій
 
-fetch('/data/translation.json')
+fetch('../data/translation.json')
     .then(res => res.json())
     .then(t => {
         translation = t;

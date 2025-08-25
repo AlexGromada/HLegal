@@ -85,7 +85,7 @@
                 "uk": "Ми маємо що розповісти",
                 "es": "Tenemos algo que contar"
             },
-            "publication_1_image": "/images/publications/equity.jpg",
+            "publication_1_image": "../images/publications/equity.jpg",
             "publication_1_title": {
                 "en": "Equity associate",
                 "uk": "Партнер-співвласник",
@@ -101,7 +101,7 @@
                 "uk": "Я учасник проектів. Я співвласник юридичної фірми. Як це сталося. Перед вступом мої батьки казали, що якщо я…",
                 "es": "Soy un joven en proyectos. Soy copropietario de un bufete de abogados. Cómo sucedió. Antes de entrar, mis padres me dijeron que si yo…"
             },
-            "publication_2_image": "/images/publications/gdpr.jpg",
+            "publication_2_image": "../images/publications/gdpr.jpg",
             "publication_2_title": {
                 "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
                 "uk": "Штраф для доброї корпорації: що буде з Google та іншими за порушення GDPR",
@@ -117,7 +117,7 @@
                 "uk": "І чому відшкодування 50 мільйонів євро може стати фатальним прецедентом. За даними Mind.ua 21 січня Національна комісія з питань захисту даних.",
                 "es": "Y por qué la recuperación de 50 millones de euros podría ser un precedente fatal. Según Mind.ua, el 21 de enero la Comisión Nacional para la Protección de Datos."
             },
-            "publication_3_image": "/images/publications/milennials.jpg",
+            "publication_3_image": "../images/publications/milennials.jpg",
             "publication_3_title": {
                 "en": "Millennial Testament",
                 "uk": "Спадщина мілленіалів",
@@ -133,7 +133,7 @@
                 "uk": "Що і як сучасні блогери, лідери думок і криптомільйонери успадкують. Типова спадщина українського покоління X виглядає так: квартира в…",
                 "es": "Qué y cómo heredarán los vloggers modernos, líderes de opinión y cripto-millonarios. Un legado típico de la generación X ucraniana se ve así: un apartamento en…"
             },
-            "publication_4_image": "/images/publications/language_law.jpg",
+            "publication_4_image": "../images/publications/language_law.jpg",
             "publication_4_title": {
                 "en": "Language Law: How to Make Your Website Relevant",
                 "uk": "Закон про мову: як зробити свій сайт релевантним",
@@ -149,7 +149,7 @@
                 "uk": "Наталя Кирик, керівниця контент-студії Wordfactory.ua: По-перше, це красиво! Це аргумент номер один на користь українськомовного сайту. По-друге, ефективно. IN…",
                 "es": "Natalia Kyryk, jefa del estudio de contenido Wordfactory.ua: ¡Primero, es hermoso! Este es el argumento número uno a favor del sitio en ucraniano. Segundo, es efectivo. IN…"
             },
-            "publication_5_image": "/images/publications/tuition.jpg",
+            "publication_5_image": "../images/publications/tuition.jpg",
             "publication_5_title": {
                 "en": "Reimbursement of the child's tuition fees in kindergarten and school",
                 "uk": "Відшкодування плати за навчання дитини у садочку та школі",
@@ -165,7 +165,7 @@
                 "uk": "Про що йдеться: У червні цього року Верховна Рада внесла зміни до Податкового кодексу України. Відтепер батьки, які отримують офіційні…",
                 "es": "De qué estamos hablando: En junio de este año, la Rada Suprema enmendó el Código Tributario de Ucrania. A partir de ahora, los padres que reciben un oficial…"
             },
-            "publication_6_image": "/images/publications/currency_control.jpg",
+            "publication_6_image": "../images/publications/currency_control.jpg",
             "publication_6_title": {
                 "en": "Currency control is dead, long live currency control!",
                 "uk": "Контроль за валютними операціями мертвий, хай живе контроль за валютними операціями!",
@@ -181,7 +181,7 @@
                 "uk": "Експерти проводять конференції, круглі столи та інші заходи щодо 'лібералізації валютного законодавства'. Юристи-експерти-письменники тримають пальці на 'ctrl + c / ctrl + v'.",
                 "es": "Los expertos realizan conferencias, mesas redondas y otros eventos sobre 'liberalización de la legislación cambiaria'. Abogados-expertos-novelistas frotan sus dedos sobre 'ctrl + c / ctrl + v'."
             },
-            "publication_7_image": "/images/publications/boeing_failure.jpg",
+            "publication_7_image": "../images/publications/boeing_failure.jpg",
             "publication_7_title": {
                 "en": "Boeing Starliner setback: astronauts remain on ISS until 2025",
                 "uk": "Невдача Boeing Starliner: астронавти залишаються на МКС до 2025 року",
@@ -197,7 +197,7 @@
                 "uk": "NASA підтвердило, що Суніта Вільямс та Бутч Вілмор залишаться на борту МКС до початку 2025 року через несправності двигунів та витоки гелію на капсулі Starliner компанії Boeing.",
                 "es": "La NASA confirmó que Sunita Williams y Butch Wilmore permanecerán en la EEI hasta principios de 2025 debido a fallos en los propulsores y fugas de helio en la cápsula Starliner de Boeing."
             },
-            "publication_8_image": "/images/publications/bitcoin.jpg",
+            "publication_8_image": "../images/publications/bitcoin.jpg",
             "publication_8_title": {
                 "en": "Bitcoin surpasses $100,000 for the first time",
                 "uk": "Bitcoin вперше перевищив позначку у $100 000",
@@ -213,7 +213,7 @@
                 "uk": "Ринок криптовалют досяг історичної позначки: вартість Bitcoin перевищила $100 000 на тлі інституційного прийняття та глобальної економічної невизначеності.",
                 "es": "El mercado de criptomonedas alcanzó un hito histórico cuando el valor de Bitcoin superó los $100,000, impulsado por la adopción institucional y la incertidumbre económica global."
             },
-            "publication_9_image": "/images/publications/olympics.jpg",
+            "publication_9_image": "../images/publications/olympics.jpg",
             "publication_9_title": {
                 "en": "Paris 2024 Olympics conclude with record-breaking performances",
                 "uk": "Олімпіада-2024 у Парижі завершилася рекордними досягненнями",
@@ -229,7 +229,7 @@
                 "uk": "Літні Олімпійські ігри в Парижі завершилися перемогою США у медальному заліку, а Україна відсвяткувала найкращий результат в історії, здобувши кілька золотих медалей у гімнастиці та боксі.",
                 "es": "Los Juegos Olímpicos de Verano en París terminaron con Estados Unidos encabezando el medallero, mientras que Ucrania celebró su mejor actuación histórica con múltiples oros en gimnasia y boxeo."
             },
-            "publication_10_image": "/images/publications/cancer_fight.jpg",
+            "publication_10_image": "../images/publications/cancer_fight.jpg",
             "publication_10_title": {
                 "en": "King Charles III and Princess Kate complete cancer treatments",
                 "uk": "Король Чарльз III та принцеса Кейт завершили лікування від раку",
@@ -245,7 +245,7 @@
                 "uk": "Після кількох місяців хіміотерапії король Чарльз III та принцеса Кейт оголосили про завершення лікування та повернення до публічних обов’язків, що викликало хвилю підтримки.",
                 "es": "Tras meses de quimioterapia, el rey Carlos III y la princesa Kate anunciaron que habían completado el tratamiento y reanudado sus funciones públicas, generando esperanza entre sus seguidores."
             },
-            "publication_11_image": "/images/publications/eu_ai.jpg",
+            "publication_11_image": "../images/publications/eu_ai.jpg",
             "publication_11_title": {
                 "en": "EU enforces first-ever AI regulations",
                 "uk": "ЄС запровадив перші в історії правила регулювання ШІ",
@@ -261,7 +261,7 @@
                 "uk": "Набув чинності новаторський Акт ЄС про штучний інтелект, який встановлює суворі правила прозорості, безпеки та етичного використання ШІ у країнах-членах.",
                 "es": "Entró en vigor la innovadora Ley de IA de la UE, que establece estrictas normas de transparencia, seguridad y uso ético de la inteligencia artificial en los Estados miembros."
             },
-            "publication_12_image": "/images/publications/ukraines_success.jpg",
+            "publication_12_image": "../images/publications/ukraines_success.jpg",
             "publication_12_title": {
                 "en": "Ukrainian strike destroys major Russian Black Sea Fleet ship in Sevastopol",
                 "uk": "Український удар знищив великий корабель Чорноморського флоту РФ у Севастополі",
@@ -902,7 +902,7 @@
                 "es": "publicaciones"
             },
             "equity_associate": {
-                "header_image": "/images/publication_page/equity.jpg",
+                "header_image": "../images/publication_page/equity.jpg",
                 "title": {
                     "en": "Equity associate",
                     "uk": "Асоційований партнер із часткою",
@@ -948,7 +948,7 @@
                     "uk": "Ця роль змінила моє ставлення до роботи. Я почав розуміти, що кожен клієнт і кожна справа — це не лише професійний виклик, а й прямий вплив на фінансову стабільність компанії. Це відчуття спонукає працювати ретельніше, перевіряти стратегії та звертати увагу на дрібниці.",
                     "es": "Este rol cambió mi actitud hacia el trabajo. Empecé a comprender que cada cliente y cada caso no solo son un desafío profesional, sino también un impacto directo en la estabilidad financiera de la empresa. Esta sensación te impulsa a trabajar con más cuidado, revisar las estrategias dos veces y prestar más atención a los detalles."
                 },
-                "context_image": "/images/publication_page/equity_context.jpg",
+                "context_image": "../images/publication_page/equity_context.jpg",
                 "context_text": {
                     "en": "Equity associates are more than legal experts — they are stakeholders in the firm’s future. This role blends ownership with strategic influence, making every decision matter.",
                     "uk": "Асоційовані партнери із часткою — це не просто юристи, а співвласники майбутнього фірми. Їхня роль поєднує відповідальність за розвиток із стратегічним впливом, де кожне рішення має значення.",
@@ -976,7 +976,7 @@
                 }
             },
             "gdpr": {
-                "header_image": "/images/publication_page/gdpr.jpg",
+                "header_image": "../images/publication_page/gdpr.jpg",
                 "title": {
                     "en": "Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR",
                     "uk": "Штраф для «доброго» корпорації: що чекає на Google та інших за порушення GDPR",
@@ -1022,7 +1022,7 @@
                     "uk": "У випадку персоналізації реклами Google був упевнений, що отримав згоду користувачів, оскільки, по-перше, при створенні облікового запису Google користувач погоджується з Політикою конфіденційності, а по-друге, Google має розділ «Персоналізація реклами», де цю функцію можна вимкнути.",
                     "es": "En el caso de la personalización de anuncios, Google estaba seguro de contar con el consentimiento de los usuarios, porque, en primer lugar, al crear una cuenta de Google, el usuario acepta la Política de privacidad, y en segundo lugar, Google dispone de la sección «Personalización de anuncios», donde se puede desactivar esta función."
                 },
-                "context_image": "/images/publication_page/gdpr_context.jpg",
+                "context_image": "../images/publication_page/gdpr_context.jpg",
                 "context_text": {
                     "en": "This is what the ad personalization settings window in your Google Account looks like",
                     "uk": "Ось як виглядає вікно налаштувань персоналізації реклами у вашому обліковому записі Google",
@@ -1050,7 +1050,7 @@
                 }
             },
             "millennials": {
-                "header_image": "/images/publication_page/milennials.jpg",
+                "header_image": "../images/publication_page/milennials.jpg",
                 "title": {
                     "en": "Millennial Testament",
                     "uk": "Спадок міленіалів",
@@ -1096,7 +1096,7 @@
                     "uk": "Уявіть, що ви успадковуєте YouTube-канал із мільйонами підписників або TikTok-акаунт, який стабільно приносить рекламний дохід. Це не просто особисті сторінки — це медіабізнеси. Те саме стосується цифрових гаманців: без належної юридичної та технічної підготовки вони можуть зникнути в небуття після смерті власника.",
                     "es": "Imagina heredar un canal de YouTube con millones de suscriptores o una cuenta de TikTok que genera ingresos publicitarios estables. No son solo páginas personales, sino negocios mediáticos. Lo mismo ocurre con las billeteras digitales: sin preparación legal y técnica adecuada, pueden desaparecer tras la muerte del propietario."
                 },
-                "context_image": "/images/publication_page/milennials_context.jpg",
+                "context_image": "../images/publication_page/milennials_context.jpg",
                 "context_text": {
                     "en": "Possible illustration: a symbolic digital safe, a social media dashboard, or a stylized wallet with cryptocurrency icons. These assets may be invisible — but they’re real, valuable, and increasingly permanent.",
                     "uk": "Можливе зображення: символічний цифровий сейф, панель керування соцмережами або стилізований гаманець із криптоіконками. Ці активи можуть бути невидимими — але вони реальні, цінні й дедалі більш постійні.",
@@ -1124,7 +1124,7 @@
                 }
             },
             "language_law": {
-                "header_image": "/images/publication_page/language_law.jpg",
+                "header_image": "../images/publication_page/language_law.jpg",
                 "title": {
                     "en": "Language Law: How to Make Your Website Relevant",
                     "uk": "Мовний закон: як зробити сайт релевантним",
@@ -1170,7 +1170,7 @@
                     "uk": "Багато компаній розглядають локалізацію як тягар, але насправді вона може стати потужним бізнес-інструментом. Користувачі відчувають повагу, коли до них звертаються їхньою мовою. Крім того, пошукові системи віддають пріоритет локалізованому контенту, що забезпечує вищу видимість та кращі позиції в пошуку.",
                     "es": "Muchas empresas ven la localización como una carga, pero en realidad puede convertirse en una poderosa herramienta de negocio. Los usuarios se sienten valorados cuando se les habla en su idioma. Además, los motores de búsqueda también priorizan el contenido localizado, lo que se traduce en mayor visibilidad y mejores posiciones en los resultados."
                 },
-                "context_image": "/images/publication_page/language_law_context.jpg",
+                "context_image": "../images/publication_page/language_law_context.jpg",
                 "context_text": {
                     "en": "On a lighter note, while we think about digital laws, someone nearby is probably baking fresh bread — and that simple aroma can be just as powerful in connecting people as language online.",
                     "uk": "І між іншим: поки ми думаємо про цифрові закони, десь поруч печуть свіжий хліб — і цей простий аромат може бути таким же потужним способом поєднати людей, як і мова в інтернеті.",
@@ -1198,7 +1198,7 @@
                 }
             },
             "tuition": {
-                "header_image": "/images/publication_page/tuition.jpg",
+                "header_image": "../images/publication_page/tuition.jpg",
                 "title": {
                     "en": "Reimbursement of the child's tuition fees in kindergarten and school",
                     "uk": "Відшкодування вартості навчання дітей у дитячому садку та школі",
@@ -1244,7 +1244,7 @@
                     "uk": "Для багатьох сімей це справжня фінансова підтримка. Навіть часткове відшкодування може покрити додаткові заняття, позашкільні активності або полегшити щомісячне навантаження витрат на освіту. Водночас це стимулює батьків здійснювати офіційні платежі та уникати незареєстрованих готівкових операцій.",
                     "es": "Para muchas familias, esto representa un alivio financiero real. Incluso un reembolso parcial puede cubrir clases adicionales, actividades extracurriculares o simplemente aliviar la carga de los pagos mensuales por educación. Al mismo tiempo, anima a los padres a pagar de manera oficial y evitar transacciones en efectivo no registradas."
                 },
-                "context_image": "/images/publication_page/tuition_context.jpg",
+                "context_image": "../images/publication_page/tuition_context.jpg",
                 "context_text": {
                     "en": "Funny enough, while parents calculate tax rebates, kids often worry only about whether they have enough stickers in their notebooks or if today’s lunch will include their favorite dessert.",
                     "uk": "Дивно, але поки батьки обчислюють податкове відшкодування, діти зазвичай турбуються лише про те, чи вистачить їм наліпок у зошиті або чи буде сьогодні в обіді їх улюблений десерт.",
@@ -1272,7 +1272,7 @@
                 }
             },
             "currency_control": {
-                "header_image": "/images/publication_page/currency_control.jpg",
+                "header_image": "../images/publication_page/currency_control.jpg",
                 "title": {
                     "en": "Currency control is dead, long live currency control!",
                     "uk": "Валютний контроль мертвий, хай живе валютний контроль!",
@@ -1318,7 +1318,7 @@
                     "uk": "Новий закон не скасовує контроль, а змінює його філософію. Замість того щоб трактувати кожну валютну операцію як підозрілу, система зосереджена на моніторингу ризиків та забезпеченні прозорості. Це значно зменшує бюрократію, водночас захищаючи від відмивання грошей і втечі капіталу.",
                     "es": "La nueva ley no elimina la supervisión, sino que cambia su filosofía. En lugar de considerar cada operación cambiaria como sospechosa, el sistema se centra en monitorear riesgos y garantizar la transparencia. Esto reduce significativamente la burocracia, sin dejar de proteger contra el lavado de dinero y la fuga de capitales."
                 },
-                "context_image": "/images/publication_page/currency_control_context.jpg",
+                "context_image": "../images/publication_page/currency_control_context.jpg",
                 "context_text": {
                     "en": "Every coin tells a story of trust, value, and change.",
                     "uk": "Кожна монета розповідає історію довіри, цінності та змін.",
@@ -1346,7 +1346,7 @@
                 }
             },
             "boeing_failure": {
-                "header_image": "/images/publication_page/boeing_failure.jpg",
+                "header_image": "../images/publication_page/boeing_failure.jpg",
                 "title": {
                     "en": "Boeing Starliner setback: astronauts remain on ISS until 2025",
                     "uk": "Проблеми Boeing Starliner: астронавти залишаються на МКС до 2025 року",
@@ -1392,7 +1392,7 @@
                     "uk": "NASA залишається впевненою в остаточному успіху програми, але чітко заявляє, що безпека астронавтів стоїть на першому місці. Інженери продовжують вивчати витоки гелію та випробовують можливі варіанти вдосконалення системи рушіїв.",
                     "es": "Aunque la NASA mantiene la confianza en el éxito final del programa, la agencia ha dejado claro que la seguridad de los astronautas sigue siendo primordial. Los ingenieros continúan investigando las fugas de helio y probando posibles rediseños del sistema de propulsión."
                 },
-                "context_image": "/images/publication_page/boeing_failure.jpg",
+                "context_image": "../images/publication_page/boeing_failure_context.jpg",
                 "context_text": {
                     "en": "For now, life aboard the ISS continues with science, maintenance, and waiting.",
                     "uk": "Наразі життя на борту МКС продовжується: наукові експерименти, технічне обслуговування та очікування.",
@@ -1420,7 +1420,7 @@
                 }
             },
             "bitcoin": {
-                "header_image": "/images/publication_page/bitcoin.jpg",
+                "header_image": "../images/publication_page/bitcoin.jpg",
                 "title": {
                     "en": "Bitcoin surpasses $100,000 for the first time",
                     "uk": "Біткоїн вперше перевищив 100 000 доларів",
@@ -1466,7 +1466,7 @@
                     "uk": "Незважаючи на оптимізм, скептики застерігають, що біткоїн залишається надзвичайно волатильним і різкі коливання все ще можливі. Багато хто також наголошує на екологічних ризиках, пов’язаних із енергоємним майнінгом.",
                     "es": "A pesar del optimismo, los escépticos advierten que Bitcoin sigue siendo altamente volátil, con oscilaciones rápidas aún posibles. Muchos también destacan las preocupaciones medioambientales vinculadas a las operaciones de minería intensivas en energía."
                 },
-                "context_image": "/images/publication_page/bitcoin_context.jpg",
+                "context_image": "../images/publication_page/bitcoin_context.jpg",
                 "context_text": {
                     "en": "For traders, the milestone feels both surreal and dangerously exciting.",
                     "uk": "Для трейдерів цей рубіж здається і нереальним, і небезпечно захопливим водночас.",
@@ -1494,7 +1494,7 @@
                 }
             },
             "olympics": {
-                "header_image": "/images/publication_page/olympics.jpg",
+                "header_image": "../images/publication_page/olympics.jpg",
                 "title": {
                     "en": "Paris 2024 Olympics conclude with record-breaking performances",
                     "uk": "Олімпіада в Парижі-2024 завершилася рекордними досягненнями",
@@ -1540,7 +1540,7 @@
                     "uk": "Окрім медалей, Паризькі Ігри підкреслили єдність і культурне святкування, надихнувши мільйони глядачів історіями стійкості та перемоги.",
                     "es": "Más allá de las medallas, los Juegos de París enfatizaron la unidad y la celebración cultural, inspirando a millones de espectadores con historias de perseverancia y triunfo."
                 },
-                "context_image": "/images/publication_page/olympics_context.jpg",
+                "context_image": "../images/publication_page/olympics_context.jpg",
                 "context_text": {
                     "en": "Athletes embraced, flags waved, and stadiums roared with unforgettable emotion.",
                     "uk": "Спортсмени обіймалися, майоріли прапори, а стадіони ревіли від незабутніх емоцій.",
@@ -1568,7 +1568,7 @@
                 }
             },
             "cancer_fight": {
-                "header_image": "/images/publication_page/cancer_fight.jpg",
+                "header_image": "../images/publication_page/cancer_fight.jpg",
                 "title": {
                     "en": "King Charles III and Princess Kate complete cancer treatments",
                     "uk": "Король Чарльз III та принцеса Кейт завершили лікування від раку",
@@ -1614,7 +1614,7 @@
                     "uk": "Спостерігачі зазначили, що їх повернення до обов’язків також має політичне значення, посилюючи неперервність і стабільність монархії в непрості часи.",
                     "es": "Los observadores señalaron que su retorno al servicio también tiene un significado político, reforzando la continuidad y estabilidad de la monarquía en tiempos difíciles."
                 },
-                "context_image": "/images/publication_page/cancer_fight_context.jpg",
+                "context_image": "../images/publication_page/cancer_fight_context.jpg",
                 "context_text": {
                     "en": "Supporters worldwide expressed joy, relief, and heartfelt admiration together.",
                     "uk": "Прихильники по всьому світу разом виражали радість, полегшення та щире захоплення.",
@@ -1642,7 +1642,7 @@
                 }
             },
             "eu_ai": {
-                "header_image": "/images/publication_page/eu_ai.jpg",
+                "header_image": "../images/publication_page/eu_ai.jpg",
                 "title": {
                     "en": "EU enforces first-ever AI regulations",
                     "uk": "ЄС запроваджує перші в історії регулювання штучного інтелекту",
@@ -1688,7 +1688,7 @@
                     "uk": "Галузеві експерти відзначають, що Закон про ШІ може стати шаблоном для інших країн, подібно до того, як GDPR вплинув на глобальні закони про захист даних.",
                     "es": "Los expertos de la industria destacan que la Ley de IA podría convertirse en un modelo para otras naciones, similar a cómo el GDPR influyó en las leyes mundiales de privacidad de datos."
                 },
-                "context_image": "/images/publication_page/eu_ai_context.jpg",
+                "context_image": "../images/publication_page/eu_ai_context.jpg",
                 "context_text": {
                     "en": "Debates intensify as businesses adapt to a new regulatory era.",
                     "uk": "Дискусії загострюються, поки компанії пристосовуються до нової ери регулювання.",
@@ -1716,7 +1716,7 @@
                 }
             },
             "ukrainian_success": {
-                "header_image": "/images/publication_page/ukrainian_success.jpg",
+                "header_image": "../images/publication_page/ukrainian_success.jpg",
                 "title": {
                     "en": "Ukrainian strike destroys major Russian Black Sea Fleet ship in Sevastopol",
                     "uk": "Удар України знищив великий корабель Чорноморського флоту РФ у Севастополі",
@@ -1762,7 +1762,7 @@
                     "uk": "Це не перша втрата цінного російського корабля, але знищення «Новочеркаська» підкреслює зростаючу здатність України уражати стратегічні об’єкти на окупованому півострові Крим.",
                     "es": "No es la primera pérdida naval rusa de alto valor, pero la destrucción del «Novocherkassk» subraya la creciente capacidad de Ucrania para atacar activos estratégicos en la Crimea ocupada."
                 },
-                "context_image": "/images/publication_page/ukrainian_success_context.jpg",
+                "context_image": "../images/publication_page/ukrainian_success_context.jpg",
                 "context_text": {
                     "en": "Observers note rising pressure on Russia’s fleet after repeated Ukrainian strikes.",
                     "uk": "Спостерігачі відзначають зростаючий тиск на флот Росії після повторних ударів України.",
@@ -1876,7 +1876,7 @@
         },
         "team_entry": {
             "olexander_olexandrovsky": {
-                "photo": "/images/team/olexander_olexandrovsky.jpg",
+                "photo": "../images/team/olexander_olexandrovsky.jpg",
                 "name": {
                     "en": "Olexander Olexandrovsky",
                     "uk": "Олександр Олександровський",
@@ -1922,7 +1922,7 @@
                 }
             },
             "evgeny_patrikov": {
-                "photo": "/images/team/evgeny_patrikov.jpg",
+                "photo": "../images/team/evgeny_patrikov.jpg",
                 "name": {
                     "en": "Evgeny Patrikov",
                     "uk": "Євген Патріков",
@@ -1968,7 +1968,7 @@
                 }
             },
             "vladislav_melnik": {
-                "photo": "/images/team/vladislav_melnik.jpg",
+                "photo": "../images/team/vladislav_melnik.jpg",
                 "name": {
                     "en": "Vladislav Melnik",
                     "uk": "Владислав Мельник",
@@ -2014,7 +2014,7 @@
                 }
             },
             "sergiy_binn": {
-                "photo": "/images/team/sergiy_binn.jpg",
+                "photo": "../images/team/sergiy_binn.jpg",
                 "name": {
                     "en": "Sergiy Binn",
                     "uk": "Сергій Бінн",
@@ -2060,7 +2060,7 @@
                 }
             },
             "oksana_kobzar": {
-                "photo": "/images/team/oksana_kobzar.jpg",
+                "photo": "../images/team/oksana_kobzar.jpg",
                 "name": {
                     "en": "Oksana Kobzar",
                     "uk": "Оксана Кобзар",
@@ -2106,7 +2106,7 @@
                 }
             },
             "julia_wovk": {
-                "photo": "/images/team/julia_wovk.jpg",
+                "photo": "../images/team/julia_wovk.jpg",
                 "name": {
                     "en": "Julia Wovk",
                     "uk": "Юлія Вовк",

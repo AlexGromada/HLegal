@@ -266,7 +266,7 @@
         const pageName = "homepage";
         const componentsList = ["header", "partners", "publications", "services", "footer"]
 
-        fetch('/data/translation.json')
+        fetch('../data/translation.json')
             .then(res => res.json())
             .then(() => refreshTranslationsAndSetupClicks())
 
