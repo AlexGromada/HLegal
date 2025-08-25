@@ -274,6 +274,7 @@
             .then(json => {
                 translation = json;
                 refreshTranslationsAndSetupClicks();
+                loadContent(pageCategory, pageName, componentsList);
             })
 
         function refreshTranslationsAndSetupClicks() {
