@@ -6,7 +6,6 @@
 
 .header[data-theme="dark"] {
     --theme: #{$main-regular};
-    --bg-color: transparent;
     --mobile-secondary-bg: #{rgba($grey-bg, 0.2)};
     --mobile-menu-active: #{rgba($grey-separator, 0.2)};
     --shade: #{$grey-bg-alt};
@@ -20,7 +19,6 @@
 
 .header[data-theme="light"] {
     --theme: white;
-    --bg-color: white;
     --mobile-secondary-bg: #{$grey-bg};
     --mobile-menu-active: #{rgba($grey-separator, 0.2)};
     --shade: #{$main-alt};
@@ -35,7 +33,6 @@
 .header {
     position: relative;
     height: 66px;
-    background-color: var(--bg-color);
     padding: 50px 160px 0 160px;
 
     display: grid;

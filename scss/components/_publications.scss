@@ -63,96 +63,99 @@
 
 .publications {
     background: $grey-bg;
-    padding: 30px 160px;
 
-    h3 {
-        @extend %h3-caps;
-        display: inline-block;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-
-        a {
-            @include ease-color-change;
-
-            &:hover {
-                color: $accent;
-            }
-        }
-    }
-
-    h2 {
-        @include hero(regular);
-        margin-bottom: 30px;
-        @include gradient-text($gradient-red-text);
-    }
-
-    .publications_list {
-        width: 1600px;
-        height: 430px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 30px;
-
-        &__element {
-            @include publications_list__item;
-        }
-    }
-
-
-    @include breakpoint('desktop-hd') {
-        padding: 30px 60px;
-
-        .publications_list {
-            width: 1320px;
-            height: 450px;
-        }
-    }
-
-
-    @include breakpoint('desktop-sd') {
-        .publications_list {
-            width: 904px;
-            height: 556px;
-        }
-    }
-
-    @include breakpoint('tablet-hd') {
-        .publications_list {
-            width: 100%;
-            height: auto;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: auto auto;
-            gap: 30px;
-
-            &>:last-child {
-                grid-column-start: 1;
-                grid-column-end: 3;
-            }
-        }
-    }
-
-
-    @include breakpoint('tablet-sd') {
-        padding: 30px;
+    .content {
+        padding: 30px 160px;
 
         h3 {
-            margin-bottom: 5px;
+            @extend %h3-caps;
+            display: inline-block;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+
+            a {
+                @include ease-color-change;
+
+                &:hover {
+                    color: $accent;
+                }
+            }
         }
 
         h2 {
-            @include hero(mobile);
+            @include hero(regular);
+            margin-bottom: 30px;
+            @include gradient-text($gradient-red-text);
         }
 
         .publications_list {
-            width: 100%;
-            height: auto;
-            grid-template-columns: 100%;
-            grid-template-rows: repeat(3, auto);
+            width: 1600px;
+            height: 430px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 30px;
 
-            &>:last-child {
-                grid-column-start: auto;
-                grid-column-end: auto;
+            &__element {
+                @include publications_list__item;
+            }
+        }
+
+
+        @include breakpoint('desktop-hd') {
+            padding: 30px 60px;
+
+            .publications_list {
+                width: 1320px;
+                height: 450px;
+            }
+        }
+
+
+        @include breakpoint('desktop-sd') {
+            .publications_list {
+                width: 904px;
+                height: 556px;
+            }
+        }
+
+        @include breakpoint('tablet-hd') {
+            .publications_list {
+                width: 100%;
+                height: auto;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: auto auto;
+                gap: 30px;
+
+                &>:last-child {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
+            }
+        }
+
+
+        @include breakpoint('tablet-sd') {
+            padding: 30px;
+
+            h3 {
+                margin-bottom: 5px;
+            }
+
+            h2 {
+                @include hero(mobile);
+            }
+
+            .publications_list {
+                width: 100%;
+                height: auto;
+                grid-template-columns: 100%;
+                grid-template-rows: repeat(3, auto);
+                gap: 30px;
+
+                &>:last-child {
+                    grid-column-start: auto;
+                    grid-column-end: auto;
+                }
             }
         }
     }

@@ -4,158 +4,160 @@
 @use '../common/variables' as *;
 @use '../common/mixins' as *;
 
-.footer {
+footer {
     background: $grey-bg;
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 160px 30px 160px;
-    position: relative;
 
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 160px;
-        right: 160px;
-        height: 2px;
-        background-color: $grey-separator;
-    }
-
-    .contacts_and_address {
-
-        &__contacts>*:not(:first-child)::before,
-        &__address>span::after {
-            @extend %dot-separator;
-            background-color: $grey-text;
-        }
-
-        &>* {
-            display: flex;
-            align-items: center;
-        }
-
-        &__address {
-            color: $main-regular;
-            display: flex;
-            align-items: center;
-            margin-bottom: 21px;
-
-            span {
-                line-height: 20px;
-            }
-
-            a {
-                @include ease-color-change;
-                font-weight: $bold;
-                font-size: 12px;
-                line-height: 15px;
-                text-transform: uppercase;
-
-                &:hover {
-                    color: $accent;
-                }
-            }
-        }
-
-        &__contacts {
-            .facebook-img {
-                width: 38px;
-                height: 38px;
-                position: relative;
-
-                img {
-                    cursor: pointer;
-                }
-
-                @extend %image-change-on-hover;
-            }
-
-            .phone {
-                color: $main-alt;
-                font-weight: $bold;
-                line-height: 20px;
-
-                :hover {
-                    color: $main-alt;
-                }
-            }
-
-            .email {
-                font-weight: $bold;
-                line-height: 20px;
-            }
-        }
-    }
-
-    .copyright {
-        color: $grey-text;
-        line-height: 20px;
-    }
-
-
-    @include breakpoint('desktop-hd') {
-        padding: 32px 60px 30px 60px;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 160px 30px 160px;
+        position: relative;
 
         &::before {
-            left: 60px;
-            right: 60px;
-        }
-    }
-
-
-    @include breakpoint('tablet-hd') {
-        padding: 32px 0 30px 0;
-        flex-direction: column;
-        justify-content: center;
-
-        &>* {
-            max-width: 398px;
-            margin: 0 auto;
-        }
-
-        .contacts_and_address {
-            margin-bottom: 30px;
-        }
-
-        .copyright {
-            @include breakpoint('tablet-hd') {
-                text-align: center;
-            }
-        }
-    }
-
-
-    @include breakpoint('tablet-sd') {
-        & * {
-            flex-direction: column;
-        }
-
-        &::before {
-            left: 30px;
-            right: 30px;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 160px;
+            right: 160px;
+            height: 2px;
+            background-color: $grey-separator;
         }
 
         .contacts_and_address {
 
             &__contacts>*:not(:first-child)::before,
             &__address>span::after {
-                display: none;
+                @extend %dot-separator;
+                background-color: $grey-text;
+            }
+
+            &>* {
+                display: flex;
+                align-items: center;
             }
 
             &__address {
+                color: $main-regular;
+                display: flex;
+                align-items: center;
+                margin-bottom: 21px;
+
                 span {
-                    margin-bottom: 10px;
+                    line-height: 20px;
+                }
+
+                a {
+                    @include ease-color-change;
+                    font-weight: $bold;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: $accent;
+                    }
                 }
             }
 
             &__contacts {
+                .facebook-img {
+                    width: 38px;
+                    height: 38px;
+                    position: relative;
 
-                .facebook-img,
+                    img {
+                        cursor: pointer;
+                    }
+
+                    @extend %image-change-on-hover;
+                }
+
                 .phone {
-                    margin-bottom: 10px;
+                    color: $main-alt;
+                    font-weight: $bold;
+                    line-height: 20px;
+
+                    :hover {
+                        color: $main-alt;
+                    }
+                }
+
+                .email {
+                    font-weight: $bold;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .copyright {
+            color: $grey-text;
+            line-height: 20px;
+        }
+
+
+        @include breakpoint('desktop-hd') {
+            padding: 32px 60px 30px 60px;
+
+            &::before {
+                left: 60px;
+                right: 60px;
+            }
+        }
+
+
+        @include breakpoint('tablet-hd') {
+            padding: 32px 0 30px 0;
+            flex-direction: column;
+            justify-content: center;
+
+            &>* {
+                max-width: 398px;
+                margin: 0 auto;
+            }
+
+            .contacts_and_address {
+                margin-bottom: 30px;
+            }
+
+            .copyright {
+                @include breakpoint('tablet-hd') {
+                    text-align: center;
+                }
+            }
+        }
+
+
+        @include breakpoint('tablet-sd') {
+            & * {
+                flex-direction: column;
+            }
+
+            &::before {
+                left: 30px;
+                right: 30px;
+            }
+
+            .contacts_and_address {
+
+                &__contacts>*:not(:first-child)::before,
+                &__address>span::after {
+                    display: none;
+                }
+
+                &__address {
+                    span {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &__contacts {
+
+                    .facebook-img,
+                    .phone {
+                        margin-bottom: 10px;
+                    }
                 }
             }
         }
     }
-
 }
